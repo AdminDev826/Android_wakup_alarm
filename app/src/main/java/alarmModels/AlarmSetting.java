@@ -19,6 +19,7 @@ public class AlarmSetting {
     public static String alarmID  = " ";
     public static String strAlarmName = " ";
     public static String strAlarmTime = " ";
+    public static String strSound = " ";
     public static String strAlarmPath = " ";
     public static int alarm_state = 0;
     public static int noti_state = 1;

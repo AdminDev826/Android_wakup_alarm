@@ -35,6 +35,18 @@ public class AlarmEditFragment extends Fragment {
         RelativeLayout alarm_title_layout = (RelativeLayout)view.findViewById(R.id.alarm_label_layout);
 
         txtAlamName.setText(AlarmSetting.strAlarmName);
+        alarmMusic.setText(AlarmSetting.strAlarmPath);
+        int[] week_days = AlarmSetting.getWeek_flag();
+        for(int i = 0; i < 7; i++){
+            if(week_days[i] == 1) {
+                weekdays_active[i].setVisibility(View.VISIBLE);
+                weekdays_lavel[i].setVisibility(View.INVISIBLE);
+            }
+            else {
+                weekdays_active[i].setVisibility(View.INVISIBLE);
+                weekdays_lavel[i].setVisibility(View.VISIBLE);
+            }
+        }
 
         alarm_title_layout.setOnClickListener(new View.OnClickListener() {
             @Override

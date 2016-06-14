@@ -30,6 +30,7 @@ public class AlarmTitleInputFragment extends Fragment {
         btnTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);
                 AlarmSetting.strAlarmName = txtTitle.getText().toString();
                 InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(view.getContext().INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(getActivity().getWindow().getDecorView().getWindowToken(), 0);
