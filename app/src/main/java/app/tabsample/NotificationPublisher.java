@@ -56,7 +56,7 @@ public class NotificationPublisher extends BroadcastReceiver {
     public void SetAlarm(Context context)
     {
         AlarmManager am=(AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
-        Intent intent = new Intent(context, AlarmManagerBroadcastReceiver.class);
+        Intent intent = new Intent(context, NotificationPublisher.class);
         intent.putExtra(ONE_TIME, Boolean.FALSE);
         PendingIntent pi = PendingIntent.getBroadcast(context, 0, intent, 0);
         //After after 5 seconds
@@ -65,7 +65,7 @@ public class NotificationPublisher extends BroadcastReceiver {
 
     public void CancelAlarm(Context context)
     {
-        Intent intent = new Intent(context, AlarmManagerBroadcastReceiver.class);
+        Intent intent = new Intent(context, NotificationPublisher.class);
         PendingIntent sender = PendingIntent.getBroadcast(context, 0, intent, 0);
         AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         alarmManager.cancel(sender);
@@ -73,7 +73,7 @@ public class NotificationPublisher extends BroadcastReceiver {
 
     public void setOnetimeTimer(Context context){
         AlarmManager am=(AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
-        Intent intent = new Intent(context, AlarmManagerBroadcastReceiver.class);
+        Intent intent = new Intent(context, NotificationPublisher.class);
         intent.putExtra(ONE_TIME, Boolean.TRUE);
         PendingIntent pi = PendingIntent.getBroadcast(context, 0, intent, 0);
         am.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(), pi);

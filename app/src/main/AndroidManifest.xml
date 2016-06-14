@@ -27,8 +27,6 @@
 		<activity android:name=".OptionsActivity" />
 
 		<receiver android:name=".NotificationPublisher"></receiver>
-
-		<receiver android:name=".AlarmManagerBroadcastReceiver" />
 	</application>
 	
 </manifest> 

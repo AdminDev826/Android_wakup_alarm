@@ -11,7 +11,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,53 +18,46 @@ import android.widget.Toast;
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.concurrent.BlockingDeque;
 
 import alarmModels.AlarmSetting;
 
-/**
- * @author Adil Soomro
- *
- */
 public class AlarmMainActivity extends Activity {
-    private boolean bool_edit_flag;
-    public static final String LocalTmpPath = "my_alarm_path";
+
+    public static TextView txtAdd;
+    private TextView txtBack;
+
     private SimpleDateFormat mFormatter = new SimpleDateFormat("yyyy-MM-dd hh:mm aa");
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        initSharedReference();//clear all sharedpreferences====================================================
-
-
         setContentView(R.layout.alarm_main);
-        bool_edit_flag = true;
 
-
-        final TextView txtAdd = (TextView)findViewById(R.id.txtAdd);
-        final TextView txtBack = (TextView)findViewById(R.id.txtBack);
+        txtAdd = (TextView)findViewById(R.id.txtAdd);
+        txtBack = (TextView)findViewById(R.id.txtBack);
         txtAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Fragment frag;
-                if(bool_edit_flag == false){
+                if(AlarmSetting.bool_edit_flag == 1){
                     if(!checkAlarmParams()) {
                         Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
                         return;
                     }
                     txtBack.setText("");
                     txtAdd.setText("Add");
-                    bool_edit_flag = true;
+                    AlarmSetting.bool_edit_flag = 0;
                     addAlarm();
                     frag = new AlarmListFragment();
 
-                }else {
-                    bool_edit_flag = false;
+                }else if(AlarmSetting.bool_edit_flag == 0){
+                    AlarmSetting.bool_edit_flag = 1;
                     txtBack.setText("Back");
                     txtAdd.setText("Done");
                     frag = new AlarmEditFragment();
 
+                }else{
+                    AlarmSetting.bool_edit_flag = 1;
+                    frag = new AlarmEditFragment();
                 }
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();
@@ -76,16 +68,21 @@ public class AlarmMainActivity extends Activity {
         txtBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(bool_edit_flag == false){
-                    bool_edit_flag = true;
+                Fragment frag;
+                if(AlarmSetting.bool_edit_flag == 1){
+                    AlarmSetting.bool_edit_flag = 0;
                     txtBack.setText("");
                     txtAdd.setText("Add");
-                    Fragment frag = new AlarmListFragment();
-                    FragmentManager fm = getFragmentManager();
-                    FragmentTransaction fragmentTransaction = fm.beginTransaction();
-                    fragmentTransaction.replace(R.id.alarm_fragment,frag);
-                    fragmentTransaction.commit();
+                    frag = new AlarmListFragment();
+                }else{
+                    txtAdd.setVisibility(View.VISIBLE);
+                    AlarmSetting.bool_edit_flag = 1;
+                    frag = new AlarmEditFragment();
                 }
+                FragmentManager fm = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction.replace(R.id.alarm_fragment,frag);
+                fragmentTransaction.commit();
             }
         });
     }
@@ -134,38 +131,7 @@ public class AlarmMainActivity extends Activity {
                 AlarmSetting.alarm_ids[i] = 0;
             }
         }
-
-//        Date date1 = mFormatter.parse("2016-06-13 " + AlarmSetting.strAlarmTime, pos);
-//        System.out.println("in milliseconds: " + (int)date1.getTime());
-//        scheduleNotification(getNotification("my alarm title (Wake up)", "alarm content" + AlarmSetting.strAlarmTime), date1.getTime());
-        saveAlarms();
-    }
-
-    void saveAlarms(){
-        SharedPreferences sharedPreference = getApplicationContext().getSharedPreferences(LocalTmpPath, 0);
-        String tmpPath;
-        tmpPath = sharedPreference.getString("audio_path", "");
-
-        int size = sharedPreference.getInt("Array_Size", 0);
-
-        Set<String> currentSet = new HashSet<String>();
-        currentSet.add("time:::"+AlarmSetting.strAlarmTime);
-
-        currentSet.add("title:::"+"my test alarm" + size);
-        currentSet.add("path:::" + tmpPath + "temp path");
-        currentSet.add("alarm_state:::" + AlarmSetting.alarm_state);
-        currentSet.add("weekdays:::" + AlarmSetting.weekDays);
-        currentSet.add("alarm_repeats:::" + AlarmSetting.getAlarmRepeats());
-
-        SharedPreferences.Editor editor = sharedPreference.edit();
-        String setName = "Set"+size;
-        editor.remove(setName);
-        size = size+1;
-        editor.putInt("Array_Size", size);
-
-        editor.putStringSet(setName, currentSet);
-        // Commit the edits!
-        editor.commit();
+        AlarmSetting.saveAlarm(getApplicationContext());
     }
 
     String[] getIntervals(){
@@ -210,7 +176,7 @@ public class AlarmMainActivity extends Activity {
         else return 6;
     }
     void initSharedReference(){
-        SharedPreferences sharedPreference = getApplicationContext().getSharedPreferences(LocalTmpPath, 0);
+        SharedPreferences sharedPreference = getApplicationContext().getSharedPreferences(AlarmSetting.LocalTmpPath, 0);
         SharedPreferences.Editor editor = sharedPreference.edit();
         editor.clear();
         editor.commit();

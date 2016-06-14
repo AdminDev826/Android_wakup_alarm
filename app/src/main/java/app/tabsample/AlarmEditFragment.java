@@ -1,6 +1,8 @@
 package app.tabsample;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +11,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 import alarmModels.AlarmSetting;
 
@@ -32,11 +32,21 @@ public class AlarmEditFragment extends Fragment {
         alarm = (TimePicker) view.findViewById(R.id.alarmTimer);
         txtAlamName = (TextView) view.findViewById(R.id.txt_alarm_label);
         alarmMusic = (TextView)view.findViewById(R.id.txtMusicName);
+        RelativeLayout alarm_title_layout = (RelativeLayout)view.findViewById(R.id.alarm_label_layout);
 
-        txtAlamName.setOnClickListener(new View.OnClickListener() {
+        txtAlamName.setText(AlarmSetting.strAlarmName);
+
+        alarm_title_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlarmSetting.strAlarmName = "Wake Up";
+                AlarmSetting.bool_edit_flag = 2;
+                AlarmMainActivity.txtAdd.setVisibility(View.INVISIBLE);
+
+                Fragment frag = new AlarmTitleInputFragment();
+                FragmentManager fm = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                fragmentTransaction.commit();
             }
         });
         alarmMusic.setOnClickListener(new View.OnClickListener() {

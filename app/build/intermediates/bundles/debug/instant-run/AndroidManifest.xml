@@ -33,7 +33,6 @@
         <activity android:name="app.tabsample.OptionsActivity" />
 
         <receiver android:name="app.tabsample.NotificationPublisher" />
-        <receiver android:name="app.tabsample.AlarmManagerBroadcastReceiver" />
     </application>
 
 </manifest>

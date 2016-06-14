@@ -219,7 +219,7 @@
                 android:layout_centerVertical="true" />
 
             <TextView
-                android:layout_width="240dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Wake up"
@@ -228,8 +228,7 @@
                 android:layout_centerVertical="true"
                 android:textStyle="bold"
                 android:gravity="right"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/txtLabel" />
+                android:layout_toLeftOf="@+id/alarm_label_image" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -271,7 +270,7 @@
                 android:layout_centerVertical="true" />
 
             <TextView
-                android:layout_width="240dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Wake up"
@@ -280,8 +279,8 @@
                 android:layout_centerVertical="true"
                 android:textStyle="bold"
                 android:gravity="right"
-                android:layout_toRightOf="@+id/txtMusicLabel"
-                android:layout_marginLeft="20dp" />
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@+id/alarm_music_image" />
 
             <ImageView
                 android:layout_width="wrap_content"

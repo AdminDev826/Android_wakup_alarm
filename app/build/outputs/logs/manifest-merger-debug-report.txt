@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:1-32:12
 	xmlns:android
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:5:2-60
 	package
@@ -60,7 +60,7 @@ ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:15
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:15:19-62
 application
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:17:2-32:16
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:17:2-30:16
 MERGED from [com.android.support:support-v4:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -111,7 +111,3 @@ receiver#app.tabsample.NotificationPublisher
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:29:3-62
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:29:13-50
-receiver#app.tabsample.AlarmManagerBroadcastReceiver
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:31:3-61
-	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:31:13-58

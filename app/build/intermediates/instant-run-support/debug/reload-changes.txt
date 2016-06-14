@@ -1,2 +1,7 @@
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\AlarmListFragment$override.class
+CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\AlarmEditFragment$3$override.class
+CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\AlarmEditFragment$1$override.class
+CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\AlarmEditFragment$4$override.class
+CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\AlarmEditFragment$override.class
+CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\AlarmEditFragment$2$override.class
+CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\AlarmEditFragment$5$override.class
 CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
