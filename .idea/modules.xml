@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DatePicker/DatePicker.iml" filepath="$PROJECT_DIR$/DatePicker/DatePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SleepAlarm.iml" filepath="$PROJECT_DIR$/SleepAlarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slideDateTimePicker/slideDateTimePicker.iml" filepath="$PROJECT_DIR$/slideDateTimePicker/slideDateTimePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipe/swipe.iml" filepath="$PROJECT_DIR$/swipe/swipe.iml" />
+    </modules>
+  </component>
+</project>

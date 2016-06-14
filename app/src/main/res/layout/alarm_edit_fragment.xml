@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/nonactivecolor">
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmTimer"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/AlarmEditLayout"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/alarm_edit_line"
+            android:layout_below="@+id/txtMonday"
+            android:background="@color/nonactivecolor" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weekday1_layout"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mon"
+                android:id="@+id/txtMonday"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="0dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tue"
+                android:id="@+id/txtTuesday"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtMonday"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wed"
+                android:id="@+id/txtWednsday"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtTuesday"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Thu"
+                android:id="@+id/txtThusday"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtWednsday"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fri"
+                android:id="@+id/txtFriday"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtThusday"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sat"
+                android:id="@+id/txtSaturday"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtFriday"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sun"
+                android:id="@+id/txtSunday"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtSaturday"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weekday2_layout"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mon"
+                android:id="@+id/txtMon"
+                android:textColor="#143c7d"
+                android:layout_marginLeft="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tue"
+                android:id="@+id/txtTue"
+                android:textColor="#143c7d"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtMon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wed"
+                android:id="@+id/txtWed"
+                android:textColor="#143c7d"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtTue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Thu"
+                android:id="@+id/txtThu"
+                android:textColor="#143c7d"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtWed" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fri"
+                android:id="@+id/txtFri"
+                android:textColor="#143c7d"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtThu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sat"
+                android:id="@+id/txtSat"
+                android:textColor="#143c7d"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtFri" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sun"
+                android:id="@+id/txtSun"
+                android:textColor="#143c7d"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtSat" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/alarm_edit_line"
+            android:layout_below="@+id/txtMonday"
+            android:layout_marginTop="5dp"
+            android:background="@color/nonactivecolor" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/alarm_label_layout"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mon"
+                android:id="@+id/txtLabel"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wake up"
+                android:id="@+id/txt_alarm_label"
+                android:textColor="#ffffff"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtLabel" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alarm_label_image"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="false"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/alarm_label_edit" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/alarm_edit_line"
+            android:layout_below="@+id/txtMonday"
+            android:layout_marginTop="5dp"
+            android:background="@color/nonactivecolor" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/music_text_layout"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mon"
+                android:id="@+id/txtMusicLabel"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wake up"
+                android:id="@+id/txtMusicName"
+                android:textColor="#ffffff"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_toRightOf="@+id/txtMusicLabel"
+                android:layout_marginLeft="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alarm_music_image"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="false"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/alarm_label_edit" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

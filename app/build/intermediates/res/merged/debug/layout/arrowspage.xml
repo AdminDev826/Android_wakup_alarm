@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:id="@+id/relativeLayout"
+		android:background="@color/activecolor">
+
+		<TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Alarm"
+            android:id="@+id/alam_title"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:textAlignment="center"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:textColor="#ffffff" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Add"
+			android:id="@+id/txtNotify"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentEnd="true"
+			android:layout_marginRight="30dp"
+			android:textColor="#ffffff" />
+
+	</RelativeLayout>
+
+	<com.baoyz.swipemenulistview.SwipeMenuListView
+		android:id="@+id/listView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentBottom="true"
+		android:background="#131533"
+		android:layout_below="@+id/relativeLayout" />
+
+</RelativeLayout>
