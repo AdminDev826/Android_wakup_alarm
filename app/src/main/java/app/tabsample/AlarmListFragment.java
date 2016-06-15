@@ -1,6 +1,8 @@
 package app.tabsample;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -158,15 +160,17 @@ public class AlarmListFragment extends Fragment {
             AlarmItem alarm = getAlarm(position);
             ViewHolder holder = (ViewHolder) convertView.getTag();
 
-            holder.tv_name.setText(alarm.strAlarmName + " ->" + position);
+            holder.tv_time.setText(alarm.strAlarmTime);
+            holder.tv_title.setText(alarm.strAlarmName);
+            holder.tv_weekdays.setText(alarm.weekString);
             holder.sw_wake.setTag(Integer.valueOf(position));
             if(alarm.alarm_state == 1){
-                holder.tv_name.setTextColor(getResources().getColor(R.color.activecolor));
-                holder.tv_title.setTextColor(getResources().getColor(R.color.activecolor));
                 holder.tv_time.setTextColor(getResources().getColor(R.color.activecolor));
+                holder.tv_title.setTextColor(getResources().getColor(R.color.activecolor));
+                holder.tv_weekdays.setTextColor(getResources().getColor(R.color.activecolor));
                 holder.sw_wake.setChecked(true);
             }else{
-                holder.tv_name.setTextColor(getResources().getColor(R.color.alarm_list_color));
+                holder.tv_weekdays.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.tv_title.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.tv_time.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.sw_wake.setChecked(false);
@@ -175,9 +179,10 @@ public class AlarmListFragment extends Fragment {
                 @Override
                 public void onClick(View v) {
                     Toast.makeText(getActivity(), "iv_icon_click", Toast.LENGTH_SHORT).show();
+
                 }
             });
-            holder.tv_name.setOnClickListener(new View.OnClickListener() {
+            holder.tv_time.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Toast.makeText(getActivity(),"iv_icon_click" + position,Toast.LENGTH_SHORT).show();
@@ -195,26 +200,44 @@ public class AlarmListFragment extends Fragment {
                         alarm.alarm_state = 0;
                     }
                     Log.e("Switch Event:", position + "--->>>" + index + "==" + sw_wake.isChecked());
+
+                    AlarmSetting.setAlarm(alarm);
+                    AlarmSetting.saveAlarm(getActivity());
                     mAdapter.notifyDataSetChanged();
+                }
+            });
+            holder.tv_time.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    AlarmItem alarm = getAlarm(position);
+                    AlarmMainActivity.txtAdd.setText("Done");
+                    AlarmMainActivity.txtBack.setVisibility(View.VISIBLE);
+                    AlarmSetting.bool_edit_flag = 1;
+                    AlarmSetting.setAlarm(alarm);
+                    Fragment frag = new AlarmEditFragment();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                    fragmentTransaction.replace(R.id.alarm_fragment,frag);
+                    fragmentTransaction.commit();
                 }
             });
             return convertView;
         }
         class ViewHolder {
             ImageView iv_icon;
-            TextView tv_name;
-            TextView tv_title;
             TextView tv_time;
+            TextView tv_title;
+            TextView tv_weekdays;
             Switch sw_wake;
 
             public ViewHolder(View view) {
                 iv_icon = (ImageView) view.findViewById(R.id.iv_icon);
-                tv_name = (TextView) view.findViewById(R.id.tv_name);
+                tv_time = (TextView) view.findViewById(R.id.tv_name);
                 sw_wake = (Switch) view.findViewById(R.id.sw_wake);
                 tv_title = (TextView) view.findViewById(R.id.top_text);
-                tv_time = (TextView) view.findViewById(R.id.bottom_text);
+                tv_weekdays = (TextView) view.findViewById(R.id.bottom_text);
 
-                tv_name.setTextSize(20);
+                tv_time.setTextSize(20);
                 view.setTag(this);
             }
         }

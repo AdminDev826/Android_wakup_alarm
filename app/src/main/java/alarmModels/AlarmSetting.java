@@ -13,7 +13,7 @@ import java.util.Set;
  */
 public class AlarmSetting {
 
-    public static int bool_edit_flag = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound setting
+    public static int bool_edit_flag = 0;// 0:alarm list, 1: alarm add, 2: alarm title enter, 3: alarm_sound setting, 4 : alarm_edit
     public static final String LocalTmpPath = "my_alarm_path";
 
     public static String alarmID  = " ";
@@ -29,6 +29,19 @@ public class AlarmSetting {
     public static int[] week_flag = new int[7];
     public static int[] alarm_ids = new int[7];
 
+    public static void init(){
+        alarmID  = " ";
+        strAlarmName = " ";
+        strAlarmTime = " ";
+        strSound = " ";
+        strAlarmPath = " ";
+        alarm_state = 0;
+        noti_state = 1;
+        weekDays = " ";
+        alarm_repeats = " ";
+        week_flag = new int[7];
+        alarm_ids = new int[7];
+    }
     public static String getWeekdays(){
         String temp = "";
         Boolean bool = false;
@@ -44,9 +57,11 @@ public class AlarmSetting {
     }
 
     public static int[] getWeek_flag(){
-        String[] tempAry = weekDays.split(",");
+        if(weekDays.equals(" ")){
+            return week_flag;
+        }
         int[] temp = new int[7];
-        Boolean bool = false;
+        String[] tempAry = weekDays.split(",");
         for(int i = 0; i < 7; i++) {
             for (int j = 0; j < tempAry.length; j++) {
                 if(i == Integer.parseInt(tempAry[j]))
@@ -82,6 +97,16 @@ public class AlarmSetting {
                 return true;
         }
         return false;
+    }
+    public static void setAlarm(AlarmItem alarm){
+        alarmID = alarm.alarmID;
+        strAlarmName = alarm.strAlarmName;
+        strAlarmTime = alarm.strAlarmTime;
+        strAlarmPath = alarm.strAlarmPath;
+        alarm_state = alarm.alarm_state;
+        noti_state = alarm.noti_state;
+        weekDays = alarm.weekDays;
+        week_flag = getWeek_flag();
     }
     public static Boolean saveAlarm1(Context context, AlarmItem item){
         SharedPreferences sharedPreference = context.getSharedPreferences(LocalTmpPath, 0);
@@ -192,7 +217,28 @@ public class AlarmSetting {
                     break;
             }
         }
-        AlarmItem item = new AlarmItem(alarm_id, title, time, path, alarmState, notiState, weekdays, repeats);
+        AlarmItem item = new AlarmItem(alarm_id, title, time, path, alarmState, notiState, weekdays, getWeekString(weekdays), repeats);
         return item;
+    }
+    public static String getWeekString(String weekDays){
+        String[] temp = weekDays.split(",");
+        String weekString;
+        weekString = getDayofWeek(temp[0]);
+        for(int i = 1; i < temp.length; i++){
+            weekString += " " + getDayofWeek(temp[i]);
+        }
+        return weekString;
+    }
+    public static String getDayofWeek(String tt){
+        String temp = " ";
+        int t = Integer.parseInt(tt);
+        if(t == 0) temp = "Mon";
+        else if(t == 1) temp = "Tue";
+        else if(t == 2) temp = "Wed";
+        else if(t == 3) temp = "Thu";
+        else if(t == 4) temp = "Fri";
+        else if(t == 5) temp = "Sat";
+        else if(t == 6) temp = "Sun";
+        return temp;
     }
 }

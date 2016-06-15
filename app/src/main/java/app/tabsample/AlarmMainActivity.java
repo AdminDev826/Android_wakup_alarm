@@ -24,7 +24,7 @@ import alarmModels.AlarmSetting;
 public class AlarmMainActivity extends Activity {
 
     public static TextView txtAdd;
-    private TextView txtBack;
+    public static TextView txtBack;
 
     private SimpleDateFormat mFormatter = new SimpleDateFormat("yyyy-MM-dd hh:mm aa");
 
@@ -38,7 +38,7 @@ public class AlarmMainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Fragment frag;
-                if(AlarmSetting.bool_edit_flag == 1){
+                if(AlarmSetting.bool_edit_flag == 1 || AlarmSetting.bool_edit_flag == 2){
                     if(!checkAlarmParams()) {
                         Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
                         return;
@@ -51,6 +51,7 @@ public class AlarmMainActivity extends Activity {
 
                 }else if(AlarmSetting.bool_edit_flag == 0){
                     AlarmSetting.bool_edit_flag = 1;
+                    AlarmSetting.init();
                     txtBack.setText("Back");
                     txtAdd.setText("Done");
                     frag = new AlarmEditFragment();
@@ -100,7 +101,7 @@ public class AlarmMainActivity extends Activity {
         long futureInMillis = mili;
         AlarmManager alarmManager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
 //        alarmManager.set(AlarmManager.RTC_WAKEUP, futureInMillis, pendingIntent);
-        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, futureInMillis, 1000 * 5, pendingIntent);//1000 * 60 * 60 * 24 * 7
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, futureInMillis, 1000 * 60, pendingIntent);//1000 * 60 * 60 * 24 * 7
         return _id;
     }
 
