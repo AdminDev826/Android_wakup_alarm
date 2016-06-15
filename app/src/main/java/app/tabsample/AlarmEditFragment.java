@@ -35,10 +35,9 @@ public class AlarmEditFragment extends Fragment {
         RelativeLayout alarm_title_layout = (RelativeLayout)view.findViewById(R.id.alarm_label_layout);
         RelativeLayout alarm_Music_layout = (RelativeLayout)view.findViewById(R.id.music_text_layout);
         int[] week_days = AlarmSetting.getWeek_flag();
-        if(AlarmSetting.alarm_win != 1) {
-            txtAlamName.setText(AlarmSetting.strAlarmName);
-            alarmMusic.setText(AlarmSetting.strAlarmPath);
-        }
+
+        txtAlamName.setText(AlarmSetting.strAlarmName);
+        alarmMusic.setText(AlarmSetting.strAlarmPath);
 
         alarm_title_layout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,14 +67,6 @@ public class AlarmEditFragment extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-        alarmMusic.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-
-
         RelativeLayout active_layout = (RelativeLayout) view.findViewById(R.id.weekday1_layout);
         RelativeLayout weekDays_layout = (RelativeLayout)view.findViewById(R.id.weekday2_layout);
         for (int i = 0; i < active_layout.getChildCount(); i++) {

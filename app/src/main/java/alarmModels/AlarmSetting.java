@@ -13,7 +13,7 @@ import java.util.Set;
  */
 public class AlarmSetting {
 
-    public static int alarm_win = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound setting, 4 : alarm update
+    public static int alarm_win = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound setting
     public static final String LocalTmpPath = "my_alarm_path";
 
     public static String alarmID  = " ";
@@ -64,9 +64,10 @@ public class AlarmSetting {
         String[] tempAry = weekDays.split(",");
         for(int i = 0; i < 7; i++) {
             for (int j = 0; j < tempAry.length; j++) {
-                if(i == Integer.parseInt(tempAry[j]))
+                if(i == Integer.parseInt(tempAry[j])) {
                     temp[i] = 1;
-                else
+                    i++;
+                }else
                     temp[i] = 0;
             }
         }
@@ -144,7 +145,7 @@ public class AlarmSetting {
 
         Set<String> currentSet = new HashSet<String>();
         currentSet.add("time:::" + strAlarmTime);
-        currentSet.add("title:::" + strAlarmName + "=my test alarm" + size);
+        currentSet.add("title:::" + strAlarmName);
         currentSet.add("path:::" + strAlarmPath + "=temp path");
         currentSet.add("alarm_state:::" + alarm_state);
         currentSet.add("noti_state:::" + noti_state);

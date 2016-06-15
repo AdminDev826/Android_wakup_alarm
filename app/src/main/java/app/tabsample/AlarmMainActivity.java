@@ -38,24 +38,22 @@ public class AlarmMainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Fragment frag;
-                if(AlarmSetting.alarm_win == 1){
-                    if(!checkAlarmParams()) {
-                        Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
-                        return;
-                    }
-                    txtBack.setText("Edit");
-                    txtAdd.setText("Add");
-                    AlarmSetting.alarm_win = 0;
-                    addAlarm();
-                    frag = new AlarmListFragment();
-
-                }else{
+                if(AlarmSetting.alarm_win == 0){
                     AlarmSetting.alarm_win = 1;
                     AlarmSetting.init();
                     txtBack.setText("Back");
                     txtAdd.setText("Done");
                     frag = new AlarmEditFragment();
-
+                }else{
+                    if(!checkAlarmParams()) {
+                        Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
+                        return;
+                    }
+                    AlarmSetting.alarm_win = 0;
+                    txtBack.setText("Edit");
+                    txtAdd.setText("Add");
+                    addAlarm();
+                    frag = new AlarmListFragment();
                 }
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();

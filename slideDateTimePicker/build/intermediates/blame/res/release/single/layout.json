@@ -8,11 +8,11 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\slideDateTimePicker\\src\\main\\res\\layout\\fragment_time.xml"
     },
     {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\layout\\slide_date_time_picker.xml",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\slideDateTimePicker\\src\\main\\res\\layout\\slide_date_time_picker.xml"
-    },
-    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\layout\\custom_tab.xml",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\slideDateTimePicker\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\slideDateTimePicker\\build\\intermediates\\res\\merged\\release\\layout\\slide_date_time_picker.xml",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\slideDateTimePicker\\src\\main\\res\\layout\\slide_date_time_picker.xml"
     }
 ]

@@ -32,7 +32,6 @@ public class AlarmTitleInputFragment extends Fragment {
                 //condition check---
 
                 AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);
-                AlarmSetting.alarm_win = 1;
                 AlarmSetting.strAlarmName = txtTitle.getText().toString();
                 InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(view.getContext().INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(getActivity().getWindow().getDecorView().getWindowToken(), 0);

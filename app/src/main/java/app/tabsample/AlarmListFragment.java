@@ -211,8 +211,8 @@ public class AlarmListFragment extends Fragment {
                 public void onClick(View v) {
                     AlarmItem alarm = getAlarm(position);
                     AlarmMainActivity.txtAdd.setText("Done");
-                    AlarmMainActivity.txtBack.setVisibility(View.VISIBLE);
-                    AlarmSetting.alarm_win = 4;
+                    AlarmMainActivity.txtBack.setText("Back");
+                    AlarmSetting.alarm_win = 1;
                     AlarmSetting.setAlarm(alarm);
                     Fragment frag = new AlarmEditFragment();
                     FragmentManager fm = getFragmentManager();
