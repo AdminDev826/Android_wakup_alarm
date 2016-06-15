@@ -33,8 +33,9 @@ public class AlarmEditFragment extends Fragment {
         txtAlamName = (TextView) view.findViewById(R.id.txt_alarm_label);
         alarmMusic = (TextView)view.findViewById(R.id.txtMusicName);
         RelativeLayout alarm_title_layout = (RelativeLayout)view.findViewById(R.id.alarm_label_layout);
+        RelativeLayout alarm_Music_layout = (RelativeLayout)view.findViewById(R.id.music_text_layout);
         int[] week_days = AlarmSetting.getWeek_flag();
-        if(AlarmSetting.bool_edit_flag != 1) {
+        if(AlarmSetting.alarm_win != 1) {
             txtAlamName.setText(AlarmSetting.strAlarmName);
             alarmMusic.setText(AlarmSetting.strAlarmPath);
         }
@@ -42,8 +43,23 @@ public class AlarmEditFragment extends Fragment {
         alarm_title_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AlarmSetting.bool_edit_flag = 2;
+                AlarmSetting.alarm_win = 2;
                 AlarmMainActivity.txtAdd.setVisibility(View.INVISIBLE);
+                AlarmMainActivity.txtBack.setVisibility(View.VISIBLE);
+
+                Fragment frag = new AlarmTitleInputFragment();
+                FragmentManager fm = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                fragmentTransaction.commit();
+            }
+        });
+        alarm_Music_layout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlarmSetting.alarm_win = 3;
+                AlarmMainActivity.txtAdd.setVisibility(View.INVISIBLE);
+                AlarmMainActivity.txtBack.setVisibility(View.VISIBLE);
 
                 Fragment frag = new AlarmTitleInputFragment();
                 FragmentManager fm = getFragmentManager();

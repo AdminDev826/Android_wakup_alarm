@@ -38,27 +38,24 @@ public class AlarmMainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Fragment frag;
-                if(AlarmSetting.bool_edit_flag == 1 || AlarmSetting.bool_edit_flag == 2){
+                if(AlarmSetting.alarm_win == 1){
                     if(!checkAlarmParams()) {
                         Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
                         return;
                     }
-                    txtBack.setText("");
+                    txtBack.setText("Edit");
                     txtAdd.setText("Add");
-                    AlarmSetting.bool_edit_flag = 0;
+                    AlarmSetting.alarm_win = 0;
                     addAlarm();
                     frag = new AlarmListFragment();
 
-                }else if(AlarmSetting.bool_edit_flag == 0){
-                    AlarmSetting.bool_edit_flag = 1;
+                }else{
+                    AlarmSetting.alarm_win = 1;
                     AlarmSetting.init();
                     txtBack.setText("Back");
                     txtAdd.setText("Done");
                     frag = new AlarmEditFragment();
 
-                }else{
-                    AlarmSetting.bool_edit_flag = 1;
-                    frag = new AlarmEditFragment();
                 }
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();
@@ -70,20 +67,27 @@ public class AlarmMainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Fragment frag;
-                if(AlarmSetting.bool_edit_flag == 1){
-                    AlarmSetting.bool_edit_flag = 0;
-                    txtBack.setText("");
+                if(AlarmSetting.alarm_win == 1){
+                    AlarmSetting.alarm_win = 0;
+                    txtBack.setText("Edit");
                     txtAdd.setText("Add");
                     frag = new AlarmListFragment();
-                }else{
-                    txtAdd.setVisibility(View.VISIBLE);
-                    AlarmSetting.bool_edit_flag = 1;
-                    frag = new AlarmEditFragment();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                    fragmentTransaction.replace(R.id.alarm_fragment,frag);
+                    fragmentTransaction.commit();
+                }else if(AlarmSetting.alarm_win == 0){
+                    //show swipe icon and delete functionality anable
                 }
-                FragmentManager fm = getFragmentManager();
-                FragmentTransaction fragmentTransaction = fm.beginTransaction();
-                fragmentTransaction.replace(R.id.alarm_fragment,frag);
-                fragmentTransaction.commit();
+                else {
+                    txtAdd.setVisibility(View.VISIBLE);
+                    AlarmSetting.alarm_win = 1;
+                    frag = new AlarmEditFragment();
+                    FragmentManager fm = getFragmentManager();
+                    FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                    fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                    fragmentTransaction.commit();
+                }
             }
         });
     }

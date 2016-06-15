@@ -212,7 +212,7 @@ public class AlarmListFragment extends Fragment {
                     AlarmItem alarm = getAlarm(position);
                     AlarmMainActivity.txtAdd.setText("Done");
                     AlarmMainActivity.txtBack.setVisibility(View.VISIBLE);
-                    AlarmSetting.bool_edit_flag = 1;
+                    AlarmSetting.alarm_win = 4;
                     AlarmSetting.setAlarm(alarm);
                     Fragment frag = new AlarmEditFragment();
                     FragmentManager fm = getFragmentManager();

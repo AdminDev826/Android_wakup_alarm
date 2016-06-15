@@ -5,7 +5,6 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.text.InputType;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,7 +29,10 @@ public class AlarmTitleInputFragment extends Fragment {
         btnTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //condition check---
+
                 AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);
+                AlarmSetting.alarm_win = 1;
                 AlarmSetting.strAlarmName = txtTitle.getText().toString();
                 InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(view.getContext().INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(getActivity().getWindow().getDecorView().getWindowToken(), 0);
