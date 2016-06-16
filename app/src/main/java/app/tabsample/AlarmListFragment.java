@@ -160,7 +160,7 @@ public class AlarmListFragment extends Fragment {
             AlarmItem alarm = getAlarm(position);
             ViewHolder holder = (ViewHolder) convertView.getTag();
 
-            holder.tv_time.setText(alarm.strAlarmTime);
+            holder.tv_time.setText(getFormatTime(alarm.strAlarmTime));
             holder.tv_title.setText(alarm.strAlarmName);
             holder.tv_weekdays.setText(alarm.weekString);
             holder.sw_wake.setTag(Integer.valueOf(position));
@@ -240,6 +240,18 @@ public class AlarmListFragment extends Fragment {
                 tv_time.setTextSize(20);
                 view.setTag(this);
             }
+        }
+        String getFormatTime(String t){
+            String temp;
+            int hour;
+            String[] tmp = t.split(":");
+            hour = Integer.valueOf(tmp[0]);
+            if(hour > 12){
+                temp = (hour - 12) + ":" + tmp[1]  + "  PM";
+            }else{
+                temp = t + "  AM";
+            }
+            return temp;
         }
 
         @Override

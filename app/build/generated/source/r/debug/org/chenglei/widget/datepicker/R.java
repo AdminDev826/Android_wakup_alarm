@@ -24,9 +24,9 @@ public final class R {
 		public static final int verticalSpacing = 0x7f0100ac;
 	}
 	public static final class id {
-		public static final int day_picker = 0x7f0d0079;
-		public static final int month_picker = 0x7f0d0078;
-		public static final int year_picker = 0x7f0d007a;
+		public static final int day_picker = 0x7f0d0078;
+		public static final int month_picker = 0x7f0d0077;
+		public static final int year_picker = 0x7f0d0079;
 	}
 	public static final class layout {
 		public static final int date_picker_layout = 0x7f03001f;

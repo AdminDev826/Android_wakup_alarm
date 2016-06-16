@@ -17,7 +17,7 @@ public class AlarmSetting {
     public static final String LocalTmpPath = "my_alarm_path";
 
     public static String alarmID  = " ";
-    public static String strAlarmName = " ";
+    public static String strAlarmName = "Wake Up";
     public static String strAlarmTime = " ";
     public static String strSound = " ";
     public static String strAlarmPath = " ";
@@ -31,7 +31,7 @@ public class AlarmSetting {
 
     public static void init(){
         alarmID  = " ";
-        strAlarmName = " ";
+        strAlarmName = "Wake Up";
         strAlarmTime = " ";
         strSound = " ";
         strAlarmPath = " ";
@@ -108,34 +108,6 @@ public class AlarmSetting {
         noti_state = alarm.noti_state;
         weekDays = alarm.weekDays;
         week_flag = getWeek_flag();
-    }
-    public static Boolean saveAlarm1(Context context, AlarmItem item){
-        SharedPreferences sharedPreference = context.getSharedPreferences(LocalTmpPath, 0);
-        SharedPreferences.Editor editor = sharedPreference.edit();
-        int size = sharedPreference.getInt("Array_Size", 0);
-
-        Set<String> currentSet = new HashSet<String>();
-        currentSet.add("time:::" + item.strAlarmTime);
-        currentSet.add("title:::" + item.strAlarmName + "=my test alarm" + size);
-        currentSet.add("path:::" + item.strAlarmPath + "=temp path");
-        currentSet.add("alarm_state:::" + item.alarm_state);
-        currentSet.add("noti_state:::" + item.noti_state);
-        currentSet.add("weekdays:::" + item.weekDays);
-        currentSet.add("alarm_repeats:::" + item.alarm_repeats);
-
-        if(item.alarmID.equals(" ")){
-            String setName = "Set"+size;
-            editor.remove(setName);
-
-            size = size+1;
-            editor.putInt("Array_Size", size);
-            editor.putStringSet(setName, currentSet);
-        }else{
-            editor.remove(item.alarmID);
-            editor.putStringSet(item.alarmID, currentSet);
-        }
-        editor.commit();
-        return true;
     }
 
     public static Boolean saveAlarm(Context context){

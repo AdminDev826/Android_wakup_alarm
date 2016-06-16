@@ -31,14 +31,18 @@ public class AlarmEditFragment extends Fragment {
         View view = inflater.inflate(R.layout.alarm_edit_fragment, container, false);
         alarm = (TimePicker) view.findViewById(R.id.alarmTimer);
         txtAlamName = (TextView) view.findViewById(R.id.txt_alarm_label);
-        alarmMusic = (TextView)view.findViewById(R.id.txtMusicName);
-        RelativeLayout alarm_title_layout = (RelativeLayout)view.findViewById(R.id.alarm_label_layout);
-        RelativeLayout alarm_Music_layout = (RelativeLayout)view.findViewById(R.id.music_text_layout);
+        alarmMusic = (TextView) view.findViewById(R.id.txtMusicName);
+        RelativeLayout alarm_title_layout = (RelativeLayout) view.findViewById(R.id.alarm_label_layout);
+        RelativeLayout alarm_Music_layout = (RelativeLayout) view.findViewById(R.id.music_text_layout);
         int[] week_days = AlarmSetting.getWeek_flag();
 
         txtAlamName.setText(AlarmSetting.strAlarmName);
         alarmMusic.setText(AlarmSetting.strAlarmPath);
-
+        if (AlarmSetting.strAlarmTime.length() > 1){
+            String[] alarm_times = getAlarmTime();
+            alarm.setCurrentHour(Integer.valueOf(alarm_times[0]) - 1);
+            alarm.setCurrentHour(Integer.valueOf(alarm_times[1]));
+        }
         alarm_title_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,11 +115,7 @@ public class AlarmEditFragment extends Fragment {
             @Override
             public void onTimeChanged(TimePicker view, int hourOfDay, int minute) {
                 // TODO Auto-generated method stub
-                if (hourOfDay > 12)
-                    alarmTime = hourOfDay - 12 + ":" + minute + " PM";
-                else
-                    alarmTime = hourOfDay + ":" + minute + " AM";
-                AlarmSetting.strAlarmTime = alarmTime;
+                AlarmSetting.strAlarmTime = hourOfDay + ":" + minute;
 
                 Toast.makeText(getActivity(), "Time is " + hourOfDay + " : "
                         + minute, Toast.LENGTH_SHORT).show();
@@ -123,5 +123,8 @@ public class AlarmEditFragment extends Fragment {
         });
 
         return view;
+    }
+    String[] getAlarmTime(){
+        return AlarmSetting.strAlarmTime.split(":");
     }
 }

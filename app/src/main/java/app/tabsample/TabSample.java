@@ -2,6 +2,7 @@ package app.tabsample;
 
 import android.app.TabActivity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,6 +39,8 @@ public class TabSample extends TabActivity {
 		TabHost.TabSpec spec = tabHost.newTabSpec("tab" + labelId);	
 		
 		View tabIndicator = LayoutInflater.from(this).inflate(R.layout.tab_indicator, getTabWidget(), false);
+		//set back coloor
+		tabIndicator.setBackgroundColor(getResources().getColor(R.color.nonactivecolor));
 		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
 		title.setText(labelId);
 		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);

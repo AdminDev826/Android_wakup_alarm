@@ -9,7 +9,7 @@
 
     <EditText
         android:layout_width="wrap_content"
-        android:layout_height="44dp"
+        android:layout_height="40dp"
         android:id="@+id/text_alarm_title"
         android:focusable="true"
         android:enabled="true"
@@ -19,13 +19,5 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:gravity="center_vertical|center_horizontal" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Done"
-        android:id="@+id/btnTitle"
-        android:enabled="true"
-        android:clickable="true" />
 
 </LinearLayout>

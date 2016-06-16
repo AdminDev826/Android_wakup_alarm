@@ -26,7 +26,7 @@ public class AlarmMainActivity extends Activity {
     public static TextView txtAdd;
     public static TextView txtBack;
 
-    private SimpleDateFormat mFormatter = new SimpleDateFormat("yyyy-MM-dd hh:mm aa");
+    private SimpleDateFormat mFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
