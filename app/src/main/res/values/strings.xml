@@ -2,9 +2,10 @@
 <resources>
     <string name="hello">Hello World, TabSample!</string>
     <string name="app_name">Sleep Alarm</string>
-<string-array name="Spinner_Content">
-    <item>One</item>
-    <item>Two</item>
-    <item>Three</item>
-</string-array>
+    <string-array name="Spinner_Content">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+    <string name="title_activity_player">Player</string>
 </resources>

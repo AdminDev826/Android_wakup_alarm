@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="Spinner_Content">
-    <item>One</item>
-    <item>Two</item>
-    <item>Three</item>
-</string-array>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
     <string-array name="month_name">
         <item>Jan</item>
         <item>Feb</item>
@@ -207,6 +207,8 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="corner_radius">8dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
@@ -258,6 +260,7 @@
     <string name="app_name">Sleep Alarm</string>
     <string name="hello">Hello World, TabSample!</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_player">Player</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -29,7 +29,7 @@ public final class R {
 		public static final int year_picker = 0x7f0d0079;
 	}
 	public static final class layout {
-		public static final int date_picker_layout = 0x7f03001f;
+		public static final int date_picker_layout = 0x7f030020;
 	}
 	public static final class styleable {
 		public static final int[] NumberPicker = { 0x7f0100a7, 0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac, 0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0, 0x7f0100b1 };

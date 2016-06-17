@@ -15,6 +15,8 @@
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
         android:icon="@drawable/icon"
         android:theme="@style/app_theme" >
@@ -33,6 +35,10 @@
         <activity android:name="app.tabsample.OptionsActivity" />
 
         <receiver android:name="app.tabsample.NotificationPublisher" />
+
+        <activity
+            android:name="app.tabsample.Player"
+            android:label="@string/title_activity_player" />
     </application>
 
 </manifest>

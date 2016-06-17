@@ -2,5 +2,25 @@
     {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound2.mp3",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\raw\\sound2.mp3"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound1.mp3",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\raw\\sound1.mp3"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound4.mp3",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\raw\\sound4.mp3"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound3.mp3",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\raw\\sound3.mp3"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sound0.mp3",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\raw\\sound0.mp3"
     }
 ]

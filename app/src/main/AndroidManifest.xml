@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-	package="app.tabsample" android:versionCode="1"
-	android:versionName="1.0"
-	xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-sdk
-		android:minSdkVersion="14"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.tabsample"
+    android:versionCode="1"
+    android:versionName="1.0">
 
-	/>
-	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-	<uses-permission android:name="android.permission.RECORD_AUDIO" />
-	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-	<uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-sdk android:minSdkVersion="14" />
 
-	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-	<application android:icon="@drawable/icon" android:theme="@style/app_theme">
-		<activity android:name=".TabSample" android:label="@string/app_name">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>		
-		<activity android:name=".AlarmMainActivity" />
-		<activity android:name="ArrowsActivity"/>
-		<activity android:name=".ListenAlarmActivity" />
-		<activity android:name=".OptionsActivity" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
-		<receiver android:name=".NotificationPublisher"></receiver>
-	</application>
-	
-</manifest> 
+    <application
+        android:icon="@drawable/icon"
+        android:theme="@style/app_theme">
+        <activity
+            android:name=".TabSample"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmMainActivity" />
+        <activity android:name=".ArrowsActivity" />
+        <activity android:name=".ListenAlarmActivity" />
+        <activity android:name=".OptionsActivity" />
+
+        <receiver android:name=".NotificationPublisher" />
+
+        <activity
+            android:name=".Player"
+            android:label="@string/title_activity_player"></activity>
+    </application>
+
+</manifest>

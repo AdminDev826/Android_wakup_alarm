@@ -1,8 +1,11 @@
 package app.tabsample;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -18,6 +21,7 @@ public class ListenAlarmActivity extends Activity {
 
     ListView lv;
     String[] items;
+    ArrayList<File> mySongs;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,14 +29,28 @@ public class ListenAlarmActivity extends Activity {
         setContentView(R.layout.music_layout);
 
         lv = (ListView)findViewById(R.id.lvPlaylist);
-        ArrayList<File> mySongs = findSongs(Environment.getExternalStorageDirectory());
-        items = new String[mySongs.size()];
-        for(int i = 0; i < mySongs.size(); i++){
-            toast(mySongs.get(i).getName().toString());
-            items[i] = mySongs.get(i).getName().toString();
-        }
+//        mySongs = findSongs(Environment.getExternalStorageDirectory());
+//        items = new String[mySongs.size()];
+//
+//        for(int i = 0; i < mySongs.size(); i++){
+//            toast(mySongs.get(i).getName().toString());
+//            items[i] = mySongs.get(i).getName().toString().replace(".mp3","").replace(".wav","");
+//        }
+        items = new String[5];
+        items[0] = "Darkness falls";
+        items[1] = "Fooled by angel's kiss";
+        items[2] = "Sleep Peacefully Alarm";
+        items[3] = "To the end of the world";
+        items[4] = "Words to live by";
         ArrayAdapter<String> adp = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1,items);
         lv.setAdapter(adp);
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                startActivity(new Intent(getApplicationContext(),Player.class).putExtra("pos",position).putExtra("songlist",mySongs));
+            }
+        });
     }
     public ArrayList<File> findSongs(File root){
         ArrayList<File> al = new ArrayList<File>();
@@ -46,6 +64,7 @@ public class ListenAlarmActivity extends Activity {
                 }
             }
         }
+
         return al;
     }
     public void toast(String text){

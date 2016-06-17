@@ -27,10 +27,10 @@ public final class R {
 		public static final int viewPager = 0x7f0d0095;
 	}
 	public static final class layout {
-		public static final int custom_tab = 0x7f03001e;
-		public static final int fragment_date = 0x7f030021;
-		public static final int fragment_time = 0x7f030022;
-		public static final int slide_date_time_picker = 0x7f030033;
+		public static final int custom_tab = 0x7f03001f;
+		public static final int fragment_date = 0x7f030022;
+		public static final int fragment_time = 0x7f030023;
+		public static final int slide_date_time_picker = 0x7f030034;
 	}
 	public static final class style {
 		public static final int AppBaseTheme = 0x7f09000b;
