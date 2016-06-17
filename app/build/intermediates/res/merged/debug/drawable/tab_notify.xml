@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/notify_select"
+    <item android:drawable="@drawable/bell_ico_40_click"
         android:state_selected="true" />
-    <item android:drawable="@drawable/notify_normal" />
+    <item android:drawable="@drawable/bell_ico_40_1" />
 </selector>

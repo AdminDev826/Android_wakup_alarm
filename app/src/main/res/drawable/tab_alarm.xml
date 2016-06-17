@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/alarm_select"
+    <item android:drawable="@drawable/alarm_ico_40_click"
         android:state_selected="true" />
-    <item android:drawable="@drawable/alarm_normal" />
+    <item android:drawable="@drawable/alarm_ico_40" />
 </selector>
