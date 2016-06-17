@@ -34,7 +34,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="50dp"
+            android:layout_height="70dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:weightSum="1"
@@ -45,7 +45,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/txtSeekPlayTime"
-                android:text="00:00" />
+                android:text="00:00"
+                android:textColor="#4f4f4f" />
 
             <SeekBar
                 android:layout_width="200dp"
@@ -59,22 +60,33 @@
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="06:32"
                 android:id="@+id/txtSeekEndTime"
-                android:layout_marginLeft="10dp" />
+                android:layout_marginLeft="10dp"
+                android:textColor="#4f4f4f" />
         </LinearLayout>
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="40dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Track with background music"
             android:id="@+id/textView5"
-            android:gravity="center_horizontal" />
+            android:gravity="center_horizontal"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Barry Zecca"
+            android:id="@+id/textView3"
+            android:gravity="center_horizontal"
+            android:textColor="#4f4f4f" />
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal">
+            android:gravity="center_vertical|center_horizontal">
 
             <Button
                 android:layout_width="50dp"
@@ -105,6 +117,33 @@
                 android:layout_height="wrap_content"
                 android:text=">|"
                 android:id="@+id/btNxt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@drawable/music_slow" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/music_play"
+                android:layout_marginLeft="40dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:src="@drawable/music_stop"
+                android:layout_marginLeft="40dp" />
         </LinearLayout>
     </LinearLayout>
 
