@@ -12,7 +12,7 @@
         android:id="@+id/text_alarm_title"
         android:focusable="true"
         android:enabled="true"
-        android:textColor="#ffffff"
+        android:textColor="#1c1c1c"
         android:hint="PLEASE ENTER THE ALARM TITLE!"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"

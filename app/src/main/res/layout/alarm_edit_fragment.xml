@@ -24,7 +24,9 @@
             android:layout_height="3dp"
             android:id="@+id/imageView2"
             android:src="@drawable/alarm_edit_line"
-            android:layout_below="@+id/txtMonday" />
+            android:layout_below="@+id/txtMonday"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -194,13 +196,15 @@
             android:id="@+id/imageView4"
             android:src="@drawable/alarm_edit_line"
             android:layout_below="@+id/txtMonday"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/alarm_label_layout"
-            android:layout_marginTop="5dp">
+            android:layout_marginTop="15dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -249,7 +253,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/music_text_layout"
-            android:layout_marginTop="5dp">
+            android:layout_marginTop="15dp">
 
             <TextView
                 android:layout_width="wrap_content"

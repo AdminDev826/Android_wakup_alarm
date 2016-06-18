@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ public class AlarmMainActivity extends Activity {
     public static TextView txtBack;
 
     FragmentManager fm;
+    FragmentTransaction fragmentTransaction;
 
     private SimpleDateFormat mFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
@@ -37,6 +39,10 @@ public class AlarmMainActivity extends Activity {
         txtAdd = (TextView)findViewById(R.id.txtAdd);
         txtBack = (TextView)findViewById(R.id.txtBack);
         fm = getFragmentManager();
+
+        Fragment frag = new AlarmListFragment();
+        fragmentTransaction = fm.beginTransaction();
+        fragmentTransaction.add(R.id.alarm_fragment, frag).commit();
 
         txtAdd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,8 +65,7 @@ public class AlarmMainActivity extends Activity {
                     addAlarm();
                     frag = new AlarmListFragment();
                 }
-                fm.popBackStack();
-                FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.alarm_fragment, frag);
                 fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 fragmentTransaction.addToBackStack(null);
@@ -82,13 +87,18 @@ public class AlarmMainActivity extends Activity {
                     AlarmSetting.alarm_win = 1;
                     frag = new AlarmEditFragment();
                 }
-                FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.alarm_fragment, frag);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
+
+                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                if(imm.isAcceptingText())
+                    imm.hideSoftInputFromWindow(getWindow().getDecorView().getWindowToken(), 0);
             }
         });
     }
+
     private int scheduleNotification(Notification notification, long mili) {
 
         final int _id = (int) System.currentTimeMillis();

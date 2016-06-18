@@ -50,10 +50,10 @@
 
     </RelativeLayout>
 
-    <fragment
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="app.tabsample.AlarmListFragment"
+
         android:id="@+id/alarm_fragment"
         android:layout_gravity="center_horizontal" />
 
