@@ -5,19 +5,12 @@
         <item>Two</item>
         <item>Three</item>
     </string-array>
-    <string-array name="month_name">
-        <item>Jan</item>
-        <item>Feb</item>
-        <item>Mar</item>
-        <item>Apr</item>
-        <item>May</item>
-        <item>Jun</item>
-        <item>Jul</item>
-        <item>Aug</item>
-        <item>Sep</item>
-        <item>Oct</item>
-        <item>Nov</item>
-        <item>Dec</item>
+    <string-array name="alarm_list">
+        <item>Darkness falls</item>
+        <item>Fooled by angels kiss</item>
+        <item>Sleep Peacefully Alarm</item>
+        <item>To the end of the world</item>
+        <item>Words to live by</item>
     </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -129,7 +122,6 @@
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
-    <declare-styleable name="NumberPicker"><attr format="color" name="textColor"/><attr format="float|dimension" name="textSize"/><attr format="integer" name="startNumber"/><attr format="integer" name="endNumber"/><attr format="integer" name="currentNumber"/><attr format="dimension" name="verticalSpacing"/><attr format="string|reference" name="flagText"/><attr format="dimension" name="flagTextSize"/><attr format="color" name="flagTextColor"/><attr format="color" name="backgroundColor"/><attr format="integer" name="rowNumber"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
@@ -259,6 +251,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Sleep Alarm</string>
     <string name="hello">Hello World, TabSample!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_player">Player</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

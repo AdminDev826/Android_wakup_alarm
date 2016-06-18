@@ -56,10 +56,6 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_layout.xml",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.github.chenglei1986\\DatePicker\\-SNAPSHOT\\res\\layout\\date_picker_layout.xml"
-    },
-    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },

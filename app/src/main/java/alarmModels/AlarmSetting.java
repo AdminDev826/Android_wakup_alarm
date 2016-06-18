@@ -19,8 +19,7 @@ public class AlarmSetting {
     public static String alarmID  = " ";
     public static String strAlarmName = "Wake Up";
     public static String strAlarmTime = " ";
-    public static String strSound = " ";
-    public static String strAlarmPath = " ";
+    public static int alarm_index = 0;
     public static int alarm_state = 0;
     public static int noti_state = 1;
     public static String weekDays = " ";
@@ -33,8 +32,7 @@ public class AlarmSetting {
         alarmID  = " ";
         strAlarmName = "Wake Up";
         strAlarmTime = " ";
-        strSound = " ";
-        strAlarmPath = " ";
+        alarm_index = 0;
         alarm_state = 0;
         noti_state = 1;
         weekDays = " ";
@@ -103,7 +101,7 @@ public class AlarmSetting {
         alarmID = alarm.alarmID;
         strAlarmName = alarm.strAlarmName;
         strAlarmTime = alarm.strAlarmTime;
-        strAlarmPath = alarm.strAlarmPath;
+        alarm_index = alarm.alarm_index;
         alarm_state = alarm.alarm_state;
         noti_state = alarm.noti_state;
         weekDays = alarm.weekDays;
@@ -118,7 +116,7 @@ public class AlarmSetting {
         Set<String> currentSet = new HashSet<String>();
         currentSet.add("time:::" + strAlarmTime);
         currentSet.add("title:::" + strAlarmName);
-        currentSet.add("path:::" + strAlarmPath + "=temp path");
+        currentSet.add("alarm_index:::" + alarm_index);
         currentSet.add("alarm_state:::" + alarm_state);
         currentSet.add("noti_state:::" + noti_state);
         currentSet.add("weekdays:::" + getWeekdays());
@@ -156,7 +154,7 @@ public class AlarmSetting {
         String [] alarmAry = hashSet.toArray(new String[hashSet.size()]);
         String time = " ";
         String title = " ";
-        String path = " ";
+        int alarm_index = 0;
         int alarmState = 0;
         int notiState = 0;
         String weekdays = " ";
@@ -171,8 +169,8 @@ public class AlarmSetting {
                 case "title" :
                     title = keys[1];
                     break;
-                case "path" :
-                    path = keys[1];
+                case "alarm_index" :
+                    alarm_index = Integer.valueOf(keys[1]);
                     break;
                 case "alarm_state" :
                     alarmState = keys[1].length() > 0 ? Integer.parseInt(keys[1]) : 0;
@@ -190,7 +188,7 @@ public class AlarmSetting {
                     break;
             }
         }
-        AlarmItem item = new AlarmItem(alarm_id, title, time, path, alarmState, notiState, weekdays, getWeekString(weekdays), repeats);
+        AlarmItem item = new AlarmItem(alarm_id, title, time, alarm_index, alarmState, notiState, weekdays, getWeekString(weekdays), repeats);
         return item;
     }
     public static String getWeekString(String weekDays){

@@ -12,6 +12,11 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import alarmModels.AlarmSetting;
 
 
@@ -37,11 +42,9 @@ public class AlarmEditFragment extends Fragment {
         int[] week_days = AlarmSetting.getWeek_flag();
 
         txtAlamName.setText(AlarmSetting.strAlarmName);
-        alarmMusic.setText(AlarmSetting.strAlarmPath);
+        alarmMusic.setText(getMusicName());
         if (AlarmSetting.strAlarmTime.length() > 1){
-            String[] alarm_times = getAlarmTime();
-            alarm.setCurrentHour(Integer.valueOf(alarm_times[0]) - 1);
-            alarm.setCurrentHour(Integer.valueOf(alarm_times[1]));
+            setCurrentAlarmTime();
         }
         alarm_title_layout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -124,7 +127,21 @@ public class AlarmEditFragment extends Fragment {
 
         return view;
     }
-    String[] getAlarmTime(){
-        return AlarmSetting.strAlarmTime.split(":");
+    void setCurrentAlarmTime(){
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+        Date date = null;
+        try{
+            date = sdf.parse(AlarmSetting.strAlarmTime);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        Calendar c = Calendar.getInstance();
+        c.setTime(date);
+        alarm.setCurrentHour(c.get(Calendar.HOUR_OF_DAY));
+        alarm.setCurrentMinute(c.get(Calendar.MINUTE));
+    }
+    String getMusicName(){
+        String[] temp = getResources().getStringArray(R.array.alarm_list);
+        return temp[AlarmSetting.alarm_index];
     }
 }

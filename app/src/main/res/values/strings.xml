@@ -8,4 +8,14 @@
         <item>Three</item>
     </string-array>
     <string name="title_activity_player">Player</string>
+    <string-array name="alarm_list">
+        <item>Darkness falls</item>
+        <item>Fooled by angels kiss</item>
+        <item>Sleep Peacefully Alarm</item>
+        <item>To the end of the world</item>
+        <item>Words to live by</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -36,13 +36,9 @@ public class ListenAlarmActivity extends Activity {
 //            toast(mySongs.get(i).getName().toString());
 //            items[i] = mySongs.get(i).getName().toString().replace(".mp3","").replace(".wav","");
 //        }
-        items = new String[5];
-        items[0] = "Darkness falls";
-        items[1] = "Fooled by angel's kiss";
-        items[2] = "Sleep Peacefully Alarm";
-        items[3] = "To the end of the world";
-        items[4] = "Words to live by";
-        ArrayAdapter<String> adp = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1,items);
+
+        String[] cmd = getResources().getStringArray(R.array.alarm_list);
+        ArrayAdapter<String> adp = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1,cmd);
         lv.setAdapter(adp);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 

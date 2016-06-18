@@ -107,7 +107,7 @@ public class Player extends Activity implements View.OnClickListener {
         total = mp.getDuration();
         sb.setMax(total);
         txttotal.setText(getTimeString(total));
-//        startTimerThread();
+        startTimerThread();
         loadMusicImage();
     }
 
