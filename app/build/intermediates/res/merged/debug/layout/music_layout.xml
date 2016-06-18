@@ -7,6 +7,5 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/lvPlaylist"
-        android:layout_gravity="center_horizontal"
-        android:background="#7d2828" />
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

@@ -8,7 +8,6 @@
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:background="#0d0f2e" />
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>

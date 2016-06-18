@@ -3,8 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/nonactivecolor">
+    android:orientation="vertical">
 
     <TimePicker
         android:layout_width="wrap_content"
@@ -22,11 +21,10 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="3dp"
             android:id="@+id/imageView2"
             android:src="@drawable/alarm_edit_line"
-            android:layout_below="@+id/txtMonday"
-            android:background="@color/nonactivecolor" />
+            android:layout_below="@+id/txtMonday" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -192,12 +190,11 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="5dp"
             android:id="@+id/imageView4"
             android:src="@drawable/alarm_edit_line"
             android:layout_below="@+id/txtMonday"
-            android:layout_marginTop="5dp"
-            android:background="@color/nonactivecolor" />
+            android:layout_marginTop="5dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -242,12 +239,11 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="5dp"
             android:id="@+id/imageView5"
             android:src="@drawable/alarm_edit_line"
             android:layout_below="@+id/txtMonday"
-            android:layout_marginTop="5dp"
-            android:background="@color/nonactivecolor" />
+            android:layout_marginTop="5dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"

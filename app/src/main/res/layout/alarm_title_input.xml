@@ -3,8 +3,7 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical|center_horizontal"
-    android:weightSum="1"
-    android:background="@color/nonactivecolor">
+    android:weightSum="1">
 
 
     <EditText
@@ -15,9 +14,9 @@
         android:enabled="true"
         android:textColor="#ffffff"
         android:hint="PLEASE ENTER THE ALARM TITLE!"
-        android:background="@drawable/edit_text_style"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:gravity="center_vertical|center_horizontal" />
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#ffffff" />
 
 </LinearLayout>

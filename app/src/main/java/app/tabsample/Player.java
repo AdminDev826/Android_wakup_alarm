@@ -2,6 +2,9 @@ package app.tabsample;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
@@ -9,12 +12,15 @@ import android.app.Activity;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Player extends Activity implements View.OnClickListener {
@@ -24,12 +30,15 @@ public class Player extends Activity implements View.OnClickListener {
     ArrayList<File> mySongs;
     int position;
     Resources res;
+    int soundID;
     int total = 0;
     int currentPosition = 0;
+    int status = 0;
 
     SeekBar sb;
     Button btPlay, btFF, btFB, btNxt, btPv;
     TextView txtcurrent, txttotal;
+    ImageView imgSlow, imgPlay, imgStop, musicImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,11 +54,21 @@ public class Player extends Activity implements View.OnClickListener {
         txtcurrent = (TextView)findViewById(R.id.txtSeekPlayTime);
         txttotal = (TextView)findViewById(R.id.txtSeekEndTime);
 
+        imgSlow = (ImageView)findViewById(R.id.imgSlow);
+        imgPlay = (ImageView)findViewById(R.id.imgPlay);
+        imgStop = (ImageView)findViewById(R.id.imgStop);
+        musicImage = (ImageView)findViewById(R.id.musicImage);
+
         btPlay.setOnClickListener(this);
         btFF.setOnClickListener(this);
         btFB.setOnClickListener(this);
         btNxt.setOnClickListener(this);
         btPv.setOnClickListener(this);
+
+        imgSlow.setOnClickListener(this);
+        imgPlay.setOnClickListener(this);
+        imgStop.setOnClickListener(this);
+
 
         if(mp != null){
             mp.stop();
@@ -81,14 +100,15 @@ public class Player extends Activity implements View.OnClickListener {
 //        mySongs = (ArrayList)b.getParcelableArrayList("songlist");
 //        Uri u = Uri.parse(mySongs.get(position).toString());
         res = getApplicationContext().getResources();
-        int soundId = res.getIdentifier("sound" + position, "raw", getApplicationContext().getPackageName());
+        soundID = res.getIdentifier("sound" + position, "raw", getApplicationContext().getPackageName());
 
-        mp = MediaPlayer.create(getApplicationContext(),soundId);
-        mp.start();
+        mp = MediaPlayer.create(getApplicationContext(),soundID);
+//        mp.start();
         total = mp.getDuration();
         sb.setMax(total);
         txttotal.setText(getTimeString(total));
-        startTimerThread();
+//        startTimerThread();
+        loadMusicImage();
     }
 
     @Override
@@ -115,8 +135,8 @@ public class Player extends Activity implements View.OnClickListener {
                 mp.stop();
                 mp.release();
                 position = (position + 1) % 5;
-                int soundId = res.getIdentifier("sound" + position, "raw", getApplicationContext().getPackageName());
-                mp = MediaPlayer.create(getApplicationContext(),soundId);
+                soundID = res.getIdentifier("sound" + position, "raw", getApplicationContext().getPackageName());
+                mp = MediaPlayer.create(getApplicationContext(),soundID);
                 mp.start();
                 total = mp.getDuration();
                 sb.setMax(total);
@@ -126,13 +146,35 @@ public class Player extends Activity implements View.OnClickListener {
                 mp.stop();
                 mp.release();
                 position = (position - 1 < 0) ? 4 : (position - 1);
-                int sound_Id = res.getIdentifier("sound" + position, "raw", getApplicationContext().getPackageName());
-                mp = MediaPlayer.create(getApplicationContext(),sound_Id);
+                soundID = res.getIdentifier("sound" + position, "raw", getApplicationContext().getPackageName());
+                mp = MediaPlayer.create(getApplicationContext(),soundID);
                 mp.start();
                 total = mp.getDuration();
                 sb.setMax(total);
                 txttotal.setText(getTimeString(total));
                 break;
+            case R.id.imgSlow:
+                break;
+            case R.id.imgPlay:
+                if(!mp.isPlaying()){
+                    mp.start();
+                }
+                break;
+            case R.id.imgStop:
+                if(mp.isPlaying()){
+                    mp.pause();
+                }else{
+                    sb.setProgress(0);
+                    txtcurrent.setText("00:00");
+                    mp.stop();
+                    try {
+                        mp.prepare();
+                        mp.seekTo(0);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    currentPosition = 0;
+                }
         }
     }
 
@@ -172,5 +214,29 @@ public class Player extends Activity implements View.OnClickListener {
             }
         };
         new Thread(runnable).start();
+    }
+
+    private void loadMusicImage(){
+        android.media.MediaMetadataRetriever mmr = new MediaMetadataRetriever();
+        Uri uri = Uri.parse("android.resource://" + getApplicationContext().getPackageName() + "/" + soundID);
+        mmr.setDataSource(getApplicationContext(),uri);
+
+        byte [] data = mmr.getEmbeddedPicture();
+        //coverart is an Imageview object
+
+        // convert the byte array to a bitmap
+        if(data != null)
+        {
+            Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+            musicImage.setImageBitmap(bitmap); //associated cover art in bitmap
+            musicImage.setAdjustViewBounds(true);
+//            musicImage.setLayoutParams(new LinearLayout.LayoutParams(500, 500));
+        }
+        else
+        {
+            musicImage.setImageResource(R.drawable.music_back); //any default cover resourse folder
+            musicImage.setAdjustViewBounds(true);
+//            musicImage.setLayoutParams(new LinearLayout.LayoutParams(500,500 ));
+        }
     }
 }

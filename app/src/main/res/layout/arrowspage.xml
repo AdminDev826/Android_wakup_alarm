@@ -2,13 +2,12 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	tools:context="${relativePackage}.${activityClass}" >
+	tools:context="${relativePackage}.${activityClass}">
 
 	<RelativeLayout
 		android:layout_width="match_parent"
 		android:layout_height="50dp"
-		android:id="@+id/relativeLayout"
-		android:background="@color/activecolor">
+		android:id="@+id/relativeLayout">
 
 		<TextView
             android:layout_width="150dp"
@@ -42,7 +41,6 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_alignParentBottom="true"
-		android:background="#131533"
 		android:layout_below="@+id/relativeLayout" />
 
 </RelativeLayout>

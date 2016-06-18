@@ -26,6 +26,8 @@ public class AlarmMainActivity extends Activity {
     public static TextView txtAdd;
     public static TextView txtBack;
 
+    FragmentManager fm;
+
     private SimpleDateFormat mFormatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
     public void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,8 @@ public class AlarmMainActivity extends Activity {
 
         txtAdd = (TextView)findViewById(R.id.txtAdd);
         txtBack = (TextView)findViewById(R.id.txtBack);
+        fm = getFragmentManager();
+
         txtAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,9 +59,11 @@ public class AlarmMainActivity extends Activity {
                     addAlarm();
                     frag = new AlarmListFragment();
                 }
-                FragmentManager fm = getFragmentManager();
+                fm.popBackStack();
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });
@@ -65,27 +71,21 @@ public class AlarmMainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Fragment frag;
-                if(AlarmSetting.alarm_win == 1){
+                if(AlarmSetting.alarm_win == 1) {
                     AlarmSetting.alarm_win = 0;
                     txtBack.setText("Edit");
                     txtAdd.setText("Add");
                     frag = new AlarmListFragment();
-                    FragmentManager fm = getFragmentManager();
-                    FragmentTransaction fragmentTransaction = fm.beginTransaction();
-                    fragmentTransaction.replace(R.id.alarm_fragment,frag);
-                    fragmentTransaction.commit();
-                }else if(AlarmSetting.alarm_win == 0){
-                    //show swipe icon and delete functionality anable
-                }
-                else {
+
+                }else {
                     txtAdd.setVisibility(View.VISIBLE);
                     AlarmSetting.alarm_win = 1;
                     frag = new AlarmEditFragment();
-                    FragmentManager fm = getFragmentManager();
-                    FragmentTransaction fragmentTransaction = fm.beginTransaction();
-                    fragmentTransaction.replace(R.id.alarm_fragment, frag);
-                    fragmentTransaction.commit();
                 }
+                FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
     }

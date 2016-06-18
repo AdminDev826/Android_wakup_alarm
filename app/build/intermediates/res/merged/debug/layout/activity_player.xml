@@ -17,8 +17,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/imageView"
-            android:background="#f9a8a8"
+            android:id="@+id/musicImage"
             android:adjustViewBounds="true"
             android:soundEffectsEnabled="false" />
     </LinearLayout>
@@ -26,10 +25,11 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:background="#cdcdcd"
         android:gravity="bottom"
-        android:layout_gravity="bottom">
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -123,27 +123,29 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical|center_horizontal" >
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView3"
+                android:id="@+id/imgSlow"
                 android:src="@drawable/music_slow" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView6"
+                android:id="@+id/imgPlay"
                 android:src="@drawable/music_play"
-                android:layout_marginLeft="40dp" />
+                android:layout_marginLeft="30dp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView7"
+                android:id="@+id/imgStop"
                 android:src="@drawable/music_stop"
-                android:layout_marginLeft="40dp" />
+                android:layout_marginLeft="30dp" />
         </LinearLayout>
     </LinearLayout>
 

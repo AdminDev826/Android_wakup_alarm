@@ -20,6 +20,10 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\background.png"
+    },
+    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm_select.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\alarm_select.png"
     },
@@ -192,28 +196,12 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\home_selected.png"
     },
     {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_normal.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\search_normal.png"
-    },
-    {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm_ico_40_click.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\alarm_ico_40_click.png"
-    },
-    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_normal.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\home_normal.png"
-    },
-    {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_ico_40.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\settings_ico_40.png"
     },
     {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
@@ -224,24 +212,12 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\listen_select.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\listen_select.png"
     },
     {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
@@ -260,14 +236,6 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
@@ -276,15 +244,55 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\search_selected.png"
     },
     {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_normal.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\search_normal.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\alarm_ico_40_click.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\alarm_ico_40_click.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_ico_40.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\settings_ico_40.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\music_back.jpg",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\music_back.jpg"
+    },
+    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\music_stop.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\music_stop.png"
     },
     {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_normal.png",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\drawable-hdpi\\settings_normal.png"
-    },
-    {
-        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     }
 ]
