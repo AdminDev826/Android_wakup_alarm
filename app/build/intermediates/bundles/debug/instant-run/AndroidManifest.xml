@@ -15,6 +15,8 @@
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:icon="@drawable/icon"
@@ -28,8 +30,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="app.tabsample.AlarmMainActivity" >
-        </activity>
+        <activity android:name="app.tabsample.AlarmMainActivity" />
         <activity android:name="app.tabsample.ArrowsActivity" />
         <activity android:name="app.tabsample.ListenAlarmActivity" />
         <activity android:name="app.tabsample.OptionsActivity" />
@@ -39,6 +40,9 @@
         <activity
             android:name="app.tabsample.Player"
             android:label="@string/title_activity_player" />
+        <activity
+            android:name="app.tabsample.ListenActivity"
+            android:label="@string/title_activity_listen" />
     </application>
 
 </manifest>

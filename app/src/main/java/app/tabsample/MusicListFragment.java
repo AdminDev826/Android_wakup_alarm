@@ -35,7 +35,7 @@ public class MusicListFragment extends ListFragment implements AdapterView.OnIte
     public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
 //        Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
 
-
+//        TabSample.tabHost.setCurrentTab(2);
 
         AlarmSetting.alarm_index = position;
         AlarmSetting.alarm_win = 4;

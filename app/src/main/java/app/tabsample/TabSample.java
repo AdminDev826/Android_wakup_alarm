@@ -17,6 +17,8 @@ import android.widget.TextView;
  */
 public class TabSample extends TabActivity {
 	/** Called when the activity is first created. */
+
+	public static TabHost tabHost;
 	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -28,13 +30,13 @@ public class TabSample extends TabActivity {
 		addTab("Alarm", R.drawable.tab_alarm, AlarmMainActivity.class);
 		addTab("Notify", R.drawable.tab_notify, ArrowsActivity.class);
 		
-		addTab("Listen", R.drawable.tab_listen, ListenAlarmActivity.class);
+		addTab("Listen", R.drawable.tab_listen, ListenActivity.class);
 		addTab("Settings", R.drawable.tab_settings, OptionsActivity.class);
 	}
 	
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
-		TabHost tabHost = getTabHost();
+		tabHost = getTabHost();
 		Intent intent = new Intent(this, c);
 		TabHost.TabSpec spec = tabHost.newTabSpec("tab" + labelId);	
 		

@@ -63,9 +63,6 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
             mp.release();
             mp = null;
         }
-//        if(playThread.isAlive()){
-//            playThread.interrupt();
-//        }
 
         sb = (SeekBar)view.findViewById(R.id.seekBar);
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -95,6 +92,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         sb.setMax(total);
         txttotal.setText(getTimeString(total));
         loadMusicImage();
+
         return view;
     }
 
@@ -115,7 +113,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                     try {
                         Thread.sleep(200);
 //                        Log.e("Media Player State : ", mp + "==" + mp.isPlaying());
-                        if(mp!=null)
+                        if(mp != null && mp.isPlaying())
                             currentPosition = mp.getCurrentPosition();
                         sb.setProgress(currentPosition);
                     }

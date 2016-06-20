@@ -32,6 +32,10 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\SleepAlarm\\slideDateTimePicker\\unspecified\\res\\layout\\slide_date_time_picker.xml"
     },
     {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listen.xml",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\layout\\activity_listen.xml"
+    },
+    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
