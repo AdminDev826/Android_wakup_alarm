@@ -13,6 +13,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import alarmModels.AlarmSetting;
+
 public class MusicListFragment extends ListFragment implements AdapterView.OnItemClickListener {
 
     @Override
@@ -31,12 +33,17 @@ public class MusicListFragment extends ListFragment implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
-        Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
 
+
+
+        AlarmSetting.alarm_index = position;
+        AlarmSetting.alarm_win = 4;
         Fragment frag = new MusicPlayerFragment();
         FragmentManager fm = getFragmentManager();
         FragmentTransaction fragmentTransaction = fm.beginTransaction();
         fragmentTransaction.replace(R.id.alarm_fragment, frag);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 }

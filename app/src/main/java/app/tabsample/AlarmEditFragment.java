@@ -57,6 +57,7 @@ public class AlarmEditFragment extends Fragment {
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });
@@ -71,6 +72,7 @@ public class AlarmEditFragment extends Fragment {
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });

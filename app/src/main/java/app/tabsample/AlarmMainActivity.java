@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
@@ -75,26 +76,19 @@ public class AlarmMainActivity extends Activity {
         txtBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Fragment frag;
                 if(AlarmSetting.alarm_win == 1) {
                     AlarmSetting.alarm_win = 0;
-                    txtBack.setText("Edit");
                     txtAdd.setText("Add");
-                    frag = new AlarmListFragment();
-
-                }else {
                     txtAdd.setVisibility(View.VISIBLE);
+                }else if (AlarmSetting.alarm_win == 2 || AlarmSetting.alarm_win == 3){
                     AlarmSetting.alarm_win = 1;
-                    frag = new AlarmEditFragment();
+                }else if(AlarmSetting.alarm_win == 4){
+                    AlarmSetting.alarm_win = 3;
                 }
-                fragmentTransaction = fm.beginTransaction();
-                fragmentTransaction.replace(R.id.alarm_fragment, frag);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-
-                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
-                if(imm.isAcceptingText())
-                    imm.hideSoftInputFromWindow(getWindow().getDecorView().getWindowToken(), 0);
+                if (fm.getBackStackEntryCount() > 0) {
+                    Log.e("MainActivity", "popping backstack");
+                    fm.popBackStack();
+                }
             }
         });
     }

@@ -9,6 +9,7 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,7 @@ import alarmModels.AlarmSetting;
 public class MusicPlayerFragment extends Fragment implements View.OnClickListener {
 
     static MediaPlayer mp;
+    Thread playThread;
     Handler handler;
     Resources res;
     int soundID;
@@ -59,7 +61,11 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         if(mp != null){
             mp.stop();
             mp.release();
+            mp = null;
         }
+//        if(playThread.isAlive()){
+//            playThread.interrupt();
+//        }
 
         sb = (SeekBar)view.findViewById(R.id.seekBar);
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -88,9 +94,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         total = mp.getDuration();
         sb.setMax(total);
         txttotal.setText(getTimeString(total));
-        startTimerThread();
         loadMusicImage();
-
         return view;
     }
 
@@ -102,7 +106,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         return strMin + ":" + strSec;
     }
 
-    private void startTimerThread() {
+    private void PlayThreadInit() {
         handler = new Handler();
         Runnable runnable = new Runnable() {
             public void run() {
@@ -110,7 +114,9 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                 while (currentPosition < total) {
                     try {
                         Thread.sleep(200);
-                        currentPosition = mp.getCurrentPosition();
+//                        Log.e("Media Player State : ", mp + "==" + mp.isPlaying());
+                        if(mp!=null)
+                            currentPosition = mp.getCurrentPosition();
                         sb.setProgress(currentPosition);
                     }
                     catch (InterruptedException e) {
@@ -119,17 +125,13 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                     handler.post(new Runnable(){
                         public void run() {
                             txtcurrent.setText(getTimeString(currentPosition));
-//                            if(currentPosition >= total){
-//                                sb.setProgress(0);
-//                                txtcurrent.setText("00:00");
-//                                btPlay.setText(">");
-//                            }
                         }
                     });
                 }
             }
         };
-        new Thread(runnable).start();
+        playThread = new Thread(runnable);
+        playThread.start();
     }
 
     private void loadMusicImage(){
@@ -138,9 +140,6 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         mmr.setDataSource(getActivity(),uri);
 
         byte [] data = mmr.getEmbeddedPicture();
-        //coverart is an Imageview object
-
-        // convert the byte array to a bitmap
         if(data != null)
         {
             Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
@@ -161,6 +160,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
             case R.id.imgPlay:
                 if(!mp.isPlaying()){
                     mp.start();
+                    PlayThreadInit();
                 }
                 break;
             case R.id.imgStop:

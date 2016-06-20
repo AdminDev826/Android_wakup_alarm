@@ -13,7 +13,7 @@ import java.util.Set;
  */
 public class AlarmSetting {
 
-    public static int alarm_win = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound setting
+    public static int alarm_win = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound List, 4: alarm_player
     public static final String LocalTmpPath = "my_alarm_path";
 
     public static String alarmID  = " ";
