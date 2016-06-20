@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:1-41:12
 	xmlns:android
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -63,7 +63,7 @@ ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:14
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:14:22-65
 application
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:16:5-38:19
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:16:5-39:19
 MERGED from [com.android.support:support-v4:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
@@ -95,28 +95,28 @@ ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:25
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:25:27-74
 activity#app.tabsample.AlarmMainActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:28:9-55
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:28:9-29:20
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:28:19-52
 activity#app.tabsample.ArrowsActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:29:9-52
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:9-52
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:29:19-49
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:19-49
 activity#app.tabsample.ListenAlarmActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:9-57
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:31:9-57
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:19-54
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:31:19-54
 activity#app.tabsample.OptionsActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:31:9-53
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:32:9-53
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:31:19-50
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:32:19-50
 receiver#app.tabsample.NotificationPublisher
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:9-59
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:34:9-59
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:19-56
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:34:19-56
 activity#app.tabsample.Player
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:35:9-37:70
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:36:9-38:70
 	android:label
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:37:13-58
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:38:13-58
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:36:13-35
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:37:13-35

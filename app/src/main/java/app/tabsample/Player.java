@@ -175,6 +175,7 @@ public class Player extends Activity implements View.OnClickListener {
                     }
                     currentPosition = 0;
                 }
+                break;
         }
     }
 

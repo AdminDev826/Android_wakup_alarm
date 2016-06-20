@@ -25,7 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AlarmMainActivity" />
+        <activity android:name=".AlarmMainActivity">
+        </activity>
         <activity android:name=".ArrowsActivity" />
         <activity android:name=".ListenAlarmActivity" />
         <activity android:name=".OptionsActivity" />

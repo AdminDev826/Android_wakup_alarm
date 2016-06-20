@@ -28,7 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="app.tabsample.AlarmMainActivity" />
+        <activity android:name="app.tabsample.AlarmMainActivity" >
+        </activity>
         <activity android:name="app.tabsample.ArrowsActivity" />
         <activity android:name="app.tabsample.ListenAlarmActivity" />
         <activity android:name="app.tabsample.OptionsActivity" />

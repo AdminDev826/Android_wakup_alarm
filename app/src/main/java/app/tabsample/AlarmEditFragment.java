@@ -67,7 +67,7 @@ public class AlarmEditFragment extends Fragment {
                 AlarmMainActivity.txtAdd.setVisibility(View.INVISIBLE);
                 AlarmMainActivity.txtBack.setVisibility(View.VISIBLE);
 
-                Fragment frag = new AlarmTitleInputFragment();
+                Fragment frag = new MusicListFragment();
                 FragmentManager fm = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.alarm_fragment, frag);
