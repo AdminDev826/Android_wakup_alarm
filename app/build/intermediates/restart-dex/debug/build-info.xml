@@ -4,7 +4,7 @@
     api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="1756021523013" >
+    timestamp="39536501816517" >
 
     <task
         name="javac"
@@ -19,7 +19,11 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="38403790610574" >
+    <artifact
+        location="E:\CODING\Android\WORK\SleepAlarm\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="39536501816517" >
         <artifact
             location="E:\CODING\Android\WORK\SleepAlarm\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

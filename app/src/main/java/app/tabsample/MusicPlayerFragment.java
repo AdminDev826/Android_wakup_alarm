@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
+import android.media.PlaybackParams;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -30,6 +31,7 @@ import alarmModels.AlarmSetting;
 public class MusicPlayerFragment extends Fragment implements View.OnClickListener {
 
     static MediaPlayer mp;
+    View view;
     Thread playThread;
     Handler handler;
     Resources res;
@@ -43,7 +45,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.alarm_sound_player, container, false);
+        view = inflater.inflate(R.layout.alarm_sound_player, container, false);
 
         txtcurrent = (TextView)view.findViewById(R.id.txtSeekPlayTime);
         txttotal = (TextView)view.findViewById(R.id.txtSeekEndTime);
@@ -58,6 +60,24 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         imgStop.setOnClickListener(this);
 
 
+        init();
+        loadMusicImage();
+
+        return view;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(playThread!=null){
+            playThread.interrupt();
+            playThread = null;
+        }
+        init();
+        loadMusicImage();
+    }
+
+    void init(){
         if(mp != null){
             mp.stop();
             mp.release();
@@ -91,9 +111,6 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         total = mp.getDuration();
         sb.setMax(total);
         txttotal.setText(getTimeString(total));
-        loadMusicImage();
-
-        return view;
     }
 
     private String getTimeString(int t){
@@ -154,6 +171,10 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgSlow:
+                if(mp.isPlaying()){
+
+                }
+
                 break;
             case R.id.imgPlay:
                 if(!mp.isPlaying()){

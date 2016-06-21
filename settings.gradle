@@ -1,1 +1,1 @@
-include ':app', ':swipe', ':slideDateTimePicker', ':DatePicker'
+include ':app', ':swipe', ':slideDateTimePicker', ':DatePicker', ':MediaPlayer'

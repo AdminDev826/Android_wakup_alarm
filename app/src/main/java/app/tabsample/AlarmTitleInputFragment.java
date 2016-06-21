@@ -46,11 +46,7 @@ public class AlarmTitleInputFragment extends Fragment {
                     AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);
                     AlarmSetting.strAlarmName = txtTitle.getText().toString();
 
-                    Fragment frag = new AlarmEditFragment();
-                    FragmentManager fm = getFragmentManager();
-                    FragmentTransaction fragmentTransaction = fm.beginTransaction();
-                    fragmentTransaction.replace(R.id.alarm_fragment, frag);
-                    fragmentTransaction.commit();
+                    getActivity().getFragmentManager().popBackStack();
 
                     return true;
                 }

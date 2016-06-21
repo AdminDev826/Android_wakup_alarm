@@ -34,16 +34,18 @@ public class MusicListFragment extends ListFragment implements AdapterView.OnIte
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
 //        Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
-
 //        TabSample.tabHost.setCurrentTab(2);
-
         AlarmSetting.alarm_index = position;
-        AlarmSetting.alarm_win = 4;
-        Fragment frag = new MusicPlayerFragment();
-        FragmentManager fm = getFragmentManager();
-        FragmentTransaction fragmentTransaction = fm.beginTransaction();
-        fragmentTransaction.replace(R.id.alarm_fragment, frag);
-        fragmentTransaction.addToBackStack(null);
-        fragmentTransaction.commit();
+        AlarmSetting.alarm_win = 1;
+        AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);
+        getActivity().getFragmentManager().popBackStack();
+
+//        AlarmSetting.alarm_win = 4;
+//        Fragment frag = new MusicPlayerFragment();
+//        FragmentManager fm = getFragmentManager();
+//        FragmentTransaction fragmentTransaction = fm.beginTransaction();
+//        fragmentTransaction.replace(R.id.alarm_fragment, frag);
+//        fragmentTransaction.addToBackStack(null);
+//        fragmentTransaction.commit();
     }
 }

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DatePicker/DatePicker.iml" filepath="$PROJECT_DIR$/DatePicker/DatePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediaPlayer/MediaPlayer.iml" filepath="$PROJECT_DIR$/MediaPlayer/MediaPlayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SleepAlarm.iml" filepath="$PROJECT_DIR$/SleepAlarm.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/slideDateTimePicker/slideDateTimePicker.iml" filepath="$PROJECT_DIR$/slideDateTimePicker/slideDateTimePicker.iml" />

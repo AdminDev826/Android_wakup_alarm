@@ -10,6 +10,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -55,6 +56,11 @@ public class AlarmMainActivity extends Activity {
                     txtBack.setText("Back");
                     txtAdd.setText("Done");
                     frag = new AlarmEditFragment();
+                    fragmentTransaction = fm.beginTransaction();
+                    fragmentTransaction.replace(R.id.alarm_fragment, frag);
+                    fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
                 }else{
                     if(!checkAlarmParams()) {
                         Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
@@ -64,13 +70,8 @@ public class AlarmMainActivity extends Activity {
                     txtBack.setText("Edit");
                     txtAdd.setText("Add");
                     addAlarm();
-                    frag = new AlarmListFragment();
+                    fm.popBackStack();
                 }
-                fragmentTransaction = fm.beginTransaction();
-                fragmentTransaction.replace(R.id.alarm_fragment, frag);
-                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
             }
         });
         txtBack.setOnClickListener(new View.OnClickListener() {
@@ -116,7 +117,10 @@ public class AlarmMainActivity extends Activity {
         builder.setContentTitle(title);
         builder.setContentText(content);
         builder.setSmallIcon(R.drawable.icon);
-        builder.setDefaults(Notification.DEFAULT_SOUND);
+//        builder.setDefaults(Notification.DEFAULT_SOUND);
+        int soundID = soundID = getResources().getIdentifier("sound" + AlarmSetting.alarm_index, "raw", getPackageName());
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + soundID);
+        builder.setSound(uri);
         builder.setAutoCancel(true);
         return builder.build();
     }
