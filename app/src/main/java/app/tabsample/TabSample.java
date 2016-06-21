@@ -9,7 +9,9 @@ import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
 
-import settings.OptionsActivity;
+import app.alarm.AlarmMainActivity;
+import app.listen.ListenActivity;
+import app.settings.OptionsActivity;
 
 
 /**

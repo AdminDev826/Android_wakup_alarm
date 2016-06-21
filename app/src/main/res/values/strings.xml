@@ -15,6 +15,15 @@
         <item>To the end of the world</item>
         <item>Words to live by</item>
     </string-array>
+    <string-array name="setting_main_list">
+        <item>About Barry Zecca</item>
+        <item>Subscribe to newsletter</item>
+        <item>Tell a friend</item>
+        <item>Share on Facebook</item>
+        <item>Share on Twitter</item>
+        <item>FAQ</item>
+        <item>Terms of use</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

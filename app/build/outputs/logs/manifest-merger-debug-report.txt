@@ -91,10 +91,10 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:27:27-74
-activity#app.tabsample.AlarmMainActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:9-64
+activity#app.alarm.AlarmMainActivity
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:9-73
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:19-52
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:30:19-61
 activity#app.tabsample.ArrowsActivity
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:31:9-52
 	android:name
@@ -103,10 +103,10 @@ activity#app.tabsample.ListenAlarmActivity
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:32:9-57
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:32:19-54
-activity#settings.OptionsActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:9-61
+activity#app.settings.OptionsActivity
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:9-65
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:19-58
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:19-62
 receiver#app.tabsample.NotificationPublisher
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:35:9-59
 	android:name
@@ -117,9 +117,9 @@ ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:37
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:39:13-58
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:38:13-35
-activity#app.tabsample.ListenActivity
+activity#app.listen.ListenActivity
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:40:9-42:70
 	android:label
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:42:13-58
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:41:13-43
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:41:13-53

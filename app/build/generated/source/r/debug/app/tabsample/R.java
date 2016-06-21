@@ -23,6 +23,7 @@ public final class R {
     public static final class array {
         public static final int Spinner_Content=0x7f0b0000;
         public static final int alarm_list=0x7f0b0001;
+        public static final int setting_main_list=0x7f0b0002;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1644,42 +1645,43 @@ containing a value of this type.
         public static final int alarm_normal=0x7f02004f;
         public static final int alarm_select=0x7f020050;
         public static final int app_background=0x7f020051;
-        public static final int background=0x7f020052;
-        public static final int bell_ico_40_1=0x7f020053;
-        public static final int bell_ico_40_click=0x7f020054;
-        public static final int edit_text_style=0x7f020055;
-        public static final int home_normal=0x7f020056;
-        public static final int home_selected=0x7f020057;
-        public static final int ic_delete=0x7f020058;
-        public static final int ic_launcher=0x7f020059;
-        public static final int ic_mic=0x7f02005a;
-        public static final int icon=0x7f02005b;
-        public static final int listen_ico_40=0x7f02005c;
-        public static final int listen_ico_click_40=0x7f02005d;
-        public static final int listen_normal=0x7f02005e;
-        public static final int listen_select=0x7f02005f;
-        public static final int music_back=0x7f020060;
-        public static final int music_play=0x7f020061;
-        public static final int music_slow=0x7f020062;
-        public static final int music_stop=0x7f020063;
-        public static final int notification_template_icon_bg=0x7f020075;
-        public static final int notify_normal=0x7f020064;
-        public static final int notify_select=0x7f020065;
-        public static final int search_normal=0x7f020066;
-        public static final int search_selected=0x7f020067;
-        public static final int settings_ico_40=0x7f020068;
-        public static final int settings_ico_40_click=0x7f020069;
-        public static final int settings_normal=0x7f02006a;
-        public static final int settings_select=0x7f02006b;
-        public static final int tab_alarm=0x7f02006c;
-        public static final int tab_focus=0x7f02006d;
-        public static final int tab_indicator=0x7f02006e;
-        public static final int tab_listen=0x7f02006f;
-        public static final int tab_notify=0x7f020070;
-        public static final int tab_press=0x7f020071;
-        public static final int tab_selected=0x7f020072;
-        public static final int tab_settings=0x7f020073;
-        public static final int tab_unselected=0x7f020074;
+        public static final int arrow=0x7f020052;
+        public static final int background=0x7f020053;
+        public static final int bell_ico_40_1=0x7f020054;
+        public static final int bell_ico_40_click=0x7f020055;
+        public static final int edit_text_style=0x7f020056;
+        public static final int home_normal=0x7f020057;
+        public static final int home_selected=0x7f020058;
+        public static final int ic_delete=0x7f020059;
+        public static final int ic_launcher=0x7f02005a;
+        public static final int ic_mic=0x7f02005b;
+        public static final int icon=0x7f02005c;
+        public static final int listen_ico_40=0x7f02005d;
+        public static final int listen_ico_click_40=0x7f02005e;
+        public static final int listen_normal=0x7f02005f;
+        public static final int listen_select=0x7f020060;
+        public static final int music_back=0x7f020061;
+        public static final int music_play=0x7f020062;
+        public static final int music_slow=0x7f020063;
+        public static final int music_stop=0x7f020064;
+        public static final int notification_template_icon_bg=0x7f020076;
+        public static final int notify_normal=0x7f020065;
+        public static final int notify_select=0x7f020066;
+        public static final int search_normal=0x7f020067;
+        public static final int search_selected=0x7f020068;
+        public static final int settings_ico_40=0x7f020069;
+        public static final int settings_ico_40_click=0x7f02006a;
+        public static final int settings_normal=0x7f02006b;
+        public static final int settings_select=0x7f02006c;
+        public static final int tab_alarm=0x7f02006d;
+        public static final int tab_focus=0x7f02006e;
+        public static final int tab_indicator=0x7f02006f;
+        public static final int tab_listen=0x7f020070;
+        public static final int tab_notify=0x7f020071;
+        public static final int tab_press=0x7f020072;
+        public static final int tab_selected=0x7f020073;
+        public static final int tab_settings=0x7f020074;
+        public static final int tab_unselected=0x7f020075;
     }
     public static final class id {
         public static final int AlarmEditLayout=0x7f0d0060;
@@ -1736,7 +1738,9 @@ containing a value of this type.
         public static final int icon=0x7f0d0029;
         public static final int ifRoom=0x7f0d001e;
         public static final int image=0x7f0d0026;
+        public static final int imageView=0x7f0d009b;
         public static final int imageView2=0x7f0d0061;
+        public static final int imageView3=0x7f0d009d;
         public static final int imageView4=0x7f0d0072;
         public static final int imageView5=0x7f0d0077;
         public static final int imgPlay=0x7f0d005d;
@@ -1798,6 +1802,7 @@ containing a value of this type.
         public static final int tabMode=0x7f0d000b;
         public static final int text=0x7f0d0094;
         public static final int text2=0x7f0d0092;
+        public static final int textSeparator=0x7f0d009c;
         public static final int textSpacerNoButtons=0x7f0d0034;
         public static final int textView3=0x7f0d0056;
         public static final int textView5=0x7f0d0055;
@@ -1896,8 +1901,10 @@ containing a value of this type.
         public static final int select_dialog_item_material=0x7f03002f;
         public static final int select_dialog_multichoice_material=0x7f030030;
         public static final int select_dialog_singlechoice_material=0x7f030031;
-        public static final int support_simple_spinner_dropdown_item=0x7f030032;
-        public static final int tab_indicator=0x7f030033;
+        public static final int snippet_item1=0x7f030032;
+        public static final int snippet_item2=0x7f030033;
+        public static final int support_simple_spinner_dropdown_item=0x7f030034;
+        public static final int tab_indicator=0x7f030035;
     }
     public static final class raw {
         public static final int beep=0x7f050000;

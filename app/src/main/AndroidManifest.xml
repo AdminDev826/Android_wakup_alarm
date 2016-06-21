@@ -27,10 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AlarmMainActivity"></activity>
+        <activity android:name="app.alarm.AlarmMainActivity"></activity>
         <activity android:name=".ArrowsActivity" />
         <activity android:name=".ListenAlarmActivity" />
-        <activity android:name="settings.OptionsActivity" />
+        <activity android:name="app.settings.OptionsActivity" />
 
         <receiver android:name=".NotificationPublisher" />
 
@@ -38,7 +38,7 @@
             android:name=".Player"
             android:label="@string/title_activity_player" />
         <activity
-            android:name=".ListenActivity"
+            android:name="app.listen.ListenActivity"
             android:label="@string/title_activity_listen"></activity>
     </application>
 
