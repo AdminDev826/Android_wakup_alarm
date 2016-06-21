@@ -5,6 +5,8 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import app.tabsample.R;
 
@@ -12,20 +14,53 @@ import app.tabsample.R;
 /**
  * Created by Alex on 6/13/2016.
  */
-public class OptionsActivity extends Activity {
+public class OptionsActivity extends Activity implements View.OnClickListener {
 
-    FragmentManager fm;
-    FragmentTransaction fragmentTransaction;
+    static FragmentManager fm;
+    static Fragment frag;
+    static FragmentTransaction fragmentTransaction;
+    static TextView txtBack;
+    static TextView txtTitle;
+    static TextView txtDone;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.optionspage);
 
-        fm = getFragmentManager();
+        txtBack = (TextView)findViewById(R.id.setting_txtBack);
+        txtTitle = (TextView)findViewById(R.id.setting_title);
+        txtDone = (TextView)findViewById(R.id.setting_txtAdd);
 
-        Fragment frag = new SettingMainFragment();
+        txtBack.setOnClickListener(this);
+        txtTitle.setOnClickListener(this);
+        txtDone.setOnClickListener(this);
+
+        fm = getFragmentManager();
+        frag = new SettingMainFragment();
         fragmentTransaction = fm.beginTransaction();
         fragmentTransaction.add(R.id.setting_fragment, frag).commit();
+    }
+
+    public static void setFragment(int position){
+        switch (position){
+            case 0:
+                txtBack.setVisibility(View.VISIBLE);
+                frag = new SettingAboutFragment();
+                fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction.replace(R.id.setting_fragment,frag);
+                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                break;
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.setting_txtBack :
+                fm.popBackStack();
+        }
     }
 }

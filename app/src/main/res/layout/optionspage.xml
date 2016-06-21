@@ -11,7 +11,7 @@
 			android:layout_width="150dp"
 			android:layout_height="match_parent"
 			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="Alarm"
+			android:text="Settings"
 			android:id="@+id/setting_title"
 			android:layout_alignParentBottom="true"
 			android:layout_centerHorizontal="true"
@@ -24,14 +24,15 @@
 			android:layout_width="50dp"
 			android:layout_height="match_parent"
 			android:textAppearance="?android:attr/textAppearanceMedium"
-			android:text="Add"
+			android:text="Done"
 			android:id="@+id/setting_txtAdd"
 			android:layout_centerVertical="true"
 			android:layout_alignParentRight="true"
 			android:layout_alignParentEnd="true"
 			android:layout_marginRight="30dp"
 			android:textColor="#ffffff"
-			android:gravity="center_vertical|center_horizontal" />
+			android:gravity="center_vertical|center_horizontal"
+			android:visibility="invisible" />
 
 		<TextView
 			android:layout_width="50dp"
@@ -44,8 +45,9 @@
 			android:layout_alignParentStart="true"
 			android:layout_marginLeft="25dp"
 			android:layout_marginStart="31dp"
-			android:text="Edit"
-			android:gravity="center_vertical|center_horizontal" />
+			android:text="Back"
+			android:gravity="center_vertical|center_horizontal"
+			android:visibility="invisible" />
 
 	</RelativeLayout>
 	<FrameLayout
