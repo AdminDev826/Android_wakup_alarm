@@ -30,7 +30,7 @@
         <activity android:name="app.tabsample.AlarmMainActivity" />
         <activity android:name="app.tabsample.ArrowsActivity" />
         <activity android:name="app.tabsample.ListenAlarmActivity" />
-        <activity android:name="app.tabsample.OptionsActivity" />
+        <activity android:name="settings.OptionsActivity" />
 
         <receiver android:name="app.tabsample.NotificationPublisher" />
 

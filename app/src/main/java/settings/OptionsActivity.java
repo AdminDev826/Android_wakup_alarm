@@ -1,7 +1,9 @@
-package app.tabsample;
+package settings;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import app.tabsample.R;
 
 
 /**

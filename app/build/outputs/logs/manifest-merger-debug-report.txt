@@ -103,10 +103,10 @@ activity#app.tabsample.ListenAlarmActivity
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:32:9-57
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:32:19-54
-activity#app.tabsample.OptionsActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:9-53
+activity#settings.OptionsActivity
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:9-61
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:19-50
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:19-58
 receiver#app.tabsample.NotificationPublisher
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:35:9-59
 	android:name
