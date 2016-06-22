@@ -35,7 +35,7 @@ public class NotificationPublisher extends BroadcastReceiver {
         String alarm_id = intent.getStringExtra(alarmID);
 
         AlarmItem alarmItem = AlarmSetting.getCurrentAlarmData(context,alarm_id);
-        if(alarmItem.weekString.contains(weekday))
+        if(alarmItem.weekString.contains(weekday) && alarmItem.alarm_state == 1)
             notificationManager.notify(id, notification);
 
         PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
@@ -56,21 +56,6 @@ public class NotificationPublisher extends BroadcastReceiver {
             Toast.makeText(context, msgStr, Toast.LENGTH_LONG).show();
         }
         wl.release();
-    }
-    int getDayofWeek(String day){
-        if(day.equals("Mon"))
-            return 0;
-        else if(day.equals("Tue"))
-            return 1;
-        else if(day.equals("Wed"))
-            return 2;
-        else if(day.equals("Thu"))
-            return 3;
-        else if(day.equals("Fri"))
-            return 4;
-        else if(day.equals("Sat"))
-            return 5;
-        else return 6;
     }
     public void SetAlarm(Context context)
     {

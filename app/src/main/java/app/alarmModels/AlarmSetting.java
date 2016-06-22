@@ -1,12 +1,17 @@
 package app.alarmModels;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import app.tabsample.NotificationPublisher;
 
 /**
  * Created by Alex on 6/12/2016.
@@ -17,28 +22,25 @@ public class AlarmSetting {
     public static final String LocalTmpPath = "my_alarm_path";
 
     public static String alarmID  = " ";
+    public static int alarm_identifier = 0;
     public static String strAlarmName = "Wake Up";
     public static String strAlarmTime = " ";
     public static int alarm_index = 0;
     public static int alarm_state = 1;
     public static int noti_state = 1;
     public static String weekDays = " ";
-    public static String alarm_repeats = " ";
-
     public static int[] week_flag = new int[7];
-    public static int[] alarm_ids = new int[7];
 
     public static void init(){
         alarmID  = " ";
+        alarm_identifier = 0;
         strAlarmName = "Wake Up";
         strAlarmTime = " ";
         alarm_index = 0;
         alarm_state = 1;
         noti_state = 1;
         weekDays = " ";
-        alarm_repeats = " ";
         week_flag = new int[7];
-        alarm_ids = new int[7];
     }
     public static String getWeekdays(){
         String temp = "";
@@ -72,24 +74,6 @@ public class AlarmSetting {
         week_flag = temp;
         return temp;
     }
-
-    public static String getAlarmRepeats(){
-        String temp = "" + AlarmSetting.alarm_ids[0];
-        for(int i = 1; i < 7; i++){
-            temp += "," + AlarmSetting.alarm_ids[i];
-        }
-        alarm_repeats = temp;
-        return temp;
-    }
-    public static int[] getAlarm_ids(){
-        int[] temp = new int[7];
-        String[] tmpAry = alarm_repeats.split(",");
-        for(int i = 0; i < 7; i++){
-            temp[i] = Integer.parseInt(tmpAry[i]);
-        }
-        alarm_ids = temp;
-        return temp;
-    }
     public static Boolean checkWeek(){
         for(int i = 0; i < 7; i++){
             if(week_flag[i] == 1)
@@ -99,6 +83,7 @@ public class AlarmSetting {
     }
     public static void setAlarm(AlarmItem alarm){
         alarmID = alarm.alarmID;
+        alarm_identifier = alarm.alarm_identifier;
         strAlarmName = alarm.strAlarmName;
         strAlarmTime = alarm.strAlarmTime;
         alarm_index = alarm.alarm_index;
@@ -114,13 +99,13 @@ public class AlarmSetting {
         int size = sharedPreference.getInt("Array_Size", 0);
 
         Set<String> currentSet = new HashSet<String>();
+        currentSet.add("identifier:::" + alarm_identifier);
         currentSet.add("time:::" + strAlarmTime);
         currentSet.add("title:::" + strAlarmName);
         currentSet.add("alarm_index:::" + alarm_index);
         currentSet.add("alarm_state:::" + alarm_state);
         currentSet.add("noti_state:::" + noti_state);
         currentSet.add("weekdays:::" + getWeekdays());
-        currentSet.add("alarm_repeats:::" + alarm_repeats);
 
         if(alarmID.equals(" ")){
             alarmID = "Set"+size;
@@ -137,6 +122,40 @@ public class AlarmSetting {
         return true;
     }
 
+    public static void deleteAlarm(Context context, AlarmItem alarmItem){
+        String alarm_id = "";
+        String new_id = "";
+        boolean bool = false;
+        cancelAlarm(context, alarmItem.alarm_identifier);
+        SharedPreferences sharedPreference = context.getSharedPreferences(LocalTmpPath, 0);
+        SharedPreferences.Editor editor = sharedPreference.edit();
+        int size = sharedPreference.getInt("Array_Size", 0);
+        for(int i = 0; i < size; i++){
+            alarm_id = "Set" + i;
+            if(bool == true){
+                new_id = "Set" + (i - 1);
+                Set<String> hashSet = sharedPreference.getStringSet(alarm_id, null);
+                editor.putStringSet(new_id, hashSet);
+                editor.remove(alarm_id);
+            }
+            if(alarm_id.equals(alarmItem.alarmID)){
+                editor.remove(alarmID);
+                bool = true;
+            }
+        }
+        if(bool == true)
+            editor.putInt("Array_Size", (size - 1));
+        editor.commit();
+    }
+
+    private static void cancelAlarm(Context context, int identifier)
+    {
+        Intent intent = new Intent(context, NotificationPublisher.class);
+        PendingIntent sender = PendingIntent.getBroadcast(context,identifier, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+        alarmManager.cancel(sender);
+    }
+
     public static List getAlarmData(Context context){
         List<AlarmItem> alarmList = new ArrayList<>();
         String alarm_id = " ";
@@ -149,28 +168,31 @@ public class AlarmSetting {
         }
         return alarmList;
     }
-    public static AlarmItem getCurrentAlarmData(Context context,String curID){
-        AlarmItem alarm;
+
+    public static AlarmItem getCurrentAlarmData(Context context, String alarm_id){
+        AlarmItem alarmItem;
         SharedPreferences sharedPreference = context.getSharedPreferences(LocalTmpPath, 0);
-            Set<String> hashSet = sharedPreference.getStringSet(curID, null);
-            alarm = getDataList(hashSet, curID);
-        return alarm;
+        Set<String> hashSet = sharedPreference.getStringSet(alarm_id, null);
+        alarmItem = getDataList(hashSet, alarm_id);
+        return alarmItem;
     }
 
     private static AlarmItem getDataList(Set<String> hashSet, String alarm_id){
 
         String [] alarmAry = hashSet.toArray(new String[hashSet.size()]);
+        int identifier = 0;
         String time = " ";
         String title = " ";
         int alarm_index = 0;
         int alarmState = 0;
         int notiState = 0;
         String weekdays = " ";
-        String repeats = " ";
 
         for(int i = 0; i < alarmAry.length; i++){
             String[] keys = alarmAry[i].split(":::");
             switch(keys[0]){
+                case "identifier" :
+                    identifier = Integer.valueOf(keys[1]);
                 case "time" :
                     time = keys[1];
                     break;
@@ -189,14 +211,11 @@ public class AlarmSetting {
                 case "weekdays" :
                     weekdays = keys[1];
                     break;
-                case "alarm_repeats" :
-                    repeats = keys[1];
-                    break;
                 default:
                     break;
             }
         }
-        AlarmItem item = new AlarmItem(alarm_id, title, time, alarm_index, alarmState, notiState, weekdays, getWeekString(weekdays), repeats);
+        AlarmItem item = new AlarmItem(alarm_id, identifier, title, time, alarm_index, alarmState, notiState, weekdays, getWeekString(weekdays));
         return item;
     }
     public static String getWeekString(String weekDays){

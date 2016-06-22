@@ -33,14 +33,14 @@
         jar="E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="f08d19e72b07966de565efb46479129541753c7f">
+        sha1="dba3757051fd56be0c4cdc00a02765d7a7857914">
         <dex dex="E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2b34ccad5fb47eb831b9ba32df0d0a99ee11df31\classes.dex" />
     </item>
     <item
         jar="E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="33e126b6adaddee6b88cb1c7b6ec845e15d599e5">
+        sha1="604e5d201aa96ed7373101467bf38221bcc66752">
         <dex dex="E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_03bbabafd8712181ee1874aa3e9be1560902a614\classes.dex" />
     </item>
     <item

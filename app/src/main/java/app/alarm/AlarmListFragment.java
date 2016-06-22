@@ -71,6 +71,8 @@ public class AlarmListFragment extends Fragment {
         mListView.setOnMenuItemClickListener(new SwipeMenuListView.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(int position, SwipeMenu menu, int index) {
+                AlarmItem alarm = alarmList.get(position);
+                AlarmSetting.deleteAlarm(getActivity().getApplicationContext(),alarm);
                 alarmList.remove(position);
                 mAdapter.notifyDataSetChanged();
                 return false;
