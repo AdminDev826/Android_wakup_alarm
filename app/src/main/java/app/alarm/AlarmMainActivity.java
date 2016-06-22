@@ -102,6 +102,7 @@ public class AlarmMainActivity extends Activity {
         Intent notificationIntent = new Intent(this, NotificationPublisher.class);
 
         notificationIntent.putExtra(NotificationPublisher.NOTIFICATION_ID, _id);
+        notificationIntent.putExtra(NotificationPublisher.alarmID, AlarmSetting.alarmID);
         notificationIntent.putExtra(NotificationPublisher.NOTIFICATION, notification);
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, _id, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -119,7 +120,7 @@ public class AlarmMainActivity extends Activity {
         builder.setContentText(content);
         builder.setSmallIcon(R.drawable.icon);
 //        builder.setDefaults(Notification.DEFAULT_SOUND);
-        int soundID = soundID = getResources().getIdentifier("sound" + AlarmSetting.alarm_index, "raw", getPackageName());
+        int soundID = getResources().getIdentifier("sound" + AlarmSetting.alarm_index, "raw", getPackageName());
         Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + soundID);
         builder.setSound(uri);
         builder.setAutoCancel(true);
@@ -128,24 +129,29 @@ public class AlarmMainActivity extends Activity {
 
     private void addAlarm(){
 
-        int flag = 1;
-        AlarmSetting.alarm_state = flag;
-
-        String[] intervals = getIntervals();
-        for(int i = 0; i < 7; i++){
-            if(intervals[i] != ""){
-                ParsePosition pos = new ParsePosition(0);
-                Date date1 = mFormatter.parse(intervals[i] + " " + AlarmSetting.strAlarmTime, pos);
-                System.out.println("in milliseconds: " + (int)date1.getTime());
-                int s_id = scheduleNotification(getNotification("my alarm title (Wake up)", "alarm content" + AlarmSetting.strAlarmTime), date1.getTime());
-                AlarmSetting.alarm_ids[i] = s_id;
-            }else{
-                AlarmSetting.alarm_ids[i] = 0;
-            }
-        }
         AlarmSetting.saveAlarm(getApplicationContext());
+        ParsePosition pos = new ParsePosition(0);
+        Date date1 = mFormatter.parse(getToday() + " " + AlarmSetting.strAlarmTime, pos);
+        int s_id = scheduleNotification(getNotification("my alarm title (Wake up)", "alarm content" + AlarmSetting.strAlarmTime), date1.getTime());
+
+//        String[] intervals = getIntervals();
+//        for(int i = 0; i < 7; i++){
+//            if(intervals[i] != ""){
+//                ParsePosition pos = new ParsePosition(0);
+//                Date date1 = mFormatter.parse(intervals[i] + " " + AlarmSetting.strAlarmTime, pos);
+//                System.out.println("in milliseconds: " + (int)date1.getTime());
+//                int s_id = scheduleNotification(getNotification("my alarm title (Wake up)", "alarm content" + AlarmSetting.strAlarmTime), date1.getTime());
+//                AlarmSetting.alarm_ids[i] = s_id;
+//            }else{
+//                AlarmSetting.alarm_ids[i] = 0;
+//            }
+//        }
     }
 
+    String getToday(){
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        return df.format(new Date());
+    }
     String[] getIntervals(){
         SimpleDateFormat df;
         Date today = new Date();

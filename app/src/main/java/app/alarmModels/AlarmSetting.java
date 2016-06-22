@@ -20,7 +20,7 @@ public class AlarmSetting {
     public static String strAlarmName = "Wake Up";
     public static String strAlarmTime = " ";
     public static int alarm_index = 0;
-    public static int alarm_state = 0;
+    public static int alarm_state = 1;
     public static int noti_state = 1;
     public static String weekDays = " ";
     public static String alarm_repeats = " ";
@@ -33,7 +33,7 @@ public class AlarmSetting {
         strAlarmName = "Wake Up";
         strAlarmTime = " ";
         alarm_index = 0;
-        alarm_state = 0;
+        alarm_state = 1;
         noti_state = 1;
         weekDays = " ";
         alarm_repeats = " ";
@@ -123,12 +123,12 @@ public class AlarmSetting {
         currentSet.add("alarm_repeats:::" + alarm_repeats);
 
         if(alarmID.equals(" ")){
-            String setName = "Set"+size;
-            editor.remove(setName);
+            alarmID = "Set"+size;
+            editor.remove(alarmID);
 
             size = size+1;
             editor.putInt("Array_Size", size);
-            editor.putStringSet(setName, currentSet);
+            editor.putStringSet(alarmID, currentSet);
         }else{
             editor.remove(alarmID);
             editor.putStringSet(alarmID, currentSet);
@@ -149,6 +149,14 @@ public class AlarmSetting {
         }
         return alarmList;
     }
+    public static AlarmItem getCurrentAlarmData(Context context,String curID){
+        AlarmItem alarm;
+        SharedPreferences sharedPreference = context.getSharedPreferences(LocalTmpPath, 0);
+            Set<String> hashSet = sharedPreference.getStringSet(curID, null);
+            alarm = getDataList(hashSet, curID);
+        return alarm;
+    }
+
     private static AlarmItem getDataList(Set<String> hashSet, String alarm_id){
 
         String [] alarmAry = hashSet.toArray(new String[hashSet.size()]);
