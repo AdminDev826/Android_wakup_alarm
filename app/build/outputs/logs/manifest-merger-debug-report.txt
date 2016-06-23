@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:1-46:12
 	xmlns:android
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -61,7 +61,7 @@ ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:14
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:14:22-65
 application
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:18:5-43:19
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:18:5-44:19
 MERGED from [com.android.support:support-v4:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -107,19 +107,23 @@ activity#app.settings.OptionsActivity
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:9-65
 	android:name
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:33:19-62
+activity#app.notify.NotifyListActivity
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:34:9-66
+	android:name
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:34:19-63
 receiver#app.tabsample.NotificationPublisher
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:35:9-59
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:36:9-59
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:35:19-56
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:36:19-56
 activity#app.tabsample.Player
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:37:9-39:61
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:38:9-40:61
 	android:label
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:39:13-58
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:40:13-58
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:38:13-35
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:39:13-35
 activity#app.listen.ListenActivity
-ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:40:9-42:70
+ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:41:9-43:70
 	android:label
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:42:13-58
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:43:13-58
 	android:name
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:41:13-53
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:42:13-53

@@ -214,6 +214,7 @@ public class AlarmListFragment extends Fragment {
                     AlarmMainActivity.txtAdd.setText("Done");
                     AlarmMainActivity.txtBack.setText("Back");
                     AlarmSetting.alarm_win = 1;
+                    AlarmSetting.alarm_update = true;
                     AlarmSetting.setAlarm(alarm);
                     Fragment frag = new AlarmEditFragment();
                     FragmentManager fm = getFragmentManager();
@@ -244,6 +245,7 @@ public class AlarmListFragment extends Fragment {
             }
         }
         String getFormatTime(String t){
+            Log.e("Set time is : " , t);
             String temp;
             int hour;
             String[] tmp = t.split(":");

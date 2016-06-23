@@ -19,6 +19,7 @@ import app.tabsample.NotificationPublisher;
 public class AlarmSetting {
 
     public static int alarm_win = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound List, 4: alarm_player
+    public static boolean alarm_update = false;
     public static final String LocalTmpPath = "my_alarm_path";
 
     public static String alarmID  = " ";
@@ -32,6 +33,7 @@ public class AlarmSetting {
     public static int[] week_flag = new int[7];
 
     public static void init(){
+        alarm_update = false;
         alarmID  = " ";
         alarm_identifier = 0;
         strAlarmName = "Wake Up";
@@ -193,6 +195,7 @@ public class AlarmSetting {
             switch(keys[0]){
                 case "identifier" :
                     identifier = Integer.valueOf(keys[1]);
+                    break;
                 case "time" :
                     time = keys[1];
                     break;

@@ -68,7 +68,7 @@ public class AlarmMainActivity extends Activity {
                         return;
                     }
                     AlarmSetting.alarm_win = 0;
-                    txtBack.setText("Edit");
+                    txtBack.setText("");
                     txtAdd.setText("Add");
                     addAlarm();
                     fm.popBackStack();
@@ -109,6 +109,8 @@ public class AlarmMainActivity extends Activity {
         long futureInMillis = mili;
         AlarmManager alarmManager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
 //        alarmManager.set(AlarmManager.RTC_WAKEUP, futureInMillis, pendingIntent);
+        if(AlarmSetting.alarm_update)
+            alarmManager.cancel(pendingIntent);
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, futureInMillis, AlarmManager.INTERVAL_DAY, pendingIntent);
     }
 
@@ -130,8 +132,9 @@ public class AlarmMainActivity extends Activity {
         AlarmSetting.saveAlarm(getApplicationContext());
         ParsePosition pos = new ParsePosition(0);
         Date date1 = mFormatter.parse(getToday() + " " + AlarmSetting.strAlarmTime, pos);
-        scheduleNotification(getNotification(AlarmSetting.strAlarmName, "alarm content" + AlarmSetting.strAlarmTime), date1.getTime());
+        scheduleNotification(getNotification(AlarmSetting.strAlarmName, "Alarm Content!" + AlarmSetting.strAlarmTime), date1.getTime());
     }
+
 
     String getToday(){
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");

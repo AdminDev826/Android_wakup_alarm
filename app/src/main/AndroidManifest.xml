@@ -31,6 +31,7 @@
         <activity android:name=".ArrowsActivity" />
         <activity android:name=".ListenAlarmActivity" />
         <activity android:name="app.settings.OptionsActivity" />
+        <activity android:name="app.notify.NotifyListActivity" />
 
         <receiver android:name=".NotificationPublisher" />
 

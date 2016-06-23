@@ -124,8 +124,8 @@ public class AlarmEditFragment extends Fragment {
                 // TODO Auto-generated method stub
                 AlarmSetting.strAlarmTime = hourOfDay + ":" + minute;
 
-                Toast.makeText(getActivity(), "Time is " + hourOfDay + " : "
-                        + minute, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), "Time is " + hourOfDay + " : "
+//                        + minute, Toast.LENGTH_SHORT).show();
             }
         });
 

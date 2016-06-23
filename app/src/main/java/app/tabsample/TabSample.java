@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import app.alarm.AlarmMainActivity;
 import app.listen.ListenActivity;
+import app.notify.NotifyListActivity;
 import app.settings.OptionsActivity;
 
 
@@ -31,7 +32,7 @@ public class TabSample extends TabActivity {
 	private void setTabs()
 	{
 		addTab("Alarm", R.drawable.tab_alarm, AlarmMainActivity.class);
-		addTab("Notify", R.drawable.tab_notify, ArrowsActivity.class);
+		addTab("Notify", R.drawable.tab_notify, NotifyListActivity.class);
 		
 		addTab("Listen", R.drawable.tab_listen, ListenActivity.class);
 		addTab("Settings", R.drawable.tab_settings, OptionsActivity.class);
