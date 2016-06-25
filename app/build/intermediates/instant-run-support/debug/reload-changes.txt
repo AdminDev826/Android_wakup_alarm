@@ -1,11 +1,3 @@
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$style$override.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$styleable$override.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$override.class
 CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$id$override.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\customlistview\CustomAdapter$override.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$integer$override.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$string$override.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\settings\OptionsActivity$override.class
 CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$layout$override.class
-CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\tabsample\R$raw$override.class
+CHANGED,E:\CODING\Android\WORK\SleepAlarm\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\app\alarm\AlarmEditFragment$override.class

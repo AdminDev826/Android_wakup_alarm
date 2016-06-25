@@ -65,6 +65,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="disable_color">#FF7B7979</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="gold">#e6b121</color>
@@ -1561,7 +1562,10 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <style name="app_theme" parent="android:Theme.Holo.Light.NoActionBar">
+    <style name="app_theme" parent="android:Theme.Holo.NoActionBar">
+		<item name="android:windowBackground">@drawable/app_background</item>
+	</style>
+    <style name="app_theme1" parent="android:Theme.DeviceDefault.Wallpaper.NoTitleBar">
 		<item name="android:windowBackground">@drawable/app_background</item>
 	</style>
 </resources>

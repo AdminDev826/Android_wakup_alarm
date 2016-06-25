@@ -41,7 +41,7 @@ public class AlarmEditFragment extends Fragment {
         alarmMusic = (TextView) view.findViewById(R.id.txtMusicName);
         RelativeLayout alarm_title_layout = (RelativeLayout) view.findViewById(R.id.alarm_label_layout);
         RelativeLayout alarm_Music_layout = (RelativeLayout) view.findViewById(R.id.music_text_layout);
-        int[] week_days = AlarmSetting.getWeek_flag();
+        final int[] week_days = AlarmSetting.getWeek_flag();
 
         txtAlamName.setText(AlarmSetting.strAlarmName);
         alarmMusic.setText(getMusicName());
@@ -79,7 +79,7 @@ public class AlarmEditFragment extends Fragment {
             }
         });
         RelativeLayout active_layout = (RelativeLayout) view.findViewById(R.id.weekday1_layout);
-        RelativeLayout weekDays_layout = (RelativeLayout)view.findViewById(R.id.weekday2_layout);
+        final RelativeLayout weekDays_layout = (RelativeLayout)view.findViewById(R.id.weekday2_layout);
         for (int i = 0; i < active_layout.getChildCount(); i++) {
             if (active_layout.getChildAt(i).getClass() == TextView.class) {
                 weekdays_active[i] = (TextView)active_layout.getChildAt(i);
@@ -101,9 +101,11 @@ public class AlarmEditFragment extends Fragment {
                 weekdays_lavel[i].setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        weekdays_lavel[finalI].setVisibility(View.INVISIBLE);
-                        weekdays_active[finalI].setVisibility(View.VISIBLE);
-                        AlarmSetting.week_flag[finalI] = 1;
+//                        weekdays_lavel[finalI].setVisibility(View.INVISIBLE);
+//                        weekdays_active[finalI].setVisibility(View.VISIBLE);
+//                        AlarmSetting.week_flag[finalI] = 1;
+//                        float yy = weekdays_lavel[finalI].getY();
+//                        weekdays_lavel[finalI].setY();
                     }
                 });
             }

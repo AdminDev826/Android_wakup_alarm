@@ -74,7 +74,7 @@ MERGED from [com.android.support:support-v4:23.4.0] E:\CODING\Android\WORK\Sleep
 	android:icon
 		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:19:9-38
 	android:theme
-		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:20:9-42
 activity#app.tabsample.TabSample
 ADDED from E:\CODING\Android\WORK\SleepAlarm\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:label

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-	<style name="app_theme" parent="android:Theme.Holo.Light.NoActionBar">
+	<style name="app_theme" parent="android:Theme.Holo.NoActionBar">
 		<item name="android:windowBackground">@drawable/app_background</item>
-	</style>	
-</resources> 
+	</style>
+	<style name="app_theme1" parent="android:Theme.DeviceDefault.Wallpaper.NoTitleBar">
+		<item name="android:windowBackground">@drawable/app_background</item>
+	</style>
+</resources>

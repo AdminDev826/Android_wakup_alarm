@@ -10,6 +10,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -56,6 +57,7 @@ public class AlarmMainActivity extends Activity {
                     AlarmSetting.init();
                     txtBack.setText("Back");
                     txtAdd.setText("Done");
+                    txtAdd.setTextColor(getResources().getColor(R.color.disable_color));
                     frag = new AlarmEditFragment();
                     fragmentTransaction = fm.beginTransaction();
                     fragmentTransaction.replace(R.id.alarm_fragment, frag);
@@ -64,11 +66,12 @@ public class AlarmMainActivity extends Activity {
                     fragmentTransaction.commit();
                 }else{
                     if(!checkAlarmParams()) {
-                        Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
+//                        Toast.makeText(getApplicationContext(), "Please correct insert alarm informations!!!", Toast.LENGTH_LONG).show();
                         return;
                     }
+                    txtAdd.setTextColor(getResources().getColor(R.color.white));
                     AlarmSetting.alarm_win = 0;
-                    txtBack.setText("");
+                    txtBack.setText("Edit");
                     txtAdd.setText("Add");
                     addAlarm();
                     fm.popBackStack();
@@ -81,6 +84,7 @@ public class AlarmMainActivity extends Activity {
                 if(AlarmSetting.alarm_win == 1) {
                     AlarmSetting.alarm_win = 0;
                     txtAdd.setText("Add");
+                    txtBack.setText("Edit");
                     txtAdd.setVisibility(View.VISIBLE);
                 }else if (AlarmSetting.alarm_win == 2 || AlarmSetting.alarm_win == 3){
                     AlarmSetting.alarm_win = 1;

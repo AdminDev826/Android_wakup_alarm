@@ -17,7 +17,7 @@
 
     <application
         android:icon="@drawable/icon"
-        android:theme="@style/app_theme" >
+        android:theme="@style/app_theme1" >
         <activity
             android:name="app.tabsample.TabSample"
             android:label="@string/app_name" >
