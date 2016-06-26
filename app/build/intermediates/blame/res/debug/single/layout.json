@@ -216,6 +216,10 @@
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\check_text_layout.xml",
+        "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\layout\\check_text_layout.xml"
+    },
+    {
         "merged": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\res\\merged\\debug\\layout\\options_main_layout.xml",
         "source": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\layout\\options_main_layout.xml"
     }

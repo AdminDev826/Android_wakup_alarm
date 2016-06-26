@@ -66,17 +66,16 @@
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Track with background music"
             android:id="@+id/music_title"
             android:gravity="center_horizontal"
-            android:textColor="#333333"
-            android:layout_marginTop="0dp" />
+            android:textColor="#333333" />
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Barry Zecca"
             android:id="@+id/textView3"
@@ -92,24 +91,25 @@
             android:layout_marginBottom="0dp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="38dp"
+                android:layout_height="19dp"
                 android:id="@+id/imgSlow"
-                android:src="@drawable/music_slow" />
+                android:src="@drawable/music_slow"
+                android:layout_marginRight="60dp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imgPlay"
                 android:src="@drawable/music_play"
-                android:layout_marginLeft="30dp" />
+                android:layout_marginRight="12dp" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:id="@+id/imgStop"
                 android:src="@drawable/music_stop"
-                android:layout_marginLeft="30dp" />
+                android:layout_marginLeft="60dp" />
         </LinearLayout>
     </LinearLayout>
 

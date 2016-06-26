@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:context="app.tabsample.Player"
+android:orientation="vertical"
+android:weightSum="1">
+    <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/check_text"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:gravity="center_vertical"
+        android:checkMark="?android:attr/textCheckMark"
+        android:clickable="false"
+        android:checked="false"
+        android:layout_marginLeft="20dp" />
+</LinearLayout>

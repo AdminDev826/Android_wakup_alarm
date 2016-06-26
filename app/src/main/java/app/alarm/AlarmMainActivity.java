@@ -15,6 +15,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -84,6 +85,7 @@ public class AlarmMainActivity extends Activity {
                 if(AlarmSetting.alarm_win == 1) {
                     AlarmSetting.alarm_win = 0;
                     txtAdd.setText("Add");
+                    txtAdd.setTextColor(getResources().getColor(R.color.white));
                     txtBack.setText("Edit");
                     txtAdd.setVisibility(View.VISIBLE);
                 }else if (AlarmSetting.alarm_win == 2 || AlarmSetting.alarm_win == 3){
@@ -91,6 +93,9 @@ public class AlarmMainActivity extends Activity {
                 }else if(AlarmSetting.alarm_win == 4){
                     AlarmSetting.alarm_win = 3;
                 }
+                InputMethodManager imm = (InputMethodManager)getSystemService(AlarmMainActivity.INPUT_METHOD_SERVICE);
+                if(imm.isActive())
+                    imm.hideSoftInputFromWindow(getWindow().getDecorView().getWindowToken(), 0);
                 if (fm.getBackStackEntryCount() > 0) {
                     Log.e("MainActivity", "popping backstack");
                     fm.popBackStack();

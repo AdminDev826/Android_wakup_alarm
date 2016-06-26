@@ -53,6 +53,15 @@ public class OptionsActivity extends Activity implements View.OnClickListener {
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
                 break;
+//            case 7:
+//                txtBack.setVisibility(View.VISIBLE);
+//                frag = new SettingFAQFragment();
+//                fragmentTransaction = fm.beginTransaction();
+//                fragmentTransaction.replace(R.id.setting_fragment,frag);
+//                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+//                fragmentTransaction.addToBackStack(null);
+//                fragmentTransaction.commit();
+//                break;
         }
     }
 
