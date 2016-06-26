@@ -24,8 +24,8 @@
             android:id="@+id/textView9"
             android:background="@drawable/back"
             android:layout_gravity="center"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp" />
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp" />
 
     </FrameLayout>
 
@@ -49,94 +49,9 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/weekday1_layout"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="5dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Mon"
-                android:id="@+id/txtMonday"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="0dp"
-                android:visibility="invisible" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Tue"
-                android:id="@+id/txtTuesday"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/txtMonday"
-                android:visibility="invisible" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Wed"
-                android:id="@+id/txtWednsday"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/txtTuesday"
-                android:visibility="invisible" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Thu"
-                android:id="@+id/txtThusday"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/txtWednsday"
-                android:visibility="invisible" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Fri"
-                android:id="@+id/txtFriday"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/txtThusday"
-                android:visibility="invisible" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Sat"
-                android:id="@+id/txtSaturday"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/txtFriday"
-                android:visibility="invisible" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Sun"
-                android:id="@+id/txtSunday"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/txtSaturday"
-                android:visibility="invisible" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/weekday2_layout"
-            android:gravity="center_horizontal"
+            android:layout_height="50dp"
+            android:id="@+id/weekday_layout"
+            android:gravity="center_horizontal|bottom"
             android:layout_marginTop="5dp">
 
             <TextView
@@ -145,7 +60,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Mon"
                 android:id="@+id/txtMon"
-                android:textColor="#143c7d"
+                android:textColor="@color/text_color"
                 android:layout_marginLeft="0dp" />
 
             <TextView
@@ -154,7 +69,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Tue"
                 android:id="@+id/txtTue"
-                android:textColor="#143c7d"
+                android:textColor="@color/text_color"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@+id/txtMon" />
 
@@ -164,7 +79,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Wed"
                 android:id="@+id/txtWed"
-                android:textColor="#143c7d"
+                android:textColor="@color/text_color"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@+id/txtTue" />
 
@@ -174,7 +89,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Thu"
                 android:id="@+id/txtThu"
-                android:textColor="#143c7d"
+                android:textColor="@color/text_color"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@+id/txtWed" />
 
@@ -184,7 +99,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Fri"
                 android:id="@+id/txtFri"
-                android:textColor="#143c7d"
+                android:textColor="@color/text_color"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@+id/txtThu" />
 
@@ -194,7 +109,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Sat"
                 android:id="@+id/txtSat"
-                android:textColor="#143c7d"
+                android:textColor="@color/text_color"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@+id/txtFri" />
 
@@ -204,7 +119,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Sun"
                 android:id="@+id/txtSun"
-                android:textColor="#143c7d"
+                android:textColor="@color/text_color"
                 android:layout_marginLeft="20dp"
                 android:layout_toRightOf="@+id/txtSat" />
         </RelativeLayout>
@@ -229,7 +144,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Label"
                 android:id="@+id/txtLabel"
                 android:textColor="#ffffff"
@@ -242,11 +157,10 @@
             <TextView
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/txt_alarm_label"
                 android:textColor="#ffffff"
                 android:layout_centerVertical="true"
-                android:textStyle="bold"
                 android:gravity="right"
                 android:layout_toLeftOf="@+id/alarm_label_image" />
 
@@ -279,7 +193,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Sound &amp; Music"
                 android:id="@+id/txtMusicLabel"
                 android:textColor="#ffffff"
@@ -290,13 +204,12 @@
                 android:layout_centerVertical="true" />
 
             <TextView
-                android:layout_width="120dp"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                 android:id="@+id/txtMusicName"
                 android:textColor="#ffffff"
                 android:layout_centerVertical="true"
-                android:textStyle="bold"
                 android:gravity="right"
                 android:layout_marginLeft="10dp"
                 android:layout_toLeftOf="@+id/alarm_music_image" />

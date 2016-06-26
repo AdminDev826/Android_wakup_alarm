@@ -20,4 +20,5 @@
 	<color name="nonactivecolor">#141e42</color>
 	<color name="alarm_list_color">#24419d</color>
 	<color name="disable_color">#FF7B7979</color>
+	<color name="text_color">#143c7d</color>
 </resources>

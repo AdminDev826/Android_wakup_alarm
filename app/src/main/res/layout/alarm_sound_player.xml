@@ -69,7 +69,7 @@
             android:layout_height="40dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Track with background music"
-            android:id="@+id/textView5"
+            android:id="@+id/music_title"
             android:gravity="center_horizontal"
             android:textColor="#333333"
             android:layout_marginTop="0dp" />

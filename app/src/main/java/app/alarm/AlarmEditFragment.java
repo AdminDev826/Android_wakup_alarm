@@ -3,6 +3,7 @@ package app.alarm;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,10 +27,9 @@ public class AlarmEditFragment extends Fragment {
 
     private TimePicker alarm;
     private TextView txtAlamName;
-    private String alarmTime;
     private TextView alarmMusic;
-    private TextView[] weekdays_active = new TextView[7];
     private TextView[] weekdays_lavel = new TextView[7];
+    private int[] week_days;
 
     @Override
     public View onCreateView(LayoutInflater inflater,
@@ -41,7 +41,7 @@ public class AlarmEditFragment extends Fragment {
         alarmMusic = (TextView) view.findViewById(R.id.txtMusicName);
         RelativeLayout alarm_title_layout = (RelativeLayout) view.findViewById(R.id.alarm_label_layout);
         RelativeLayout alarm_Music_layout = (RelativeLayout) view.findViewById(R.id.music_text_layout);
-        final int[] week_days = AlarmSetting.getWeek_flag();
+        week_days = AlarmSetting.getWeek_flag();
 
         txtAlamName.setText(AlarmSetting.strAlarmName);
         alarmMusic.setText(getMusicName());
@@ -78,45 +78,41 @@ public class AlarmEditFragment extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-        RelativeLayout active_layout = (RelativeLayout) view.findViewById(R.id.weekday1_layout);
-        final RelativeLayout weekDays_layout = (RelativeLayout)view.findViewById(R.id.weekday2_layout);
-        for (int i = 0; i < active_layout.getChildCount(); i++) {
-            if (active_layout.getChildAt(i).getClass() == TextView.class) {
-                weekdays_active[i] = (TextView)active_layout.getChildAt(i);
-
-                final int finalI2 = i;
-                weekdays_active[i].setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        weekdays_active[finalI2].setVisibility(View.INVISIBLE);
-                        weekdays_lavel[finalI2].setVisibility(View.VISIBLE);
-                        AlarmSetting.week_flag[finalI2] = 0;
-                    }
-                });
-            }
+        RelativeLayout weekDays_layout = (RelativeLayout)view.findViewById(R.id.weekday_layout);
+        for (int i = 0; i < weekDays_layout.getChildCount(); i++) {
             if(weekDays_layout.getChildAt(i).getClass() == TextView.class){
                 weekdays_lavel[i] = (TextView)weekDays_layout.getChildAt(i);
-
                 final int finalI = i;
                 weekdays_lavel[i].setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
 //                        weekdays_lavel[finalI].setVisibility(View.INVISIBLE);
 //                        weekdays_active[finalI].setVisibility(View.VISIBLE);
-//                        AlarmSetting.week_flag[finalI] = 1;
-//                        float yy = weekdays_lavel[finalI].getY();
-//                        weekdays_lavel[finalI].setY();
+                        float yy = weekdays_lavel[finalI].getY();
+                        if(week_days[finalI] == 0){
+                            AlarmSetting.week_flag[finalI] = 1;
+                            week_days[finalI] = 1;
+                            weekdays_lavel[finalI].setY(yy - 70);
+                            weekdays_lavel[finalI].setTextColor(getResources().getColor(R.color.white));
+                        }else{
+                            AlarmSetting.week_flag[finalI] = 0;
+                            weekdays_lavel[finalI].setY(yy + 70);
+                            weekdays_lavel[finalI].setTextColor(getResources().getColor(R.color.text_color));
+                            week_days[finalI] = 0;
+                        }
+                        setDoneColor();
                     }
                 });
             }
+            float yy = weekdays_lavel[i].getY();
             if (week_days[i] == 1) {
-                weekdays_active[i].setVisibility(View.VISIBLE);
-                weekdays_lavel[i].setVisibility(View.INVISIBLE);
+                weekdays_lavel[i].setY(yy - 70);
+                weekdays_lavel[i].setTextColor(getResources().getColor(R.color.white));
             } else {
-                weekdays_active[i].setVisibility(View.INVISIBLE);
-                weekdays_lavel[i].setVisibility(View.VISIBLE);
+               // weekdays_lavel[i].setY(yy + 70);
+                weekdays_lavel[i].setTextColor(getResources().getColor(R.color.text_color));
             }
-
+            setDoneColor();
         }
 
         alarm.setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
@@ -132,6 +128,15 @@ public class AlarmEditFragment extends Fragment {
         });
 
         return view;
+    }
+    void setDoneColor(){
+        for(int i = 0; i < 7; i++){
+            if(week_days[i] == 1){
+                AlarmMainActivity.txtAdd.setTextColor(getResources().getColor(R.color.white));
+                return;
+            }
+        }
+        AlarmMainActivity.txtAdd.setTextColor(getResources().getColor(R.color.disable_color));
     }
     void setCurrentAlarmTime(){
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");

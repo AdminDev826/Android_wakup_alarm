@@ -17,6 +17,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import app.alarmModels.AlarmSetting;
 import app.tabsample.R;
@@ -34,6 +35,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
     int soundID;
     int total = 0;
     int currentPosition = 0;
+    TextView music_title;
 
     SeekBar sb;
     TextView txtcurrent, txttotal;
@@ -50,11 +52,32 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         imgPlay = (ImageView)view.findViewById(R.id.imgPlay);
         imgStop = (ImageView)view.findViewById(R.id.imgStop);
         musicImage = (ImageView)view.findViewById(R.id.musicImage);
+        music_title = (TextView)view.findViewById(R.id.music_title);
 
         imgSlow.setOnClickListener(this);
         imgPlay.setOnClickListener(this);
         imgStop.setOnClickListener(this);
 
+        sb = (SeekBar)view.findViewById(R.id.seekBar);
+        sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                int currentTime = mp.getCurrentPosition() + seekBar.getProgress();
+                txtcurrent.setText(getTimeString(currentTime));
+                txttotal.setText(getLimitString(currentTime));
+                mp.seekTo(seekBar.getProgress());
+            }
+        });
 
         init();
         loadMusicImage();
@@ -79,31 +102,13 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
             mp.release();
             mp = null;
         }
-
-        sb = (SeekBar)view.findViewById(R.id.seekBar);
-        sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                int currentTime = mp.getCurrentPosition() + seekBar.getProgress();
-                txtcurrent.setText(getTimeString(currentTime));
-                mp.seekTo(seekBar.getProgress());
-            }
-        });
         res = view.getContext().getResources();
         soundID = res.getIdentifier("sound" + AlarmSetting.alarm_index, "raw", view.getContext().getPackageName());
-
         mp = MediaPlayer.create(view.getContext(),soundID);
-//        mp.start();
+        String[] alarms = getResources().getStringArray(R.array.alarm_list);
+        music_title.setText(alarms[AlarmSetting.alarm_index]);
+        seekbar_init();
+
         total = mp.getDuration();
         sb.setMax(total);
         txttotal.setText(getTimeString(total));
@@ -126,8 +131,9 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                     try {
                         Thread.sleep(200);
 //                        Log.e("Media Player State : ", mp + "==" + mp.isPlaying());
-                        if(mp != null && mp.isPlaying())
-                            currentPosition = mp.getCurrentPosition();
+                        if(mp != null)
+                            if(mp.isPlaying())
+                                currentPosition = mp.getCurrentPosition();
                         sb.setProgress(currentPosition);
                     }
                     catch (InterruptedException e) {
@@ -136,6 +142,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                     handler.post(new Runnable(){
                         public void run() {
                             txtcurrent.setText(getTimeString(currentPosition));
+                            txttotal.setText(getLimitString(currentPosition));
                         }
                     });
                 }
@@ -167,10 +174,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgSlow:
-                if(mp.isPlaying()){
-
-                }
-
+                seekbar_init();
                 break;
             case R.id.imgPlay:
                 if(!mp.isPlaying()){
@@ -182,18 +186,26 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                 if(mp.isPlaying()){
                     mp.pause();
                 }else{
-                    sb.setProgress(0);
-                    txtcurrent.setText("00:00");
-                    mp.stop();
-                    try {
-                        mp.prepare();
-                        mp.seekTo(0);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    currentPosition = 0;
+                    seekbar_init();
                 }
                 break;
         }
+    }
+    void seekbar_init(){
+        sb.setProgress(0);
+        txtcurrent.setText("00:00");
+        mp.stop();
+        try {
+            mp.prepare();
+            mp.seekTo(0);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        currentPosition = 0;
+    }
+    String getLimitString(int cc){
+        String temp = new String("");
+        temp = getTimeString(total - cc);
+        return temp;
     }
 }

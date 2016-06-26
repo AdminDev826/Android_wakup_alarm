@@ -35,14 +35,13 @@ public class AlarmTitleInputFragment extends Fragment {
                 // If the event is a key-down event on the "enter" button
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    // Perform action on key press
-                    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(view.getContext().INPUT_METHOD_SERVICE);
-                    imm.hideSoftInputFromWindow(getActivity().getWindow().getDecorView().getWindowToken(), 0);
-                    AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);
-                    AlarmSetting.strAlarmName = txtTitle.getText().toString();
-
-                    getActivity().getFragmentManager().popBackStack();
-
+                        if(!txtTitle.getText().toString().equals("")) {
+                            InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(view.getContext().INPUT_METHOD_SERVICE);
+                            imm.hideSoftInputFromWindow(getActivity().getWindow().getDecorView().getWindowToken(), 0);
+                            AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);
+                            AlarmSetting.strAlarmName = txtTitle.getText().toString();
+                            getActivity().getFragmentManager().popBackStack();
+                        }
                     return true;
                 }
                 return false;
