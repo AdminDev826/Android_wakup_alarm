@@ -104,6 +104,13 @@ public class AlarmListFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        alarmList = AlarmSetting.getAlarmData(getActivity().getApplicationContext());
+    }
+
     private void delete(ApplicationInfo item) {
         // delete app
         try {

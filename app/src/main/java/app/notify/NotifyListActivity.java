@@ -54,32 +54,6 @@ public class NotifyListActivity extends Activity {
         mAdapter = new AppAdapter();
         mListView.setAdapter(mAdapter);
 
-        SwipeMenuCreator creator = new SwipeMenuCreator() {
-
-            @Override
-            public void create(SwipeMenu menu) {
-                SwipeMenuItem deleteItem = new SwipeMenuItem(
-                        getApplicationContext());
-                deleteItem.setBackground(new ColorDrawable(Color.rgb(0xF9,
-                        0x3F, 0x25)));
-                deleteItem.setWidth(dp2px(90));
-                deleteItem.setIcon(R.drawable.ic_delete);
-                // add to menu
-                menu.addMenuItem(deleteItem);
-            }
-        };
-        // set creator
-        mListView.setMenuCreator(creator);
-        mListView.setOnMenuItemClickListener(new SwipeMenuListView.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(int position, SwipeMenu menu, int index) {
-                AlarmItem alarm = alarmList.get(position);
-                AlarmSetting.deleteAlarm(getApplicationContext(),alarm);
-                alarmList.remove(position);
-                mAdapter.notifyDataSetChanged();
-                return false;
-            }
-        });
         // set SwipeListener
         mListView.setOnSwipeListener(new SwipeMenuListView.OnSwipeListener() {
             @Override
@@ -103,6 +77,14 @@ public class NotifyListActivity extends Activity {
             }
         });
     }
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        alarmList = AlarmSetting.getAlarmData(getApplicationContext());
+        mAdapter = new AppAdapter();
+        mListView.setAdapter(mAdapter);
+    }
     class AppAdapter extends BaseSwipListAdapter {
         @Override
         public int getCount() {
@@ -119,6 +101,7 @@ public class NotifyListActivity extends Activity {
         public AlarmItem getAlarm(int position){
             return alarmList.get(position);
         }
+
         @Override
         public View getView(final int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
@@ -148,19 +131,7 @@ public class NotifyListActivity extends Activity {
                 holder.tv_time.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.sw_wake.setChecked(false);
             }
-            holder.iv_icon.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-//                    Toast.makeText(NotifyListActivity.this, "iv_icon_click", Toast.LENGTH_SHORT).show();
 
-                }
-            });
-            holder.tv_time.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-//                    Toast.makeText(NotifyListActivity.this,"iv_icon_click" + position,Toast.LENGTH_SHORT).show();
-                }
-            });
             holder.sw_wake.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
