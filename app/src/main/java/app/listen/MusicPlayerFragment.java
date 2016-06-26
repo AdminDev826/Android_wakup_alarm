@@ -88,26 +88,30 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
     @Override
     public void onResume() {
         super.onResume();
-        if(playThread!=null){
-            playThread.interrupt();
-            playThread = null;
-        }
         init();
         loadMusicImage();
     }
 
     void init(){
+        sb.setProgress(0);
+        if(playThread!=null){
+            Thread t1 = playThread;
+            playThread = null;
+            t1.interrupt();
+        }
         if(mp != null){
             mp.stop();
             mp.release();
             mp = null;
         }
+        txtcurrent.setText("00:00");
+        currentPosition = 0;
         res = view.getContext().getResources();
         soundID = res.getIdentifier("sound" + AlarmSetting.alarm_index, "raw", view.getContext().getPackageName());
         mp = MediaPlayer.create(view.getContext(),soundID);
         String[] alarms = getResources().getStringArray(R.array.alarm_list);
         music_title.setText(alarms[AlarmSetting.alarm_index]);
-        seekbar_init();
+//        seekbar_init();
 
         total = mp.getDuration();
         sb.setMax(total);
@@ -127,9 +131,9 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         Runnable runnable = new Runnable() {
             public void run() {
                 currentPosition = 0;
-                while (currentPosition < total) {
+                while (playThread != null && currentPosition < total) {
                     try {
-                        Thread.sleep(200);
+                        Thread.sleep(300);
 //                        Log.e("Media Player State : ", mp + "==" + mp.isPlaying());
                         if(mp != null)
                             if(mp.isPlaying())
@@ -204,8 +208,8 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         currentPosition = 0;
     }
     String getLimitString(int cc){
-        String temp = new String("");
-        temp = getTimeString(total - cc);
+        String temp ="- ";
+        temp += getTimeString(total - cc);
         return temp;
     }
 }

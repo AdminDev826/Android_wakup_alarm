@@ -23,6 +23,8 @@ import com.baoyz.swipemenulistview.SwipeMenuCreator;
 import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -127,17 +129,21 @@ public class NotifyListActivity extends Activity {
             AlarmItem alarm = getAlarm(position);
             ViewHolder holder = (ViewHolder) convertView.getTag();
 
-            holder.tv_time.setText(getFormatTime(alarm.strAlarmTime));
+            String[] times = getFormatTime(alarm.strAlarmTime);
+            holder.tv_time.setText(times[0]);
+            holder.tv_apm.setText(times[1]);
             holder.tv_title.setText(alarm.strAlarmName);
             holder.tv_weekdays.setText(alarm.weekString);
             holder.sw_wake.setTag(Integer.valueOf(position));
             if(alarm.noti_state == 1){
                 holder.tv_time.setTextColor(getResources().getColor(R.color.activecolor));
+                holder.tv_apm.setTextColor(getResources().getColor(R.color.activecolor));
                 holder.tv_title.setTextColor(getResources().getColor(R.color.activecolor));
                 holder.tv_weekdays.setTextColor(getResources().getColor(R.color.activecolor));
                 holder.sw_wake.setChecked(true);
             }else{
                 holder.tv_weekdays.setTextColor(getResources().getColor(R.color.alarm_list_color));
+                holder.tv_apm.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.tv_title.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.tv_time.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.sw_wake.setChecked(false);
@@ -178,6 +184,7 @@ public class NotifyListActivity extends Activity {
         class ViewHolder {
             ImageView iv_icon;
             TextView tv_time;
+            TextView tv_apm;
             TextView tv_title;
             TextView tv_weekdays;
             Switch sw_wake;
@@ -185,25 +192,29 @@ public class NotifyListActivity extends Activity {
             public ViewHolder(View view) {
                 iv_icon = (ImageView) view.findViewById(R.id.iv_icon);
                 tv_time = (TextView) view.findViewById(R.id.tv_name);
+                tv_apm = (TextView)view.findViewById(R.id.txtAPM);
                 sw_wake = (Switch) view.findViewById(R.id.sw_wake);
                 tv_title = (TextView) view.findViewById(R.id.top_text);
                 tv_weekdays = (TextView) view.findViewById(R.id.bottom_text);
 
-                tv_time.setTextSize(20);
                 view.setTag(this);
             }
         }
-        String getFormatTime(String t){
+        String[] getFormatTime(String t){
             Log.e("Set time is : " , t);
-            String temp;
-            int hour;
+            String[] temp = new String[2];
             String[] tmp = t.split(":");
-            hour = Integer.valueOf(tmp[0]);
+            int hour = Integer.valueOf(tmp[0]);
+            int minute = Integer.valueOf(tmp[1]);
             if(hour > 12){
-                temp = (hour - 12) + ":" + tmp[1]  + "  PM";
-            }else{
-                temp = t + "  AM";
+                temp[1] = "  PM";
+                hour = hour - 12;
             }
+            else{
+                temp[1] = "  AM";
+            }
+            temp[0] = (hour < 10 ? "0" + hour : hour) + ":" + (minute < 10 ? "0" + minute : minute);
+
             return temp;
         }
 

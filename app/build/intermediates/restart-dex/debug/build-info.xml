@@ -4,26 +4,26 @@
     api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="117292542367820" >
+    timestamp="139255648437878" >
 
     <task
         name="javac"
-        duration="105" />
+        duration="94" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="51" />
+        duration="45" />
     <task
         name="verifier"
-        duration="5" />
+        duration="3" />
 
     <artifact
         location="E:\CODING\Android\WORK\SleepAlarm\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="117292542367820" >
+    <build timestamp="139255648437878" >
         <artifact
             location="E:\CODING\Android\WORK\SleepAlarm\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

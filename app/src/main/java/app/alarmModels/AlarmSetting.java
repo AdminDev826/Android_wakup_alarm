@@ -6,7 +6,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -37,12 +39,22 @@ public class AlarmSetting {
         alarmID  = " ";
         alarm_identifier = 0;
         strAlarmName = "Wake Up";
-        strAlarmTime = " ";
+        strAlarmTime = getCurrentTime();
         alarm_index = 0;
         alarm_state = 1;
         noti_state = 1;
         weekDays = " ";
         week_flag = new int[7];
+    }
+    private static String getCurrentTime(){
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+        String curdate = sdf.format(new Date());
+        String[] tmpAry = curdate.split(":");
+        String temp = "";
+        int temp1 = Integer.valueOf(tmpAry[0]);
+        int temp2 = Integer.valueOf(tmpAry[1]);
+        temp = temp1 + ":" + temp2;
+        return temp;
     }
     public static String getWeekdays(){
         String temp = "";
