@@ -11,7 +11,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 
 import app.alarmModels.AlarmSetting;
-import app.tabsample.R;
+import app.main.R;
 
 /**
  * Created by Alex on 6/14/2016.

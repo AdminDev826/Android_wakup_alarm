@@ -19,7 +19,7 @@
         android:icon="@drawable/icon"
         android:theme="@style/app_theme1" >
         <activity
-            android:name="app.tabsample.TabSample"
+            android:name="app.main.TabSample"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,19 +28,20 @@
             </intent-filter>
         </activity>
         <activity android:name="app.alarm.AlarmMainActivity" />
-        <activity android:name="app.tabsample.ArrowsActivity" />
-        <activity android:name="app.tabsample.ListenAlarmActivity" />
+        <activity android:name="app.main.ArrowsActivity" />
+        <activity android:name="app.main.ListenAlarmActivity" />
         <activity android:name="app.settings.OptionsActivity" />
         <activity android:name="app.notify.NotifyListActivity" />
 
-        <receiver android:name="app.tabsample.NotificationPublisher" />
+        <receiver android:name="app.main.NotificationPublisher" />
 
         <activity
-            android:name="app.tabsample.Player"
+            android:name="app.main.Player"
             android:label="@string/title_activity_player" />
         <activity
             android:name="app.listen.ListenActivity"
             android:label="@string/title_activity_listen" />
+        <activity android:name="app.notify.TestActivity" />
     </application>
 
 </manifest>

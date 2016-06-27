@@ -13,14 +13,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import app.tabsample.NotificationPublisher;
+import app.main.NotificationPublisher;
 
 /**
  * Created by Alex on 6/12/2016.
  */
 public class AlarmSetting {
 
-    public static int alarm_win = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound List, 4: alarm_player
+    public static int alarm_win = 0;// 0:alarm list, 1: alarm edit, 2: alarm title enter, 3: alarm_sound List, 4: alarm_player, 5: setting_about
     public static boolean alarm_update = false;
     public static final String LocalTmpPath = "my_alarm_path";
 

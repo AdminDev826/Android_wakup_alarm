@@ -17,10 +17,9 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 import app.alarmModels.AlarmSetting;
-import app.tabsample.R;
+import app.main.R;
 
 /**
  * Created by Alex on 6/20/2016.
@@ -94,6 +93,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
 
     void init(){
         sb.setProgress(0);
+        total = 0;
         if(playThread!=null){
             Thread t1 = playThread;
             playThread = null;
@@ -115,7 +115,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
 
         total = mp.getDuration();
         sb.setMax(total);
-        txttotal.setText(getTimeString(total));
+        txttotal.setText(getLimitString(0));
     }
 
     private String getTimeString(int t){

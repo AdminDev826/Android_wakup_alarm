@@ -2,7 +2,6 @@ package app.listen;
 
 
 import android.app.ListFragment;
-import android.content.ClipData;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,16 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 import android.widget.CheckedTextView;
 import android.widget.ListView;
 
-import java.util.ArrayList;
-
 import app.alarm.AlarmMainActivity;
-import app.alarmModels.AlarmItem;
 import app.alarmModels.AlarmSetting;
-import app.tabsample.R;
+import app.main.R;
 
 public class MusicListFragment extends ListFragment implements AdapterView.OnItemClickListener {
 

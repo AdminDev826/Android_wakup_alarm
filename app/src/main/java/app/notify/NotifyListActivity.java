@@ -1,38 +1,26 @@
 package app.notify;
 
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.baoyz.swipemenulistview.BaseSwipListAdapter;
-import com.baoyz.swipemenulistview.SwipeMenu;
-import com.baoyz.swipemenulistview.SwipeMenuCreator;
-import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
-
-import org.w3c.dom.Text;
+import com.kyleduo.switchbutton.SwitchButton;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import app.alarm.AlarmEditFragment;
-import app.alarm.AlarmMainActivity;
 import app.alarmModels.AlarmItem;
 import app.alarmModels.AlarmSetting;
-import app.tabsample.R;
+import app.main.R;
 
 /**
  * Created by Alex on 6/23/2016.
@@ -132,10 +120,10 @@ public class NotifyListActivity extends Activity {
                 holder.sw_wake.setChecked(false);
             }
 
-            holder.sw_wake.setOnClickListener(new View.OnClickListener() {
+            holder.sw_wake.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
-                public void onClick(View v) {
-                    Switch sw_wake = (Switch)v;
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    Switch sw_wake = (Switch)buttonView;
                     int index = ((Integer)sw_wake.getTag()).intValue();
                     AlarmItem alarm = getAlarm(index);
                     if(sw_wake.isChecked()){
@@ -150,6 +138,7 @@ public class NotifyListActivity extends Activity {
                     mAdapter.notifyDataSetChanged();
                 }
             });
+
             return convertView;
         }
         class ViewHolder {
@@ -158,13 +147,13 @@ public class NotifyListActivity extends Activity {
             TextView tv_apm;
             TextView tv_title;
             TextView tv_weekdays;
-            Switch sw_wake;
+            SwitchButton sw_wake;
 
             public ViewHolder(View view) {
                 iv_icon = (ImageView) view.findViewById(R.id.iv_icon);
                 tv_time = (TextView) view.findViewById(R.id.tv_name);
                 tv_apm = (TextView)view.findViewById(R.id.txtAPM);
-                sw_wake = (Switch) view.findViewById(R.id.sw_wake);
+                sw_wake = (SwitchButton) view.findViewById(R.id.sw_wake);
                 tv_title = (TextView) view.findViewById(R.id.top_text);
                 tv_weekdays = (TextView) view.findViewById(R.id.bottom_text);
 

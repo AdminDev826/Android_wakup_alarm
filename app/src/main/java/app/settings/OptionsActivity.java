@@ -8,7 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import app.tabsample.R;
+import app.alarmModels.AlarmSetting;
+import app.main.R;
 
 
 /**
@@ -46,6 +47,7 @@ public class OptionsActivity extends Activity implements View.OnClickListener {
         switch (position){
             case 0:
                 txtBack.setVisibility(View.VISIBLE);
+                AlarmSetting.alarm_win = 5;
                 frag = new SettingAboutFragment();
                 fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.setting_fragment,frag);
@@ -69,7 +71,11 @@ public class OptionsActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.setting_txtBack :
+                if(AlarmSetting.alarm_win == 5){
+                    txtBack.setVisibility(View.INVISIBLE);
+                }
                 fm.popBackStack();
+                break;
         }
     }
 }

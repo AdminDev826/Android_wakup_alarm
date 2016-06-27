@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.TreeSet;
 
-import app.tabsample.R;
+import app.main.R;
 
 public class CustomAdapter extends BaseAdapter {
 

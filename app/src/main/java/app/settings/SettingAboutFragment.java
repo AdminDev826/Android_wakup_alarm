@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import app.tabsample.R;
+import app.main.R;
 
 /**
  * Created by Alex on 6/21/2016.

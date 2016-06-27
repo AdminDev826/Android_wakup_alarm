@@ -3,7 +3,7 @@ package app.listen;
 import android.os.Bundle;
 import android.app.Activity;
 
-import app.tabsample.R;
+import app.main.R;
 
 public class ListenActivity extends Activity {
 

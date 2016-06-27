@@ -16,23 +16,23 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
-import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.baoyz.swipemenulistview.BaseSwipListAdapter;
 import com.baoyz.swipemenulistview.SwipeMenu;
 import com.baoyz.swipemenulistview.SwipeMenuCreator;
 import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
+import com.kyleduo.switchbutton.SwitchButton;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import app.alarmModels.AlarmItem;
 import app.alarmModels.AlarmSetting;
-import app.tabsample.R;
+import app.main.R;
 
 
 public class AlarmListFragment extends Fragment {
@@ -158,6 +158,8 @@ public class AlarmListFragment extends Fragment {
         public AlarmItem getAlarm(int position){
             return alarmList.get(position);
         }
+
+
         @Override
         public View getView(final int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
@@ -174,6 +176,7 @@ public class AlarmListFragment extends Fragment {
             holder.tv_title.setText(alarm.strAlarmName);
             holder.tv_weekdays.setText(alarm.weekString);
             holder.sw_wake.setTag(Integer.valueOf(position));
+
             if(alarm.alarm_state == 1){
                 holder.tv_time.setTextColor(getResources().getColor(R.color.activecolor));
                 holder.tv_apm.setTextColor(getResources().getColor(R.color.activecolor));
@@ -187,18 +190,18 @@ public class AlarmListFragment extends Fragment {
                 holder.tv_time.setTextColor(getResources().getColor(R.color.alarm_list_color));
                 holder.sw_wake.setChecked(false);
             }
-            holder.sw_wake.setOnClickListener(new View.OnClickListener() {
+            holder.sw_wake.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
-                public void onClick(View v) {
-                    Switch sw_wake = (Switch)v;
-                    int index = ((Integer)sw_wake.getTag()).intValue();
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    SwitchButton sw_wake1 = (SwitchButton) buttonView;
+                    int index = ((Integer)sw_wake1.getTag()).intValue();
                     AlarmItem alarm = getAlarm(index);
-                    if(sw_wake.isChecked()){
+                    if(sw_wake1.isChecked()){
                         alarm.alarm_state = 1;
                     }else{
                         alarm.alarm_state = 0;
                     }
-                    Log.e("Switch Event:", position + "--->>>" + index + "==" + sw_wake.isChecked());
+                    Log.e("Switch Event1:", position + "--->>>" + index + "==" + sw_wake1.isChecked());
 
                     AlarmSetting.setAlarm(alarm);
                     AlarmSetting.saveAlarm(getActivity());
@@ -230,13 +233,13 @@ public class AlarmListFragment extends Fragment {
             TextView tv_apm;
             TextView tv_title;
             TextView tv_weekdays;
-            Switch sw_wake;
+            SwitchButton sw_wake;
 
             public ViewHolder(View view) {
                 iv_icon = (ImageView) view.findViewById(R.id.iv_icon);
                 tv_time = (TextView) view.findViewById(R.id.tv_name);
                 tv_apm = (TextView)view.findViewById(R.id.txtAPM);
-                sw_wake = (Switch) view.findViewById(R.id.sw_wake);
+                sw_wake = (SwitchButton) view.findViewById(R.id.sw_wake);
                 tv_title = (TextView) view.findViewById(R.id.top_text);
                 tv_weekdays = (TextView) view.findViewById(R.id.bottom_text);
 

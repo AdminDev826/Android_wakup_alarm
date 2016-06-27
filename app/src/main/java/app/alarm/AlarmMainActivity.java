@@ -10,22 +10,20 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import app.alarmModels.AlarmSetting;
-import app.tabsample.NotificationPublisher;
-import app.tabsample.R;
+import app.main.NotificationPublisher;
+import app.main.R;
 
 public class AlarmMainActivity extends Activity {
 

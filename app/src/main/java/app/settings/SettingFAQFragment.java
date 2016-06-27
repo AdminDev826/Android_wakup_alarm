@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 
 import app.customlistview.CustomAdapter;
-import app.tabsample.R;
+import app.main.R;
 
 /**
  * Created by Alex on 6/21/2016.

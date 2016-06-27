@@ -8,21 +8,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/DatePicker" />
-            <option value="$PROJECT_DIR$/MediaPlayer" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/slideDateTimePicker" />
             <option value="$PROJECT_DIR$/swipe" />
+            <option value="$PROJECT_DIR$/switchbutton" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/DatePicker" />
-            <option value="$PROJECT_DIR$/MediaPlayer" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/slideDateTimePicker" />
             <option value="$PROJECT_DIR$/swipe" />
+            <option value="$PROJECT_DIR$/switchbutton" />
           </set>
         </option>
       </GradleProjectSettings>
