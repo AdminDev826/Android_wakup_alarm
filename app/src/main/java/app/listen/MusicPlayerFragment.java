@@ -21,9 +21,6 @@ import java.io.IOException;
 import app.alarmModels.AlarmSetting;
 import app.main.R;
 
-/**
- * Created by Alex on 6/20/2016.
- */
 public class MusicPlayerFragment extends Fragment implements View.OnClickListener {
 
     static MediaPlayer mp;
@@ -71,10 +68,16 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                int currentTime = mp.getCurrentPosition() + seekBar.getProgress();
-                txtcurrent.setText(getTimeString(currentTime));
-                txttotal.setText(getLimitString(currentTime));
-                mp.seekTo(seekBar.getProgress());
+                int currentTime = seekBar.getProgress() + mp.getCurrentPosition();
+                if(currentTime < total) {
+                    txtcurrent.setText(getTimeString(currentTime));
+                    txttotal.setText(getLimitString(currentTime));
+                    mp.seekTo(seekBar.getProgress());
+                }else{
+                    txtcurrent.setText(getTimeString(total));
+                    txttotal.setText(getLimitString(total));
+                    mp.seekTo(total-currentTime);
+                }
             }
         });
 
@@ -92,7 +95,6 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
     }
 
     void init(){
-        sb.setProgress(0);
         total = 0;
         if(playThread!=null){
             Thread t1 = playThread;
@@ -104,18 +106,14 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
             mp.release();
             mp = null;
         }
-        txtcurrent.setText("00:00");
-        currentPosition = 0;
+
         res = view.getContext().getResources();
         soundID = res.getIdentifier("sound" + AlarmSetting.alarm_index, "raw", view.getContext().getPackageName());
         mp = MediaPlayer.create(view.getContext(),soundID);
         String[] alarms = getResources().getStringArray(R.array.alarm_list);
         music_title.setText(alarms[AlarmSetting.alarm_index]);
-//        seekbar_init();
 
-        total = mp.getDuration();
-        sb.setMax(total);
-        txttotal.setText(getLimitString(0));
+        seekbar_init();
     }
 
     private String getTimeString(int t){
@@ -130,7 +128,6 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         handler = new Handler();
         Runnable runnable = new Runnable() {
             public void run() {
-                currentPosition = 0;
                 while (playThread != null && currentPosition < total) {
                     try {
                         Thread.sleep(300);
@@ -196,6 +193,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         }
     }
     void seekbar_init(){
+        currentPosition = 0;
         sb.setProgress(0);
         txtcurrent.setText("00:00");
         mp.stop();
@@ -205,11 +203,14 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
         } catch (IOException e) {
             e.printStackTrace();
         }
-        currentPosition = 0;
+        total = mp.getDuration();
+        sb.setMax(total);
+        txttotal.setText(getLimitString(0));
     }
     String getLimitString(int cc){
         String temp ="- ";
-        temp += getTimeString(total - cc);
+        int limit = Math.abs(total - cc);
+        temp += getTimeString(limit);
         return temp;
     }
 }

@@ -67,7 +67,7 @@
             style="@style/SwitchButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:kswAnimationDuration="300"
+            app:kswAnimationDuration="0"
             app:kswBackDrawable="@drawable/ios_back_drawable"
             app:kswBackMeasureRatio="1.4"
             app:kswThumbDrawable="@drawable/ios_thumb_selector"
@@ -76,10 +76,10 @@
             app:kswThumbMarginRight="-5dp"
             app:kswThumbMarginTop="-2.5dp"
             android:checked="false"
-            android:layout_centerVertical="true"
             android:layout_toLeftOf="@+id/imageView11"
             android:layout_toStartOf="@+id/imageView11"
-            android:layout_marginRight="-10dp" />
+            android:layout_marginRight="-15dp"
+            android:layout_marginTop="15dp" />
 
         <ImageView
             android:layout_width="40dp"

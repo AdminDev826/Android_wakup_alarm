@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
-import android.widget.Switch;
 import android.widget.TextView;
 
 import com.baoyz.swipemenulistview.BaseSwipListAdapter;
@@ -123,7 +122,7 @@ public class NotifyListActivity extends Activity {
             holder.sw_wake.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    Switch sw_wake = (Switch)buttonView;
+                    SwitchButton sw_wake = (SwitchButton) buttonView;
                     int index = ((Integer)sw_wake.getTag()).intValue();
                     AlarmItem alarm = getAlarm(index);
                     if(sw_wake.isChecked()){
