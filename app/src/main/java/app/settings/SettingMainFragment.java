@@ -48,7 +48,7 @@ public class SettingMainFragment extends ListFragment implements AdapterView.OnI
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 //        Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
-//        TabSample.tabHost.setCurrentTab(2);
+//        MainActivity.tabHost.setCurrentTab(2);
 //        AlarmSetting.alarm_index = position;
 //        AlarmSetting.alarm_win = 1;
 //        AlarmMainActivity.txtAdd.setVisibility(View.VISIBLE);

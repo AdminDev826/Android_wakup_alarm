@@ -1411,7 +1411,7 @@
         <item>Sleep Peacefully Alarm</item>
         <item>To the end of the world</item>
         <item>Words to live by</item>
-    </string-array><string name="title_activity_player">Player</string><string name="app_name">Sleep Alarm</string><string name="hello">Hello World, TabSample!</string></file><file path="E:\CODING\Android\WORK\SleepAlarm\app\src\main\res\values\styles.xml" qualifiers=""><style name="app_theme" parent="android:Theme.Holo.NoActionBar">
+    </string-array><string name="title_activity_player">Player</string><string name="app_name">Sleep Alarm</string><string name="hello">Hello World, Sleep Alarm!</string></file><file path="E:\CODING\Android\WORK\SleepAlarm\app\src\main\res\values\styles.xml" qualifiers=""><style name="app_theme" parent="android:Theme.Holo.NoActionBar">
 		<item name="android:windowBackground">@drawable/app_background</item>
 	</style><style name="SwitchButtonStyle">
 		<item name="android:paddingLeft">10dp</item>

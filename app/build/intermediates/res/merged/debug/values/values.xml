@@ -275,7 +275,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Sleep Alarm</string>
-    <string name="hello">Hello World, TabSample!</string>
+    <string name="hello">Hello World, Sleep Alarm!</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_listen">ListenActivity</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.tabsample"
+    package="app.sleepAlarm"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,31 +17,44 @@
 
     <application
         android:icon="@drawable/icon"
-        android:theme="@style/app_theme1" >
+        android:theme="@style/app_theme" >
         <activity
-            android:name="app.main.TabSample"
-            android:label="@string/app_name" >
+            android:name="app.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="app.alarm.AlarmMainActivity" />
-        <activity android:name="app.main.ArrowsActivity" />
-        <activity android:name="app.main.ListenAlarmActivity" />
-        <activity android:name="app.settings.OptionsActivity" />
-        <activity android:name="app.notify.NotifyListActivity" />
+        <activity
+            android:name="app.alarm.AlarmMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.main.ArrowsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.main.ListenAlarmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.settings.OptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.notify.NotifyListActivity"
+            android:screenOrientation="portrait" />
 
         <receiver android:name="app.main.NotificationPublisher" />
 
         <activity
             android:name="app.main.Player"
-            android:label="@string/title_activity_player" />
+            android:screenOrientation="portrait" />
         <activity
             android:name="app.listen.ListenActivity"
-            android:label="@string/title_activity_listen" />
-        <activity android:name="app.notify.TestActivity" />
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.notify.TestActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

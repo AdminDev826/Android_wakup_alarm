@@ -78,6 +78,7 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                     txttotal.setText(getLimitString(total));
                     mp.seekTo(total-currentTime);
                 }
+                currentPosition = mp.getCurrentPosition();
             }
         });
 
@@ -131,7 +132,6 @@ public class MusicPlayerFragment extends Fragment implements View.OnClickListene
                 while (playThread != null && currentPosition < total) {
                     try {
                         Thread.sleep(300);
-//                        Log.e("Media Player State : ", mp + "==" + mp.isPlaying());
                         if(mp != null)
                             if(mp.isPlaying())
                                 currentPosition = mp.getCurrentPosition();

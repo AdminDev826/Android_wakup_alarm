@@ -16,10 +16,10 @@
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 162,
+                        "startOffset": 164,
                         "endLine": 8,
                         "endColumn": 19,
-                        "endOffset": 296
+                        "endOffset": 298
                     }
                 }
             },
@@ -37,10 +37,10 @@
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 358,
+                        "startOffset": 360,
                         "endLine": 16,
                         "endColumn": 19,
-                        "endOffset": 616
+                        "endOffset": 618
                     }
                 }
             },
@@ -58,10 +58,10 @@
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 621,
+                        "startOffset": 623,
                         "endLine": 25,
                         "endColumn": 19,
-                        "endOffset": 935
+                        "endOffset": 937
                     }
                 }
             },
@@ -4315,9 +4315,9 @@
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 113,
+                        "startOffset": 115,
                         "endColumn": 48,
-                        "endOffset": 157
+                        "endOffset": 159
                     }
                 }
             },
@@ -4326,8 +4326,8 @@
                     "startLine": 277,
                     "startColumn": 4,
                     "startOffset": 32695,
-                    "endColumn": 57,
-                    "endOffset": 32748
+                    "endColumn": 59,
+                    "endOffset": 32750
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\strings.xml",
@@ -4335,8 +4335,8 @@
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 57,
-                        "endOffset": 108
+                        "endColumn": 59,
+                        "endOffset": 110
                     }
                 }
             },
@@ -4344,18 +4344,18 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 32753,
+                    "startOffset": 32755,
                     "endColumn": 69,
-                    "endOffset": 32818
+                    "endOffset": 32820
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 999,
+                        "startOffset": 1001,
                         "endColumn": 69,
-                        "endOffset": 1064
+                        "endOffset": 1066
                     }
                 }
             },
@@ -4363,9 +4363,9 @@
                 "to": {
                     "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 32823,
+                    "startOffset": 32825,
                     "endColumn": 70,
-                    "endOffset": 32889
+                    "endOffset": 32891
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4382,18 +4382,18 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 32894,
+                    "startOffset": 32896,
                     "endColumn": 64,
-                    "endOffset": 32954
+                    "endOffset": 32956
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1069,
+                        "startOffset": 1071,
                         "endColumn": 64,
-                        "endOffset": 1129
+                        "endOffset": 1131
                     }
                 }
             },
@@ -4401,18 +4401,18 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 32959,
+                    "startOffset": 32961,
                     "endColumn": 56,
-                    "endOffset": 33011
+                    "endOffset": 33013
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 301,
+                        "startOffset": 303,
                         "endColumn": 56,
-                        "endOffset": 353
+                        "endOffset": 355
                     }
                 }
             },
@@ -4420,9 +4420,9 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 33016,
+                    "startOffset": 33018,
                     "endColumn": 77,
-                    "endOffset": 33089
+                    "endOffset": 33091
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4439,9 +4439,9 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 33094,
+                    "startOffset": 33096,
                     "endColumn": 89,
-                    "endOffset": 33179
+                    "endOffset": 33181
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4458,9 +4458,9 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 33184,
+                    "startOffset": 33186,
                     "endColumn": 87,
-                    "endOffset": 33267
+                    "endOffset": 33269
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4477,9 +4477,9 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 33272,
+                    "startOffset": 33274,
                     "endColumn": 95,
-                    "endOffset": 33363
+                    "endOffset": 33365
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4496,10 +4496,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 33368,
+                    "startOffset": 33370,
                     "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 33864
+                    "endOffset": 33866
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4517,9 +4517,9 @@
                 "to": {
                     "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 33869,
+                    "startOffset": 33871,
                     "endColumn": 88,
-                    "endOffset": 33953
+                    "endOffset": 33955
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4536,10 +4536,10 @@
                 "to": {
                     "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 33958,
+                    "startOffset": 33960,
                     "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 34200
+                    "endOffset": 34202
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4557,10 +4557,10 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 34205,
+                    "startOffset": 34207,
                     "endLine": 301,
                     "endColumn": 12,
-                    "endOffset": 34481
+                    "endOffset": 34483
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4578,10 +4578,10 @@
                 "to": {
                     "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 34486,
+                    "startOffset": 34488,
                     "endLine": 306,
                     "endColumn": 12,
-                    "endOffset": 34766
+                    "endOffset": 34768
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4599,10 +4599,10 @@
                 "to": {
                     "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 34771,
+                    "startOffset": 34773,
                     "endLine": 312,
                     "endColumn": 12,
-                    "endOffset": 35159
+                    "endOffset": 35161
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4620,10 +4620,10 @@
                 "to": {
                     "startLine": 313,
                     "startColumn": 4,
-                    "startOffset": 35164,
+                    "startOffset": 35166,
                     "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 35636
+                    "endOffset": 35638
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4641,10 +4641,10 @@
                 "to": {
                     "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 35641,
+                    "startOffset": 35643,
                     "endLine": 323,
                     "endColumn": 12,
-                    "endOffset": 35858
+                    "endOffset": 35860
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4662,10 +4662,10 @@
                 "to": {
                     "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 35863,
+                    "startOffset": 35865,
                     "endLine": 327,
                     "endColumn": 12,
-                    "endOffset": 36080
+                    "endOffset": 36082
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4683,10 +4683,10 @@
                 "to": {
                     "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 36085,
+                    "startOffset": 36087,
                     "endLine": 332,
                     "endColumn": 12,
-                    "endOffset": 36348
+                    "endOffset": 36350
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4704,10 +4704,10 @@
                 "to": {
                     "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 36353,
+                    "startOffset": 36355,
                     "endLine": 336,
                     "endColumn": 12,
-                    "endOffset": 36575
+                    "endOffset": 36577
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4725,10 +4725,10 @@
                 "to": {
                     "startLine": 337,
                     "startColumn": 4,
-                    "startOffset": 36580,
+                    "startOffset": 36582,
                     "endLine": 340,
                     "endColumn": 12,
-                    "endOffset": 36805
+                    "endOffset": 36807
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4746,10 +4746,10 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 36810,
+                    "startOffset": 36812,
                     "endLine": 344,
                     "endColumn": 12,
-                    "endOffset": 37035
+                    "endOffset": 37037
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4767,10 +4767,10 @@
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 37040,
+                    "startOffset": 37042,
                     "endLine": 348,
                     "endColumn": 12,
-                    "endOffset": 37265
+                    "endOffset": 37267
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4788,10 +4788,10 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 37270,
+                    "startOffset": 37272,
                     "endLine": 352,
                     "endColumn": 12,
-                    "endOffset": 37495
+                    "endOffset": 37497
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4809,10 +4809,10 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 37500,
+                    "startOffset": 37502,
                     "endLine": 356,
                     "endColumn": 12,
-                    "endOffset": 37722
+                    "endOffset": 37724
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4830,10 +4830,10 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 37727,
+                    "startOffset": 37729,
                     "endLine": 360,
                     "endColumn": 12,
-                    "endOffset": 37961
+                    "endOffset": 37963
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4851,10 +4851,10 @@
                 "to": {
                     "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 37966,
+                    "startOffset": 37968,
                     "endLine": 364,
                     "endColumn": 12,
-                    "endOffset": 38187
+                    "endOffset": 38189
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4872,10 +4872,10 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 38192,
+                    "startOffset": 38194,
                     "endLine": 368,
                     "endColumn": 12,
-                    "endOffset": 38432
+                    "endOffset": 38434
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4893,10 +4893,10 @@
                 "to": {
                     "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 38437,
+                    "startOffset": 38439,
                     "endLine": 370,
                     "endColumn": 12,
-                    "endOffset": 38562
+                    "endOffset": 38564
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4914,10 +4914,10 @@
                 "to": {
                     "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 38567,
+                    "startOffset": 38569,
                     "endLine": 372,
                     "endColumn": 12,
-                    "endOffset": 38692
+                    "endOffset": 38694
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4935,10 +4935,10 @@
                 "to": {
                     "startLine": 373,
                     "startColumn": 4,
-                    "startOffset": 38697,
+                    "startOffset": 38699,
                     "endLine": 376,
                     "endColumn": 12,
-                    "endOffset": 38922
+                    "endOffset": 38924
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4956,10 +4956,10 @@
                 "to": {
                     "startLine": 377,
                     "startColumn": 4,
-                    "startOffset": 38927,
+                    "startOffset": 38929,
                     "endLine": 380,
                     "endColumn": 12,
-                    "endOffset": 39170
+                    "endOffset": 39172
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4977,10 +4977,10 @@
                 "to": {
                     "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 39175,
+                    "startOffset": 39177,
                     "endLine": 384,
                     "endColumn": 12,
-                    "endOffset": 39389
+                    "endOffset": 39391
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4998,10 +4998,10 @@
                 "to": {
                     "startLine": 385,
                     "startColumn": 4,
-                    "startOffset": 39394,
+                    "startOffset": 39396,
                     "endLine": 389,
                     "endColumn": 12,
-                    "endOffset": 39672
+                    "endOffset": 39674
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5019,10 +5019,10 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 39677,
+                    "startOffset": 39679,
                     "endLine": 393,
                     "endColumn": 12,
-                    "endOffset": 39880
+                    "endOffset": 39882
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5040,10 +5040,10 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 39885,
+                    "startOffset": 39887,
                     "endLine": 396,
                     "endColumn": 12,
-                    "endOffset": 40011
+                    "endOffset": 40013
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5061,10 +5061,10 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 40016,
+                    "startOffset": 40018,
                     "endLine": 400,
                     "endColumn": 12,
-                    "endOffset": 40238
+                    "endOffset": 40240
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5082,10 +5082,10 @@
                 "to": {
                     "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 40243,
+                    "startOffset": 40245,
                     "endLine": 404,
                     "endColumn": 12,
-                    "endOffset": 40484
+                    "endOffset": 40486
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5103,10 +5103,10 @@
                 "to": {
                     "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 40489,
+                    "startOffset": 40491,
                     "endLine": 408,
                     "endColumn": 12,
-                    "endOffset": 40709
+                    "endOffset": 40711
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5124,10 +5124,10 @@
                 "to": {
                     "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 40714,
+                    "startOffset": 40716,
                     "endLine": 412,
                     "endColumn": 12,
-                    "endOffset": 40956
+                    "endOffset": 40958
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5145,10 +5145,10 @@
                 "to": {
                     "startLine": 413,
                     "startColumn": 4,
-                    "startOffset": 40961,
+                    "startOffset": 40963,
                     "endLine": 416,
                     "endColumn": 12,
-                    "endOffset": 41177
+                    "endOffset": 41179
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5166,10 +5166,10 @@
                 "to": {
                     "startLine": 417,
                     "startColumn": 4,
-                    "startOffset": 41182,
+                    "startOffset": 41184,
                     "endLine": 420,
                     "endColumn": 12,
-                    "endOffset": 41422
+                    "endOffset": 41424
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5187,10 +5187,10 @@
                 "to": {
                     "startLine": 421,
                     "startColumn": 4,
-                    "startOffset": 41427,
+                    "startOffset": 41429,
                     "endLine": 424,
                     "endColumn": 12,
-                    "endOffset": 41698
+                    "endOffset": 41700
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5208,10 +5208,10 @@
                 "to": {
                     "startLine": 425,
                     "startColumn": 4,
-                    "startOffset": 41703,
+                    "startOffset": 41705,
                     "endLine": 428,
                     "endColumn": 12,
-                    "endOffset": 41999
+                    "endOffset": 42001
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5229,10 +5229,10 @@
                 "to": {
                     "startLine": 429,
                     "startColumn": 4,
-                    "startOffset": 42004,
+                    "startOffset": 42006,
                     "endLine": 432,
                     "endColumn": 12,
-                    "endOffset": 42323
+                    "endOffset": 42325
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5250,10 +5250,10 @@
                 "to": {
                     "startLine": 433,
                     "startColumn": 4,
-                    "startOffset": 42328,
+                    "startOffset": 42330,
                     "endLine": 436,
                     "endColumn": 12,
-                    "endOffset": 42614
+                    "endOffset": 42616
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5271,10 +5271,10 @@
                 "to": {
                     "startLine": 437,
                     "startColumn": 4,
-                    "startOffset": 42619,
+                    "startOffset": 42621,
                     "endLine": 440,
                     "endColumn": 12,
-                    "endOffset": 42928
+                    "endOffset": 42930
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5292,9 +5292,9 @@
                 "to": {
                     "startLine": 441,
                     "startColumn": 4,
-                    "startOffset": 42933,
+                    "startOffset": 42935,
                     "endColumn": 136,
-                    "endOffset": 43065
+                    "endOffset": 43067
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5311,9 +5311,9 @@
                 "to": {
                     "startLine": 442,
                     "startColumn": 4,
-                    "startOffset": 43070,
+                    "startOffset": 43072,
                     "endColumn": 130,
-                    "endOffset": 43196
+                    "endOffset": 43198
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5330,9 +5330,9 @@
                 "to": {
                     "startLine": 443,
                     "startColumn": 4,
-                    "startOffset": 43201,
+                    "startOffset": 43203,
                     "endColumn": 104,
-                    "endOffset": 43301
+                    "endOffset": 43303
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5349,10 +5349,10 @@
                 "to": {
                     "startLine": 444,
                     "startColumn": 4,
-                    "startOffset": 43306,
+                    "startOffset": 43308,
                     "endLine": 446,
                     "endColumn": 12,
-                    "endOffset": 43505
+                    "endOffset": 43507
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5370,10 +5370,10 @@
                 "to": {
                     "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 43510,
+                    "startOffset": 43512,
                     "endLine": 449,
                     "endColumn": 12,
-                    "endOffset": 43713
+                    "endOffset": 43715
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5391,10 +5391,10 @@
                 "to": {
                     "startLine": 450,
                     "startColumn": 4,
-                    "startOffset": 43718,
+                    "startOffset": 43720,
                     "endLine": 451,
                     "endColumn": 12,
-                    "endOffset": 43837
+                    "endOffset": 43839
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5412,10 +5412,10 @@
                 "to": {
                     "startLine": 452,
                     "startColumn": 4,
-                    "startOffset": 43842,
+                    "startOffset": 43844,
                     "endLine": 453,
                     "endColumn": 12,
-                    "endOffset": 43961
+                    "endOffset": 43963
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5433,9 +5433,9 @@
                 "to": {
                     "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 43966,
+                    "startOffset": 43968,
                     "endColumn": 104,
-                    "endOffset": 44066
+                    "endOffset": 44068
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5452,9 +5452,9 @@
                 "to": {
                     "startLine": 455,
                     "startColumn": 4,
-                    "startOffset": 44071,
+                    "startOffset": 44073,
                     "endColumn": 116,
-                    "endOffset": 44183
+                    "endOffset": 44185
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5471,10 +5471,10 @@
                 "to": {
                     "startLine": 456,
                     "startColumn": 4,
-                    "startOffset": 44188,
+                    "startOffset": 44190,
                     "endLine": 458,
                     "endColumn": 12,
-                    "endOffset": 44397
+                    "endOffset": 44399
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5492,10 +5492,10 @@
                 "to": {
                     "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 44402,
+                    "startOffset": 44404,
                     "endLine": 460,
                     "endColumn": 12,
-                    "endOffset": 44543
+                    "endOffset": 44545
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5513,10 +5513,10 @@
                 "to": {
                     "startLine": 461,
                     "startColumn": 4,
-                    "startOffset": 44548,
+                    "startOffset": 44550,
                     "endLine": 462,
                     "endColumn": 12,
-                    "endOffset": 44683
+                    "endOffset": 44685
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5534,10 +5534,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 44688,
+                    "startOffset": 44690,
                     "endLine": 464,
                     "endColumn": 12,
-                    "endOffset": 44769
+                    "endOffset": 44771
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5555,10 +5555,10 @@
                 "to": {
                     "startLine": 465,
                     "startColumn": 4,
-                    "startOffset": 44774,
+                    "startOffset": 44776,
                     "endLine": 469,
                     "endColumn": 12,
-                    "endOffset": 45117
+                    "endOffset": 45119
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5576,9 +5576,9 @@
                 "to": {
                     "startLine": 470,
                     "startColumn": 4,
-                    "startOffset": 45122,
+                    "startOffset": 45124,
                     "endColumn": 87,
-                    "endOffset": 45205
+                    "endOffset": 45207
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5595,10 +5595,10 @@
                 "to": {
                     "startLine": 471,
                     "startColumn": 4,
-                    "startOffset": 45210,
+                    "startOffset": 45212,
                     "endLine": 474,
                     "endColumn": 12,
-                    "endOffset": 45435
+                    "endOffset": 45437
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5616,10 +5616,10 @@
                 "to": {
                     "startLine": 475,
                     "startColumn": 4,
-                    "startOffset": 45440,
+                    "startOffset": 45442,
                     "endLine": 480,
                     "endColumn": 12,
-                    "endOffset": 45853
+                    "endOffset": 45855
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5637,10 +5637,10 @@
                 "to": {
                     "startLine": 481,
                     "startColumn": 4,
-                    "startOffset": 45858,
+                    "startOffset": 45860,
                     "endLine": 484,
                     "endColumn": 12,
-                    "endOffset": 46086
+                    "endOffset": 46088
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5658,9 +5658,9 @@
                 "to": {
                     "startLine": 485,
                     "startColumn": 4,
-                    "startOffset": 46091,
+                    "startOffset": 46093,
                     "endColumn": 81,
-                    "endOffset": 46168
+                    "endOffset": 46170
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5677,10 +5677,10 @@
                 "to": {
                     "startLine": 486,
                     "startColumn": 4,
-                    "startOffset": 46173,
+                    "startOffset": 46175,
                     "endLine": 487,
                     "endColumn": 12,
-                    "endOffset": 46266
+                    "endOffset": 46268
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5698,10 +5698,10 @@
                 "to": {
                     "startLine": 488,
                     "startColumn": 4,
-                    "startOffset": 46271,
+                    "startOffset": 46273,
                     "endLine": 498,
                     "endColumn": 12,
-                    "endOffset": 46883
+                    "endOffset": 46885
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5719,9 +5719,9 @@
                 "to": {
                     "startLine": 499,
                     "startColumn": 4,
-                    "startOffset": 46888,
+                    "startOffset": 46890,
                     "endColumn": 99,
-                    "endOffset": 46983
+                    "endOffset": 46985
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5738,10 +5738,10 @@
                 "to": {
                     "startLine": 500,
                     "startColumn": 4,
-                    "startOffset": 46988,
+                    "startOffset": 46990,
                     "endLine": 503,
                     "endColumn": 12,
-                    "endOffset": 47219
+                    "endOffset": 47221
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5759,10 +5759,10 @@
                 "to": {
                     "startLine": 504,
                     "startColumn": 4,
-                    "startOffset": 47224,
+                    "startOffset": 47226,
                     "endLine": 509,
                     "endColumn": 12,
-                    "endOffset": 47643
+                    "endOffset": 47645
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5780,10 +5780,10 @@
                 "to": {
                     "startLine": 510,
                     "startColumn": 4,
-                    "startOffset": 47648,
+                    "startOffset": 47650,
                     "endLine": 513,
                     "endColumn": 12,
-                    "endOffset": 47882
+                    "endOffset": 47884
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5801,9 +5801,9 @@
                 "to": {
                     "startLine": 514,
                     "startColumn": 4,
-                    "startOffset": 47887,
+                    "startOffset": 47889,
                     "endColumn": 93,
-                    "endOffset": 47976
+                    "endOffset": 47978
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5820,9 +5820,9 @@
                 "to": {
                     "startLine": 515,
                     "startColumn": 4,
-                    "startOffset": 47981,
+                    "startOffset": 47983,
                     "endColumn": 88,
-                    "endOffset": 48065
+                    "endOffset": 48067
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5839,10 +5839,10 @@
                 "to": {
                     "startLine": 516,
                     "startColumn": 4,
-                    "startOffset": 48070,
+                    "startOffset": 48072,
                     "endLine": 519,
                     "endColumn": 12,
-                    "endOffset": 48302
+                    "endOffset": 48304
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5860,10 +5860,10 @@
                 "to": {
                     "startLine": 520,
                     "startColumn": 4,
-                    "startOffset": 48307,
+                    "startOffset": 48309,
                     "endLine": 545,
                     "endColumn": 12,
-                    "endOffset": 50253
+                    "endOffset": 50255
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5881,10 +5881,10 @@
                 "to": {
                     "startLine": 546,
                     "startColumn": 4,
-                    "startOffset": 50258,
+                    "startOffset": 50260,
                     "endLine": 549,
                     "endColumn": 12,
-                    "endOffset": 50495
+                    "endOffset": 50497
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5902,10 +5902,10 @@
                 "to": {
                     "startLine": 550,
                     "startColumn": 4,
-                    "startOffset": 50500,
+                    "startOffset": 50502,
                     "endLine": 576,
                     "endColumn": 12,
-                    "endOffset": 52577
+                    "endOffset": 52579
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5923,10 +5923,10 @@
                 "to": {
                     "startLine": 577,
                     "startColumn": 4,
-                    "startOffset": 52582,
+                    "startOffset": 52584,
                     "endLine": 731,
                     "endColumn": 12,
-                    "endOffset": 62443
+                    "endOffset": 62445
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5944,10 +5944,10 @@
                 "to": {
                     "startLine": 732,
                     "startColumn": 4,
-                    "startOffset": 62448,
+                    "startOffset": 62450,
                     "endLine": 753,
                     "endColumn": 12,
-                    "endOffset": 63710
+                    "endOffset": 63712
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5965,10 +5965,10 @@
                 "to": {
                     "startLine": 754,
                     "startColumn": 4,
-                    "startOffset": 63715,
+                    "startOffset": 63717,
                     "endLine": 908,
                     "endColumn": 12,
-                    "endOffset": 73686
+                    "endOffset": 73688
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5986,10 +5986,10 @@
                 "to": {
                     "startLine": 909,
                     "startColumn": 4,
-                    "startOffset": 73691,
+                    "startOffset": 73693,
                     "endLine": 930,
                     "endColumn": 12,
-                    "endOffset": 74967
+                    "endOffset": 74969
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6007,10 +6007,10 @@
                 "to": {
                     "startLine": 931,
                     "startColumn": 4,
-                    "startOffset": 74972,
+                    "startOffset": 74974,
                     "endLine": 937,
                     "endColumn": 12,
-                    "endOffset": 75503
+                    "endOffset": 75505
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6028,10 +6028,10 @@
                 "to": {
                     "startLine": 938,
                     "startColumn": 4,
-                    "startOffset": 75508,
+                    "startOffset": 75510,
                     "endLine": 942,
                     "endColumn": 12,
-                    "endOffset": 75833
+                    "endOffset": 75835
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6049,10 +6049,10 @@
                 "to": {
                     "startLine": 943,
                     "startColumn": 4,
-                    "startOffset": 75838,
+                    "startOffset": 75840,
                     "endLine": 963,
                     "endColumn": 12,
-                    "endOffset": 76956
+                    "endOffset": 76958
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6070,10 +6070,10 @@
                 "to": {
                     "startLine": 964,
                     "startColumn": 4,
-                    "startOffset": 76961,
+                    "startOffset": 76963,
                     "endLine": 968,
                     "endColumn": 12,
-                    "endOffset": 77212
+                    "endOffset": 77214
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6091,10 +6091,10 @@
                 "to": {
                     "startLine": 969,
                     "startColumn": 4,
-                    "startOffset": 77217,
+                    "startOffset": 77219,
                     "endLine": 973,
                     "endColumn": 12,
-                    "endOffset": 77448
+                    "endOffset": 77450
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6112,10 +6112,10 @@
                 "to": {
                     "startLine": 974,
                     "startColumn": 4,
-                    "startOffset": 77453,
+                    "startOffset": 77455,
                     "endLine": 983,
                     "endColumn": 12,
-                    "endOffset": 77995
+                    "endOffset": 77997
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6133,10 +6133,10 @@
                 "to": {
                     "startLine": 984,
                     "startColumn": 4,
-                    "startOffset": 78000,
+                    "startOffset": 78002,
                     "endLine": 992,
                     "endColumn": 12,
-                    "endOffset": 78489
+                    "endOffset": 78491
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6154,10 +6154,10 @@
                 "to": {
                     "startLine": 993,
                     "startColumn": 4,
-                    "startOffset": 78494,
+                    "startOffset": 78496,
                     "endLine": 1001,
                     "endColumn": 12,
-                    "endOffset": 79094
+                    "endOffset": 79096
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6175,10 +6175,10 @@
                 "to": {
                     "startLine": 1002,
                     "startColumn": 4,
-                    "startOffset": 79099,
+                    "startOffset": 79101,
                     "endLine": 1004,
                     "endColumn": 12,
-                    "endOffset": 79242
+                    "endOffset": 79244
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6196,10 +6196,10 @@
                 "to": {
                     "startLine": 1005,
                     "startColumn": 4,
-                    "startOffset": 79247,
+                    "startOffset": 79249,
                     "endLine": 1011,
                     "endColumn": 12,
-                    "endOffset": 79830
+                    "endOffset": 79832
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6217,10 +6217,10 @@
                 "to": {
                     "startLine": 1012,
                     "startColumn": 4,
-                    "startOffset": 79835,
+                    "startOffset": 79837,
                     "endLine": 1019,
                     "endColumn": 12,
-                    "endOffset": 80394
+                    "endOffset": 80396
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6238,10 +6238,10 @@
                 "to": {
                     "startLine": 1020,
                     "startColumn": 4,
-                    "startOffset": 80399,
+                    "startOffset": 80401,
                     "endLine": 1026,
                     "endColumn": 12,
-                    "endOffset": 80769
+                    "endOffset": 80771
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6259,9 +6259,9 @@
                 "to": {
                     "startLine": 1027,
                     "startColumn": 4,
-                    "startOffset": 80774,
+                    "startOffset": 80776,
                     "endColumn": 117,
-                    "endOffset": 80887
+                    "endOffset": 80889
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6278,10 +6278,10 @@
                 "to": {
                     "startLine": 1028,
                     "startColumn": 4,
-                    "startOffset": 80892,
+                    "startOffset": 80894,
                     "endLine": 1036,
                     "endColumn": 12,
-                    "endOffset": 81425
+                    "endOffset": 81427
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6299,10 +6299,10 @@
                 "to": {
                     "startLine": 1037,
                     "startColumn": 4,
-                    "startOffset": 81430,
+                    "startOffset": 81432,
                     "endLine": 1039,
                     "endColumn": 12,
-                    "endOffset": 81582
+                    "endOffset": 81584
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6320,10 +6320,10 @@
                 "to": {
                     "startLine": 1040,
                     "startColumn": 4,
-                    "startOffset": 81587,
+                    "startOffset": 81589,
                     "endLine": 1042,
                     "endColumn": 12,
-                    "endOffset": 81726
+                    "endOffset": 81728
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6341,10 +6341,10 @@
                 "to": {
                     "startLine": 1043,
                     "startColumn": 4,
-                    "startOffset": 81731,
+                    "startOffset": 81733,
                     "endLine": 1047,
                     "endColumn": 12,
-                    "endOffset": 82046
+                    "endOffset": 82048
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6362,10 +6362,10 @@
                 "to": {
                     "startLine": 1048,
                     "startColumn": 4,
-                    "startOffset": 82051,
+                    "startOffset": 82053,
                     "endLine": 1051,
                     "endColumn": 12,
-                    "endOffset": 82302
+                    "endOffset": 82304
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6383,10 +6383,10 @@
                 "to": {
                     "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 82307,
+                    "startOffset": 82309,
                     "endLine": 1055,
                     "endColumn": 12,
-                    "endOffset": 82472
+                    "endOffset": 82474
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6404,10 +6404,10 @@
                 "to": {
                     "startLine": 1056,
                     "startColumn": 4,
-                    "startOffset": 82477,
+                    "startOffset": 82479,
                     "endLine": 1058,
                     "endColumn": 12,
-                    "endOffset": 82613
+                    "endOffset": 82615
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6425,9 +6425,9 @@
                 "to": {
                     "startLine": 1059,
                     "startColumn": 4,
-                    "startOffset": 82618,
+                    "startOffset": 82620,
                     "endColumn": 63,
-                    "endOffset": 82677
+                    "endOffset": 82679
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6444,10 +6444,10 @@
                 "to": {
                     "startLine": 1060,
                     "startColumn": 4,
-                    "startOffset": 82682,
+                    "startOffset": 82684,
                     "endLine": 1063,
                     "endColumn": 12,
-                    "endOffset": 82959
+                    "endOffset": 82961
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6465,10 +6465,10 @@
                 "to": {
                     "startLine": 1064,
                     "startColumn": 4,
-                    "startOffset": 82964,
+                    "startOffset": 82966,
                     "endLine": 1067,
                     "endColumn": 12,
-                    "endOffset": 83245
+                    "endOffset": 83247
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6486,10 +6486,10 @@
                 "to": {
                     "startLine": 1068,
                     "startColumn": 4,
-                    "startOffset": 83250,
+                    "startOffset": 83252,
                     "endLine": 1077,
                     "endColumn": 12,
-                    "endOffset": 83921
+                    "endOffset": 83923
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6507,10 +6507,10 @@
                 "to": {
                     "startLine": 1078,
                     "startColumn": 4,
-                    "startOffset": 83926,
+                    "startOffset": 83928,
                     "endLine": 1082,
                     "endColumn": 12,
-                    "endOffset": 84185
+                    "endOffset": 84187
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6528,10 +6528,10 @@
                 "to": {
                     "startLine": 1083,
                     "startColumn": 4,
-                    "startOffset": 84190,
+                    "startOffset": 84192,
                     "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 84523
+                    "endOffset": 84525
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6549,10 +6549,10 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 84528,
+                    "startOffset": 84530,
                     "endLine": 1095,
                     "endColumn": 12,
-                    "endOffset": 84876
+                    "endOffset": 84878
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6570,9 +6570,9 @@
                 "to": {
                     "startLine": 1096,
                     "startColumn": 4,
-                    "startOffset": 84881,
+                    "startOffset": 84883,
                     "endColumn": 93,
-                    "endOffset": 84970
+                    "endOffset": 84972
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6589,10 +6589,10 @@
                 "to": {
                     "startLine": 1097,
                     "startColumn": 4,
-                    "startOffset": 84975,
+                    "startOffset": 84977,
                     "endLine": 1099,
                     "endColumn": 12,
-                    "endOffset": 85156
+                    "endOffset": 85158
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6610,10 +6610,10 @@
                 "to": {
                     "startLine": 1100,
                     "startColumn": 4,
-                    "startOffset": 85161,
+                    "startOffset": 85163,
                     "endLine": 1103,
                     "endColumn": 12,
-                    "endOffset": 85462
+                    "endOffset": 85464
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6631,10 +6631,10 @@
                 "to": {
                     "startLine": 1104,
                     "startColumn": 4,
-                    "startOffset": 85467,
+                    "startOffset": 85469,
                     "endLine": 1108,
                     "endColumn": 12,
-                    "endOffset": 85724
+                    "endOffset": 85726
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6652,10 +6652,10 @@
                 "to": {
                     "startLine": 1109,
                     "startColumn": 4,
-                    "startOffset": 85729,
+                    "startOffset": 85731,
                     "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 85849
+                    "endOffset": 85851
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6673,10 +6673,10 @@
                 "to": {
                     "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 85854,
+                    "startOffset": 85856,
                     "endLine": 1112,
                     "endColumn": 12,
-                    "endOffset": 85976
+                    "endOffset": 85978
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6694,10 +6694,10 @@
                 "to": {
                     "startLine": 1113,
                     "startColumn": 4,
-                    "startOffset": 85981,
+                    "startOffset": 85983,
                     "endLine": 1115,
                     "endColumn": 12,
-                    "endOffset": 86215
+                    "endOffset": 86217
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6715,10 +6715,10 @@
                 "to": {
                     "startLine": 1116,
                     "startColumn": 4,
-                    "startOffset": 86220,
+                    "startOffset": 86222,
                     "endLine": 1118,
                     "endColumn": 12,
-                    "endOffset": 86426
+                    "endOffset": 86428
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6736,10 +6736,10 @@
                 "to": {
                     "startLine": 1119,
                     "startColumn": 4,
-                    "startOffset": 86431,
+                    "startOffset": 86433,
                     "endLine": 1120,
                     "endColumn": 12,
-                    "endOffset": 86545
+                    "endOffset": 86547
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6757,10 +6757,10 @@
                 "to": {
                     "startLine": 1121,
                     "startColumn": 4,
-                    "startOffset": 86550,
+                    "startOffset": 86552,
                     "endLine": 1124,
                     "endColumn": 12,
-                    "endOffset": 86738
+                    "endOffset": 86740
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6778,10 +6778,10 @@
                 "to": {
                     "startLine": 1125,
                     "startColumn": 4,
-                    "startOffset": 86743,
+                    "startOffset": 86745,
                     "endLine": 1131,
                     "endColumn": 12,
-                    "endOffset": 87193
+                    "endOffset": 87195
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6799,10 +6799,10 @@
                 "to": {
                     "startLine": 1132,
                     "startColumn": 4,
-                    "startOffset": 87198,
+                    "startOffset": 87200,
                     "endLine": 1134,
                     "endColumn": 12,
-                    "endOffset": 87374
+                    "endOffset": 87376
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6820,10 +6820,10 @@
                 "to": {
                     "startLine": 1135,
                     "startColumn": 4,
-                    "startOffset": 87379,
+                    "startOffset": 87381,
                     "endLine": 1137,
                     "endColumn": 12,
-                    "endOffset": 87496
+                    "endOffset": 87498
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6841,10 +6841,10 @@
                 "to": {
                     "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 87501,
+                    "startOffset": 87503,
                     "endLine": 1141,
                     "endColumn": 12,
-                    "endOffset": 87755
+                    "endOffset": 87757
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6862,10 +6862,10 @@
                 "to": {
                     "startLine": 1142,
                     "startColumn": 4,
-                    "startOffset": 87760,
+                    "startOffset": 87762,
                     "endLine": 1143,
                     "endColumn": 12,
-                    "endOffset": 87868
+                    "endOffset": 87870
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6883,10 +6883,10 @@
                 "to": {
                     "startLine": 1144,
                     "startColumn": 4,
-                    "startOffset": 87873,
+                    "startOffset": 87875,
                     "endLine": 1147,
                     "endColumn": 12,
-                    "endOffset": 88055
+                    "endOffset": 88057
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6904,10 +6904,10 @@
                 "to": {
                     "startLine": 1148,
                     "startColumn": 4,
-                    "startOffset": 88060,
+                    "startOffset": 88062,
                     "endLine": 1149,
                     "endColumn": 12,
-                    "endOffset": 88157
+                    "endOffset": 88159
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6925,10 +6925,10 @@
                 "to": {
                     "startLine": 1150,
                     "startColumn": 4,
-                    "startOffset": 88162,
+                    "startOffset": 88164,
                     "endLine": 1155,
                     "endColumn": 12,
-                    "endOffset": 88601
+                    "endOffset": 88603
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6946,10 +6946,10 @@
                 "to": {
                     "startLine": 1156,
                     "startColumn": 4,
-                    "startOffset": 88606,
+                    "startOffset": 88608,
                     "endLine": 1157,
                     "endColumn": 12,
-                    "endOffset": 88725
+                    "endOffset": 88727
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6967,10 +6967,10 @@
                 "to": {
                     "startLine": 1158,
                     "startColumn": 4,
-                    "startOffset": 88730,
+                    "startOffset": 88732,
                     "endLine": 1161,
                     "endColumn": 12,
-                    "endOffset": 89010
+                    "endOffset": 89012
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6988,10 +6988,10 @@
                 "to": {
                     "startLine": 1162,
                     "startColumn": 4,
-                    "startOffset": 89015,
+                    "startOffset": 89017,
                     "endLine": 1169,
                     "endColumn": 12,
-                    "endOffset": 89518
+                    "endOffset": 89520
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7009,10 +7009,10 @@
                 "to": {
                     "startLine": 1170,
                     "startColumn": 4,
-                    "startOffset": 89523,
+                    "startOffset": 89525,
                     "endLine": 1177,
                     "endColumn": 12,
-                    "endOffset": 90014
+                    "endOffset": 90016
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7030,10 +7030,10 @@
                 "to": {
                     "startLine": 1178,
                     "startColumn": 4,
-                    "startOffset": 90019,
+                    "startOffset": 90021,
                     "endLine": 1189,
                     "endColumn": 12,
-                    "endOffset": 90901
+                    "endOffset": 90903
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7051,10 +7051,10 @@
                 "to": {
                     "startLine": 1190,
                     "startColumn": 4,
-                    "startOffset": 90906,
+                    "startOffset": 90908,
                     "endLine": 1195,
                     "endColumn": 12,
-                    "endOffset": 91195
+                    "endOffset": 91197
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7072,10 +7072,10 @@
                 "to": {
                     "startLine": 1196,
                     "startColumn": 4,
-                    "startOffset": 91200,
+                    "startOffset": 91202,
                     "endLine": 1204,
                     "endColumn": 12,
-                    "endOffset": 91765
+                    "endOffset": 91767
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7093,10 +7093,10 @@
                 "to": {
                     "startLine": 1205,
                     "startColumn": 4,
-                    "startOffset": 91770,
+                    "startOffset": 91772,
                     "endLine": 1215,
                     "endColumn": 12,
-                    "endOffset": 92497
+                    "endOffset": 92499
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7114,10 +7114,10 @@
                 "to": {
                     "startLine": 1216,
                     "startColumn": 4,
-                    "startOffset": 92502,
+                    "startOffset": 92504,
                     "endLine": 1218,
                     "endColumn": 12,
-                    "endOffset": 92669
+                    "endOffset": 92671
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7135,10 +7135,10 @@
                 "to": {
                     "startLine": 1219,
                     "startColumn": 4,
-                    "startOffset": 92674,
+                    "startOffset": 92676,
                     "endLine": 1223,
                     "endColumn": 12,
-                    "endOffset": 93005
+                    "endOffset": 93007
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7156,10 +7156,10 @@
                 "to": {
                     "startLine": 1224,
                     "startColumn": 4,
-                    "startOffset": 93010,
+                    "startOffset": 93012,
                     "endLine": 1235,
                     "endColumn": 12,
-                    "endOffset": 93913
+                    "endOffset": 93915
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7177,10 +7177,10 @@
                 "to": {
                     "startLine": 1236,
                     "startColumn": 4,
-                    "startOffset": 93918,
+                    "startOffset": 93920,
                     "endLine": 1240,
                     "endColumn": 12,
-                    "endOffset": 94191
+                    "endOffset": 94193
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7198,10 +7198,10 @@
                 "to": {
                     "startLine": 1241,
                     "startColumn": 4,
-                    "startOffset": 94196,
+                    "startOffset": 94198,
                     "endLine": 1278,
                     "endColumn": 12,
-                    "endOffset": 97053
+                    "endOffset": 97055
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7219,10 +7219,10 @@
                 "to": {
                     "startLine": 1279,
                     "startColumn": 4,
-                    "startOffset": 97058,
+                    "startOffset": 97060,
                     "endLine": 1317,
                     "endColumn": 12,
-                    "endOffset": 100055
+                    "endOffset": 100057
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7240,9 +7240,9 @@
                 "to": {
                     "startLine": 1318,
                     "startColumn": 4,
-                    "startOffset": 100060,
+                    "startOffset": 100062,
                     "endColumn": 61,
-                    "endOffset": 100117
+                    "endOffset": 100119
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7259,10 +7259,10 @@
                 "to": {
                     "startLine": 1319,
                     "startColumn": 4,
-                    "startOffset": 100122,
+                    "startOffset": 100124,
                     "endLine": 1328,
                     "endColumn": 12,
-                    "endOffset": 100747
+                    "endOffset": 100749
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7280,10 +7280,10 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 100752,
+                    "startOffset": 100754,
                     "endLine": 1337,
                     "endColumn": 12,
-                    "endOffset": 101361
+                    "endOffset": 101363
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7301,9 +7301,9 @@
                 "to": {
                     "startLine": 1338,
                     "startColumn": 4,
-                    "startOffset": 101366,
+                    "startOffset": 101368,
                     "endColumn": 85,
-                    "endOffset": 101447
+                    "endOffset": 101449
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7320,10 +7320,10 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101452,
+                    "startOffset": 101454,
                     "endLine": 1340,
                     "endColumn": 12,
-                    "endOffset": 101560
+                    "endOffset": 101562
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7341,10 +7341,10 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 101565,
+                    "startOffset": 101567,
                     "endLine": 1344,
                     "endColumn": 12,
-                    "endOffset": 101789
+                    "endOffset": 101791
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7362,10 +7362,10 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 101794,
+                    "startOffset": 101796,
                     "endLine": 1347,
                     "endColumn": 12,
-                    "endOffset": 101949
+                    "endOffset": 101951
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7383,10 +7383,10 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 101954,
+                    "startOffset": 101956,
                     "endLine": 1350,
                     "endColumn": 12,
-                    "endOffset": 102101
+                    "endOffset": 102103
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7404,10 +7404,10 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 102106,
+                    "startOffset": 102108,
                     "endLine": 1353,
                     "endColumn": 12,
-                    "endOffset": 102272
+                    "endOffset": 102274
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7425,10 +7425,10 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 102277,
+                    "startOffset": 102279,
                     "endLine": 1356,
                     "endColumn": 12,
-                    "endOffset": 102439
+                    "endOffset": 102441
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7446,10 +7446,10 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 102444,
+                    "startOffset": 102446,
                     "endLine": 1360,
                     "endColumn": 12,
-                    "endOffset": 102682
+                    "endOffset": 102684
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7467,10 +7467,10 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 102687,
+                    "startOffset": 102689,
                     "endLine": 1363,
                     "endColumn": 12,
-                    "endOffset": 102852
+                    "endOffset": 102854
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7488,10 +7488,10 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 102857,
+                    "startOffset": 102859,
                     "endLine": 1366,
                     "endColumn": 12,
-                    "endOffset": 103025
+                    "endOffset": 103027
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7509,10 +7509,10 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 103030,
+                    "startOffset": 103032,
                     "endLine": 1369,
                     "endColumn": 12,
-                    "endOffset": 103196
+                    "endOffset": 103198
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7530,10 +7530,10 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 103201,
+                    "startOffset": 103203,
                     "endLine": 1373,
                     "endColumn": 12,
-                    "endOffset": 103470
+                    "endOffset": 103472
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7551,10 +7551,10 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 103475,
+                    "startOffset": 103477,
                     "endLine": 1376,
                     "endColumn": 12,
-                    "endOffset": 103669
+                    "endOffset": 103671
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7572,10 +7572,10 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 103674,
+                    "startOffset": 103676,
                     "endLine": 1380,
                     "endColumn": 12,
-                    "endOffset": 103874
+                    "endOffset": 103876
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7593,10 +7593,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 103879,
+                    "startOffset": 103881,
                     "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 104204
+                    "endOffset": 104206
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7614,10 +7614,10 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 104209,
+                    "startOffset": 104211,
                     "endLine": 1395,
                     "endColumn": 9,
-                    "endOffset": 104744
+                    "endOffset": 104746
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.kyleduo.switchbutton\\switchbutton\\1.4.1\\res\\values\\values.xml",
@@ -7635,10 +7635,10 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 104749,
+                    "startOffset": 104751,
                     "endLine": 1401,
                     "endColumn": 9,
-                    "endOffset": 104979
+                    "endOffset": 104981
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\styles.xml",
@@ -7656,10 +7656,10 @@
                 "to": {
                     "startLine": 1402,
                     "startColumn": 4,
-                    "startOffset": 104984,
+                    "startOffset": 104986,
                     "endLine": 1407,
                     "endColumn": 9,
-                    "endOffset": 105215
+                    "endOffset": 105217
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\styles.xml",
@@ -7677,9 +7677,9 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 105220,
+                    "startOffset": 105222,
                     "endColumn": 83,
-                    "endOffset": 105299
+                    "endOffset": 105301
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7696,9 +7696,9 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 105304,
+                    "startOffset": 105306,
                     "endColumn": 95,
-                    "endOffset": 105395
+                    "endOffset": 105397
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7715,9 +7715,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 105400,
+                    "startOffset": 105402,
                     "endColumn": 95,
-                    "endOffset": 105491
+                    "endOffset": 105493
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7734,9 +7734,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 105496,
+                    "startOffset": 105498,
                     "endColumn": 97,
-                    "endOffset": 105589
+                    "endOffset": 105591
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7753,9 +7753,9 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 105594,
+                    "startOffset": 105596,
                     "endColumn": 99,
-                    "endOffset": 105689
+                    "endOffset": 105691
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7772,9 +7772,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 105694,
+                    "startOffset": 105696,
                     "endColumn": 101,
-                    "endOffset": 105791
+                    "endOffset": 105793
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7791,9 +7791,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 105796,
+                    "startOffset": 105798,
                     "endColumn": 101,
-                    "endOffset": 105893
+                    "endOffset": 105895
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7810,9 +7810,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 105898,
+                    "startOffset": 105900,
                     "endColumn": 101,
-                    "endOffset": 105995
+                    "endOffset": 105997
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7829,9 +7829,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 106000,
+                    "startOffset": 106002,
                     "endColumn": 101,
-                    "endOffset": 106097
+                    "endOffset": 106099
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7848,9 +7848,9 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 106102,
+                    "startOffset": 106104,
                     "endColumn": 101,
-                    "endOffset": 106199
+                    "endOffset": 106201
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7867,9 +7867,9 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 106204,
+                    "startOffset": 106206,
                     "endColumn": 99,
-                    "endOffset": 106299
+                    "endOffset": 106301
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7886,9 +7886,9 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 106304,
+                    "startOffset": 106306,
                     "endColumn": 95,
-                    "endOffset": 106395
+                    "endOffset": 106397
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7905,9 +7905,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 106400,
+                    "startOffset": 106402,
                     "endColumn": 111,
-                    "endOffset": 106507
+                    "endOffset": 106509
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7924,9 +7924,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 106512,
+                    "startOffset": 106514,
                     "endColumn": 128,
-                    "endOffset": 106636
+                    "endOffset": 106638
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7943,9 +7943,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 106641,
+                    "startOffset": 106643,
                     "endColumn": 122,
-                    "endOffset": 106759
+                    "endOffset": 106761
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7962,10 +7962,10 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 106764,
+                    "startOffset": 106766,
                     "endLine": 1424,
                     "endColumn": 12,
-                    "endOffset": 106913
+                    "endOffset": 106915
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7983,10 +7983,10 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 106918,
+                    "startOffset": 106920,
                     "endLine": 1426,
                     "endColumn": 12,
-                    "endOffset": 107067
+                    "endOffset": 107069
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8004,9 +8004,9 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 107072,
+                    "startOffset": 107074,
                     "endColumn": 97,
-                    "endOffset": 107165
+                    "endOffset": 107167
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8023,9 +8023,9 @@
                 "to": {
                     "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 107170,
+                    "startOffset": 107172,
                     "endColumn": 113,
-                    "endOffset": 107279
+                    "endOffset": 107281
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8042,9 +8042,9 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 107284,
+                    "startOffset": 107286,
                     "endColumn": 93,
-                    "endOffset": 107373
+                    "endOffset": 107375
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8061,10 +8061,10 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 107378,
+                    "startOffset": 107380,
                     "endLine": 1431,
                     "endColumn": 12,
-                    "endOffset": 107513
+                    "endOffset": 107515
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8082,10 +8082,10 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 107518,
+                    "startOffset": 107520,
                     "endLine": 1433,
                     "endColumn": 12,
-                    "endOffset": 107647
+                    "endOffset": 107649
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8103,9 +8103,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 107652,
+                    "startOffset": 107654,
                     "endColumn": 95,
-                    "endOffset": 107743
+                    "endOffset": 107745
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8122,9 +8122,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 107748,
+                    "startOffset": 107750,
                     "endColumn": 111,
-                    "endOffset": 107855
+                    "endOffset": 107857
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8141,9 +8141,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 107860,
+                    "startOffset": 107862,
                     "endColumn": 99,
-                    "endOffset": 107955
+                    "endOffset": 107957
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8160,9 +8160,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 107960,
+                    "startOffset": 107962,
                     "endColumn": 115,
-                    "endOffset": 108071
+                    "endOffset": 108073
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8179,9 +8179,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 108076,
+                    "startOffset": 108078,
                     "endColumn": 95,
-                    "endOffset": 108167
+                    "endOffset": 108169
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8198,9 +8198,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 108172,
+                    "startOffset": 108174,
                     "endColumn": 111,
-                    "endOffset": 108279
+                    "endOffset": 108281
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8217,10 +8217,10 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 108284,
+                    "startOffset": 108286,
                     "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 108419
+                    "endOffset": 108421
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8238,9 +8238,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 108424,
+                    "startOffset": 108426,
                     "endColumn": 135,
-                    "endOffset": 108555
+                    "endOffset": 108557
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8257,10 +8257,10 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 108560,
+                    "startOffset": 108562,
                     "endLine": 1444,
                     "endColumn": 12,
-                    "endOffset": 108719
+                    "endOffset": 108721
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8278,9 +8278,9 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 108724,
+                    "startOffset": 108726,
                     "endColumn": 129,
-                    "endOffset": 108849
+                    "endOffset": 108851
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8297,10 +8297,10 @@
                 "to": {
                     "startLine": 1446,
                     "startColumn": 4,
-                    "startOffset": 108854,
+                    "startOffset": 108856,
                     "endLine": 1447,
                     "endColumn": 12,
-                    "endOffset": 109007
+                    "endOffset": 109009
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8318,10 +8318,10 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 109012,
+                    "startOffset": 109014,
                     "endLine": 1449,
                     "endColumn": 12,
-                    "endOffset": 109157
+                    "endOffset": 109159
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8339,9 +8339,9 @@
                 "to": {
                     "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 109162,
+                    "startOffset": 109164,
                     "endColumn": 140,
-                    "endOffset": 109298
+                    "endOffset": 109300
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8358,10 +8358,10 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 109303,
+                    "startOffset": 109305,
                     "endLine": 1452,
                     "endColumn": 12,
-                    "endOffset": 109442
+                    "endOffset": 109444
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8379,9 +8379,9 @@
                 "to": {
                     "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 109447,
+                    "startOffset": 109449,
                     "endColumn": 134,
-                    "endOffset": 109577
+                    "endOffset": 109579
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8398,9 +8398,9 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 109582,
+                    "startOffset": 109584,
                     "endColumn": 111,
-                    "endOffset": 109689
+                    "endOffset": 109691
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8417,9 +8417,9 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 109694,
+                    "startOffset": 109696,
                     "endColumn": 127,
-                    "endOffset": 109817
+                    "endOffset": 109819
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8436,10 +8436,10 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 109822,
+                    "startOffset": 109824,
                     "endLine": 1457,
                     "endColumn": 12,
-                    "endOffset": 109953
+                    "endOffset": 109955
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8457,10 +8457,10 @@
                 "to": {
                     "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 109958,
+                    "startOffset": 109960,
                     "endLine": 1459,
                     "endColumn": 12,
-                    "endOffset": 110095
+                    "endOffset": 110097
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8478,10 +8478,10 @@
                 "to": {
                     "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 110100,
+                    "startOffset": 110102,
                     "endLine": 1461,
                     "endColumn": 12,
-                    "endOffset": 110237
+                    "endOffset": 110239
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8499,9 +8499,9 @@
                 "to": {
                     "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 110242,
+                    "startOffset": 110244,
                     "endColumn": 111,
-                    "endOffset": 110349
+                    "endOffset": 110351
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8518,9 +8518,9 @@
                 "to": {
                     "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 110354,
+                    "startOffset": 110356,
                     "endColumn": 139,
-                    "endOffset": 110489
+                    "endOffset": 110491
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8537,9 +8537,9 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 110494,
+                    "startOffset": 110496,
                     "endColumn": 67,
-                    "endOffset": 110557
+                    "endOffset": 110559
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8556,9 +8556,9 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 110562,
+                    "startOffset": 110564,
                     "endColumn": 72,
-                    "endOffset": 110630
+                    "endOffset": 110632
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8575,9 +8575,9 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 110635,
+                    "startOffset": 110637,
                     "endColumn": 73,
-                    "endOffset": 110704
+                    "endOffset": 110706
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8594,9 +8594,9 @@
                 "to": {
                     "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 110709,
+                    "startOffset": 110711,
                     "endColumn": 72,
-                    "endOffset": 110777
+                    "endOffset": 110779
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8613,9 +8613,9 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 110782,
+                    "startOffset": 110784,
                     "endColumn": 73,
-                    "endOffset": 110851
+                    "endOffset": 110853
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8632,10 +8632,10 @@
                 "to": {
                     "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 110856,
+                    "startOffset": 110858,
                     "endLine": 1470,
                     "endColumn": 12,
-                    "endOffset": 110997
+                    "endOffset": 110999
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8653,10 +8653,10 @@
                 "to": {
                     "startLine": 1471,
                     "startColumn": 4,
-                    "startOffset": 111002,
+                    "startOffset": 111004,
                     "endLine": 1472,
                     "endColumn": 12,
-                    "endOffset": 111141
+                    "endOffset": 111143
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8674,10 +8674,10 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 111146,
+                    "startOffset": 111148,
                     "endLine": 1474,
                     "endColumn": 12,
-                    "endOffset": 111279
+                    "endOffset": 111281
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8695,9 +8695,9 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 111284,
+                    "startOffset": 111286,
                     "endColumn": 65,
-                    "endOffset": 111345
+                    "endOffset": 111347
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8714,9 +8714,9 @@
                 "to": {
                     "startLine": 1476,
                     "startColumn": 4,
-                    "startOffset": 111350,
+                    "startOffset": 111352,
                     "endColumn": 89,
-                    "endOffset": 111435
+                    "endOffset": 111437
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8733,9 +8733,9 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 111440,
+                    "startOffset": 111442,
                     "endColumn": 75,
-                    "endOffset": 111511
+                    "endOffset": 111513
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8752,9 +8752,9 @@
                 "to": {
                     "startLine": 1478,
                     "startColumn": 4,
-                    "startOffset": 111516,
+                    "startOffset": 111518,
                     "endColumn": 103,
-                    "endOffset": 111615
+                    "endOffset": 111617
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8771,9 +8771,9 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 111620,
+                    "startOffset": 111622,
                     "endColumn": 89,
-                    "endOffset": 111705
+                    "endOffset": 111707
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8790,9 +8790,9 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 111710,
+                    "startOffset": 111712,
                     "endColumn": 101,
-                    "endOffset": 111807
+                    "endOffset": 111809
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8809,9 +8809,9 @@
                 "to": {
                     "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 111812,
+                    "startOffset": 111814,
                     "endColumn": 107,
-                    "endOffset": 111915
+                    "endOffset": 111917
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8828,9 +8828,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 111920,
+                    "startOffset": 111922,
                     "endColumn": 107,
-                    "endOffset": 112023
+                    "endOffset": 112025
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8847,9 +8847,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 112028,
+                    "startOffset": 112030,
                     "endColumn": 99,
-                    "endOffset": 112123
+                    "endOffset": 112125
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8866,9 +8866,9 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 112128,
+                    "startOffset": 112130,
                     "endColumn": 79,
-                    "endOffset": 112203
+                    "endOffset": 112205
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8885,9 +8885,9 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 112208,
+                    "startOffset": 112210,
                     "endColumn": 91,
-                    "endOffset": 112295
+                    "endOffset": 112297
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8904,9 +8904,9 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 112300,
+                    "startOffset": 112302,
                     "endColumn": 97,
-                    "endOffset": 112393
+                    "endOffset": 112395
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8923,10 +8923,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 112398,
+                    "startOffset": 112400,
                     "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 112503
+                    "endOffset": 112505
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8944,9 +8944,9 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 112508,
+                    "startOffset": 112510,
                     "endColumn": 77,
-                    "endOffset": 112581
+                    "endOffset": 112583
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8963,9 +8963,9 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 112586,
+                    "startOffset": 112588,
                     "endColumn": 105,
-                    "endOffset": 112687
+                    "endOffset": 112689
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8982,9 +8982,9 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 112692,
+                    "startOffset": 112694,
                     "endColumn": 91,
-                    "endOffset": 112779
+                    "endOffset": 112781
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9001,9 +9001,9 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 112784,
+                    "startOffset": 112786,
                     "endColumn": 103,
-                    "endOffset": 112883
+                    "endOffset": 112885
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9020,9 +9020,9 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 112888,
+                    "startOffset": 112890,
                     "endColumn": 109,
-                    "endOffset": 112993
+                    "endOffset": 112995
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9039,10 +9039,10 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 112998,
+                    "startOffset": 113000,
                     "endLine": 1495,
                     "endColumn": 12,
-                    "endOffset": 113115
+                    "endOffset": 113117
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9060,10 +9060,10 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 113120,
+                    "startOffset": 113122,
                     "endLine": 1499,
                     "endColumn": 12,
-                    "endOffset": 113278
+                    "endOffset": 113280
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9081,10 +9081,10 @@
                 "to": {
                     "startLine": 1500,
                     "startColumn": 4,
-                    "startOffset": 113283,
+                    "startOffset": 113285,
                     "endLine": 1503,
                     "endColumn": 12,
-                    "endOffset": 113435
+                    "endOffset": 113437
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9102,9 +9102,9 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 113440,
+                    "startOffset": 113442,
                     "endColumn": 79,
-                    "endOffset": 113515
+                    "endOffset": 113517
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9121,9 +9121,9 @@
                 "to": {
                     "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 113520,
+                    "startOffset": 113522,
                     "endColumn": 99,
-                    "endOffset": 113615
+                    "endOffset": 113617
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9140,9 +9140,9 @@
                 "to": {
                     "startLine": 1506,
                     "startColumn": 4,
-                    "startOffset": 113620,
+                    "startOffset": 113622,
                     "endColumn": 89,
-                    "endOffset": 113705
+                    "endOffset": 113707
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9159,9 +9159,9 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 113710,
+                    "startOffset": 113712,
                     "endColumn": 109,
-                    "endOffset": 113815
+                    "endOffset": 113817
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9178,9 +9178,9 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 113820,
+                    "startOffset": 113822,
                     "endColumn": 91,
-                    "endOffset": 113907
+                    "endOffset": 113909
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9197,10 +9197,10 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 113912,
+                    "startOffset": 113914,
                     "endLine": 1510,
                     "endColumn": 12,
-                    "endOffset": 114007
+                    "endOffset": 114009
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9218,10 +9218,10 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 114012,
+                    "startOffset": 114014,
                     "endLine": 1512,
                     "endColumn": 12,
-                    "endOffset": 114119
+                    "endOffset": 114121
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9239,10 +9239,10 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 114124,
+                    "startOffset": 114126,
                     "endLine": 1514,
                     "endColumn": 12,
-                    "endOffset": 114233
+                    "endOffset": 114235
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9260,10 +9260,10 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 114238,
+                    "startOffset": 114240,
                     "endLine": 1516,
                     "endColumn": 12,
-                    "endOffset": 114349
+                    "endOffset": 114351
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9281,10 +9281,10 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 114354,
+                    "startOffset": 114356,
                     "endLine": 1518,
                     "endColumn": 12,
-                    "endOffset": 114465
+                    "endOffset": 114467
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9302,9 +9302,9 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 114470,
+                    "startOffset": 114472,
                     "endColumn": 93,
-                    "endOffset": 114559
+                    "endOffset": 114561
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9321,9 +9321,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 114564,
+                    "startOffset": 114566,
                     "endColumn": 113,
-                    "endOffset": 114673
+                    "endOffset": 114675
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9340,9 +9340,9 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 114678,
+                    "startOffset": 114680,
                     "endColumn": 111,
-                    "endOffset": 114785
+                    "endOffset": 114787
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9359,10 +9359,10 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 114790,
+                    "startOffset": 114792,
                     "endLine": 1523,
                     "endColumn": 12,
-                    "endOffset": 114887
+                    "endOffset": 114889
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9380,10 +9380,10 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 114892,
+                    "startOffset": 114894,
                     "endLine": 1525,
                     "endColumn": 12,
-                    "endOffset": 115007
+                    "endOffset": 115009
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9401,10 +9401,10 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 115012,
+                    "startOffset": 115014,
                     "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 115129
+                    "endOffset": 115131
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9422,9 +9422,9 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 115134,
+                    "startOffset": 115136,
                     "endColumn": 81,
-                    "endOffset": 115211
+                    "endOffset": 115213
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9441,9 +9441,9 @@
                 "to": {
                     "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 115216,
+                    "startOffset": 115218,
                     "endColumn": 103,
-                    "endOffset": 115315
+                    "endOffset": 115317
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9460,9 +9460,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 115320,
+                    "startOffset": 115322,
                     "endColumn": 119,
-                    "endOffset": 115435
+                    "endOffset": 115437
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9479,9 +9479,9 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 115440,
+                    "startOffset": 115442,
                     "endColumn": 125,
-                    "endOffset": 115561
+                    "endOffset": 115563
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9498,9 +9498,9 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 115566,
+                    "startOffset": 115568,
                     "endColumn": 97,
-                    "endOffset": 115659
+                    "endOffset": 115661
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9517,9 +9517,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 115664,
+                    "startOffset": 115666,
                     "endColumn": 93,
-                    "endOffset": 115753
+                    "endOffset": 115755
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9536,9 +9536,9 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 115758,
+                    "startOffset": 115760,
                     "endColumn": 87,
-                    "endOffset": 115841
+                    "endOffset": 115843
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9555,9 +9555,9 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 115846,
+                    "startOffset": 115848,
                     "endColumn": 111,
-                    "endOffset": 115953
+                    "endOffset": 115955
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9574,9 +9574,9 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 115958,
+                    "startOffset": 115960,
                     "endColumn": 115,
-                    "endOffset": 116069
+                    "endOffset": 116071
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9593,9 +9593,9 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 116074,
+                    "startOffset": 116076,
                     "endColumn": 121,
-                    "endOffset": 116191
+                    "endOffset": 116193
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9612,9 +9612,9 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 116196,
+                    "startOffset": 116198,
                     "endColumn": 111,
-                    "endOffset": 116303
+                    "endOffset": 116305
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9631,10 +9631,10 @@
                 "to": {
                     "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 116308,
+                    "startOffset": 116310,
                     "endLine": 1541,
                     "endColumn": 12,
-                    "endOffset": 116478
+                    "endOffset": 116480
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9652,9 +9652,9 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 116483,
+                    "startOffset": 116485,
                     "endColumn": 115,
-                    "endOffset": 116594
+                    "endOffset": 116596
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9671,9 +9671,9 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 116599,
+                    "startOffset": 116601,
                     "endColumn": 85,
-                    "endOffset": 116680
+                    "endOffset": 116682
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9690,9 +9690,9 @@
                 "to": {
                     "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 116685,
+                    "startOffset": 116687,
                     "endColumn": 91,
-                    "endOffset": 116772
+                    "endOffset": 116774
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9709,10 +9709,10 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 116777,
+                    "startOffset": 116779,
                     "endLine": 1546,
                     "endColumn": 12,
-                    "endOffset": 116884
+                    "endOffset": 116886
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9730,10 +9730,10 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 116889,
+                    "startOffset": 116891,
                     "endLine": 1548,
                     "endColumn": 12,
-                    "endOffset": 117008
+                    "endOffset": 117010
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9751,9 +9751,9 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 117013,
+                    "startOffset": 117015,
                     "endColumn": 66,
-                    "endOffset": 117075
+                    "endOffset": 117077
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9770,10 +9770,10 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 117080,
+                    "startOffset": 117082,
                     "endLine": 1551,
                     "endColumn": 12,
-                    "endOffset": 117201
+                    "endOffset": 117203
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9791,9 +9791,9 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 117206,
+                    "startOffset": 117208,
                     "endColumn": 67,
-                    "endOffset": 117269
+                    "endOffset": 117271
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9810,10 +9810,10 @@
                 "to": {
                     "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 117274,
+                    "startOffset": 117276,
                     "endLine": 1554,
                     "endColumn": 12,
-                    "endOffset": 117397
+                    "endOffset": 117399
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9831,10 +9831,10 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 117402,
+                    "startOffset": 117404,
                     "endLine": 1556,
                     "endColumn": 12,
-                    "endOffset": 117541
+                    "endOffset": 117543
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9852,10 +9852,10 @@
                 "to": {
                     "startLine": 1557,
                     "startColumn": 4,
-                    "startOffset": 117546,
+                    "startOffset": 117548,
                     "endLine": 1558,
                     "endColumn": 12,
-                    "endOffset": 117669
+                    "endOffset": 117671
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9873,9 +9873,9 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 117674,
+                    "startOffset": 117676,
                     "endColumn": 68,
-                    "endOffset": 117738
+                    "endOffset": 117740
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9892,9 +9892,9 @@
                 "to": {
                     "startLine": 1560,
                     "startColumn": 4,
-                    "startOffset": 117743,
+                    "startOffset": 117745,
                     "endColumn": 94,
-                    "endOffset": 117833
+                    "endOffset": 117835
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9911,9 +9911,9 @@
                 "to": {
                     "startLine": 1561,
                     "startColumn": 4,
-                    "startOffset": 117838,
+                    "startOffset": 117840,
                     "endColumn": 114,
-                    "endOffset": 117948
+                    "endOffset": 117950
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9930,9 +9930,9 @@
                 "to": {
                     "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 117953,
+                    "startOffset": 117955,
                     "endColumn": 112,
-                    "endOffset": 118061
+                    "endOffset": 118063
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9949,9 +9949,9 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 118066,
+                    "startOffset": 118068,
                     "endColumn": 98,
-                    "endOffset": 118160
+                    "endOffset": 118162
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9968,9 +9968,9 @@
                 "to": {
                     "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 118165,
+                    "startOffset": 118167,
                     "endColumn": 108,
-                    "endOffset": 118269
+                    "endOffset": 118271
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9987,9 +9987,9 @@
                 "to": {
                     "startLine": 1565,
                     "startColumn": 4,
-                    "startOffset": 118274,
+                    "startOffset": 118276,
                     "endColumn": 110,
-                    "endOffset": 118380
+                    "endOffset": 118382
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10006,9 +10006,9 @@
                 "to": {
                     "startLine": 1566,
                     "startColumn": 4,
-                    "startOffset": 118385,
+                    "startOffset": 118387,
                     "endColumn": 110,
-                    "endOffset": 118491
+                    "endOffset": 118493
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10025,9 +10025,9 @@
                 "to": {
                     "startLine": 1567,
                     "startColumn": 4,
-                    "startOffset": 118496,
+                    "startOffset": 118498,
                     "endColumn": 100,
-                    "endOffset": 118592
+                    "endOffset": 118594
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10044,9 +10044,9 @@
                 "to": {
                     "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 118597,
+                    "startOffset": 118599,
                     "endColumn": 104,
-                    "endOffset": 118697
+                    "endOffset": 118699
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10063,10 +10063,10 @@
                 "to": {
                     "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 118702,
+                    "startOffset": 118704,
                     "endLine": 1570,
                     "endColumn": 12,
-                    "endOffset": 118809
+                    "endOffset": 118811
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10084,10 +10084,10 @@
                 "to": {
                     "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 118814,
+                    "startOffset": 118816,
                     "endLine": 1572,
                     "endColumn": 12,
-                    "endOffset": 118939
+                    "endOffset": 118941
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10105,9 +10105,9 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 118944,
+                    "startOffset": 118946,
                     "endColumn": 90,
-                    "endOffset": 119030
+                    "endOffset": 119032
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10124,9 +10124,9 @@
                 "to": {
                     "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 119035,
+                    "startOffset": 119037,
                     "endColumn": 122,
-                    "endOffset": 119153
+                    "endOffset": 119155
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10143,10 +10143,10 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 119158,
+                    "startOffset": 119160,
                     "endLine": 1576,
                     "endColumn": 12,
-                    "endOffset": 119265
+                    "endOffset": 119267
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10164,9 +10164,9 @@
                 "to": {
                     "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 119270,
+                    "startOffset": 119272,
                     "endColumn": 85,
-                    "endOffset": 119351
+                    "endOffset": 119353
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10183,9 +10183,9 @@
                 "to": {
                     "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 119356,
+                    "startOffset": 119358,
                     "endColumn": 103,
-                    "endOffset": 119455
+                    "endOffset": 119457
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10202,10 +10202,10 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 119460,
+                    "startOffset": 119462,
                     "endLine": 1580,
                     "endColumn": 12,
-                    "endOffset": 119563
+                    "endOffset": 119565
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10223,10 +10223,10 @@
                 "to": {
                     "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 119568,
+                    "startOffset": 119570,
                     "endLine": 1582,
                     "endColumn": 12,
-                    "endOffset": 119663
+                    "endOffset": 119665
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10244,10 +10244,10 @@
                 "to": {
                     "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 119668,
+                    "startOffset": 119670,
                     "endLine": 1584,
                     "endColumn": 12,
-                    "endOffset": 119781
+                    "endOffset": 119783
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10265,10 +10265,10 @@
                 "to": {
                     "startLine": 1585,
                     "startColumn": 4,
-                    "startOffset": 119786,
+                    "startOffset": 119788,
                     "endLine": 1586,
                     "endColumn": 12,
-                    "endOffset": 119885
+                    "endOffset": 119887
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10286,10 +10286,10 @@
                 "to": {
                     "startLine": 1587,
                     "startColumn": 4,
-                    "startOffset": 119890,
+                    "startOffset": 119892,
                     "endLine": 1588,
                     "endColumn": 12,
-                    "endOffset": 119989
+                    "endOffset": 119991
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10307,10 +10307,10 @@
                 "to": {
                     "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 119994,
+                    "startOffset": 119996,
                     "endLine": 1590,
                     "endColumn": 12,
-                    "endOffset": 120115
+                    "endOffset": 120117
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10328,9 +10328,9 @@
                 "to": {
                     "startLine": 1591,
                     "startColumn": 4,
-                    "startOffset": 120120,
+                    "startOffset": 120122,
                     "endColumn": 87,
-                    "endOffset": 120203
+                    "endOffset": 120205
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10347,9 +10347,9 @@
                 "to": {
                     "startLine": 1592,
                     "startColumn": 4,
-                    "startOffset": 120208,
+                    "startOffset": 120210,
                     "endColumn": 107,
-                    "endOffset": 120311
+                    "endOffset": 120313
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10366,9 +10366,9 @@
                 "to": {
                     "startLine": 1593,
                     "startColumn": 4,
-                    "startOffset": 120316,
+                    "startOffset": 120318,
                     "endColumn": 99,
-                    "endOffset": 120411
+                    "endOffset": 120413
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10385,9 +10385,9 @@
                 "to": {
                     "startLine": 1594,
                     "startColumn": 4,
-                    "startOffset": 120416,
+                    "startOffset": 120418,
                     "endColumn": 89,
-                    "endOffset": 120501
+                    "endOffset": 120503
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10404,9 +10404,9 @@
                 "to": {
                     "startLine": 1595,
                     "startColumn": 4,
-                    "startOffset": 120506,
+                    "startOffset": 120508,
                     "endColumn": 109,
-                    "endOffset": 120611
+                    "endOffset": 120613
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10423,9 +10423,9 @@
                 "to": {
                     "startLine": 1596,
                     "startColumn": 4,
-                    "startOffset": 120616,
+                    "startOffset": 120618,
                     "endColumn": 83,
-                    "endOffset": 120695
+                    "endOffset": 120697
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10442,9 +10442,9 @@
                 "to": {
                     "startLine": 1597,
                     "startColumn": 4,
-                    "startOffset": 120700,
+                    "startOffset": 120702,
                     "endColumn": 83,
-                    "endOffset": 120779
+                    "endOffset": 120781
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10461,9 +10461,9 @@
                 "to": {
                     "startLine": 1598,
                     "startColumn": 4,
-                    "startOffset": 120784,
+                    "startOffset": 120786,
                     "endColumn": 53,
-                    "endOffset": 120833
+                    "endOffset": 120835
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10480,9 +10480,9 @@
                 "to": {
                     "startLine": 1599,
                     "startColumn": 4,
-                    "startOffset": 120838,
+                    "startOffset": 120840,
                     "endColumn": 63,
-                    "endOffset": 120897
+                    "endOffset": 120899
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10499,9 +10499,9 @@
                 "to": {
                     "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 120902,
+                    "startOffset": 120904,
                     "endColumn": 105,
-                    "endOffset": 121003
+                    "endOffset": 121005
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10518,9 +10518,9 @@
                 "to": {
                     "startLine": 1601,
                     "startColumn": 4,
-                    "startOffset": 121008,
+                    "startOffset": 121010,
                     "endColumn": 109,
-                    "endOffset": 121113
+                    "endOffset": 121115
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10537,9 +10537,9 @@
                 "to": {
                     "startLine": 1602,
                     "startColumn": 4,
-                    "startOffset": 121118,
+                    "startOffset": 121120,
                     "endColumn": 83,
-                    "endOffset": 121197
+                    "endOffset": 121199
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10556,9 +10556,9 @@
                 "to": {
                     "startLine": 1603,
                     "startColumn": 4,
-                    "startOffset": 121202,
+                    "startOffset": 121204,
                     "endColumn": 119,
-                    "endOffset": 121317
+                    "endOffset": 121319
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -10575,10 +10575,10 @@
                 "to": {
                     "startLine": 1604,
                     "startColumn": 4,
-                    "startOffset": 121322,
+                    "startOffset": 121324,
                     "endLine": 1606,
                     "endColumn": 9,
-                    "endOffset": 121468
+                    "endOffset": 121470
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\styles.xml",
@@ -10596,10 +10596,10 @@
                 "to": {
                     "startLine": 1607,
                     "startColumn": 4,
-                    "startOffset": 121473,
+                    "startOffset": 121475,
                     "endLine": 1609,
                     "endColumn": 9,
-                    "endOffset": 121638
+                    "endOffset": 121640
                 },
                 "from": {
                     "file": "E:\\CODING\\Android\\WORK\\SleepAlarm\\app\\src\\main\\res\\values\\styles.xml",

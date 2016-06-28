@@ -88,6 +88,7 @@ public class AlarmMainActivity extends Activity {
                     txtAdd.setVisibility(View.VISIBLE);
                 }else if (AlarmSetting.alarm_win == 2 || AlarmSetting.alarm_win == 3){
                     AlarmSetting.alarm_win = 1;
+                    txtAdd.setVisibility(View.VISIBLE);
                 }else if(AlarmSetting.alarm_win == 4){
                     AlarmSetting.alarm_win = 3;
                 }
